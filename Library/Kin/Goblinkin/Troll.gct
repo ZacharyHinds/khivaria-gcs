@@ -625,9 +625,9 @@
 								"Advantage",
 								"Physical"
 							],
-							"base_points": 2,
+							"base_points": 1,
 							"calc": {
-								"points": 2
+								"points": 1
 							}
 						},
 						{
@@ -660,7 +660,7 @@
 					"open": true,
 					"name": "Advantages",
 					"calc": {
-						"points": 58
+						"points": 57
 					}
 				},
 				{
@@ -1027,7 +1027,7 @@
 			"ancestry": "Troll",
 			"container_type": "ancestry",
 			"calc": {
-				"points": 69
+				"points": 68
 			}
 		}
 	]
