@@ -1,0 +1,64 @@
+{
+  "weekdays": [
+    "Sereday",
+    "Garday",
+    "Rakday",
+    "Inkday",
+    "Xeliday",
+    "Kromiday",
+    "Kohday"
+  ],
+  "day_zero_weekday": 7,
+  "months": [
+    {
+      "name": "Aunet",
+      "days": 30
+    },
+    {
+      "name": "Arcit",
+      "days": 31
+    },
+    {
+      "name": "Kresset",
+      "days": 30
+    },
+    {
+      "name": "Orzet",
+      "days": 31
+    },
+    {
+      "name": "Renat",
+      "days": 30
+    },
+    {
+      "name": "Burdet",
+      "days": 31
+    },
+    {
+      "name": "Irisit",
+      "days": 30
+    },
+    {
+      "name": "Shunet",
+      "days": 31
+    },
+    {
+      "name": "Mernit",
+      "days": 30
+    },
+    {
+      "name": "Pinit",
+      "days": 31
+    },
+    {
+      "name": "Varot",
+      "days": 28
+    },
+    {
+      "name": "Casset",
+      "days": 32
+    }
+  ],
+  "era": "Age of Darkness",
+  "previous_era": "Age of Cassidia",
+}
