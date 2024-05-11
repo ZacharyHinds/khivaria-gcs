@@ -1,35 +1,35 @@
 {
     "type": "ancestry",
     "version": 4,
-    "name": "Khivaria Elf",
+    "name": "Nymph",
     "common_options": {
         "height_formula": "random_height($st) + 2",
         "weight_formula": "random_weight($st)",
-        "age_formula": "roll(10d100+300)",
+        "age_formula": "roll(10d10+100)",
         "hair_options": [
             {
                 "weight": 35,
-                "value": "Black"
+                "value": "Bark Black"
             },
             {
                 "weight": 13,
-                "value": "Blond"
+                "value": "Fall-leaf Yellow"
             },
             {
                 "weight": 20,
-                "value": "Brown"
+                "value": "Bark Brown"
             },
             {
                 "weight": 22,
-                "value": "Green"
+                "value": "Pine Green"
             },
             {
                 "weight": 10,
-                "value": "Redhead"
+                "value": "Fall-leaf Red"
             },
             {
                 "weight": 11,
-                "value": "Olive"
+                "value": "River-water Blue"
             }
         ],
         "eye_options": [
@@ -39,7 +39,7 @@
             },
             {
                 "weight": 6,
-                "value": "Blue"
+                "value": "Sky Blue"
             },
             {
                 "weight": 23,
@@ -69,15 +69,15 @@
             },
             {
                 "weight": 29,
-                "value": "Copper"
+                "value": "Earthen Brown"
             },
             {
                 "weight": 12,
-                "value": "Olive"
+                "value": "Pale Orange"
             },
             {
                 "weight": 18,
-                "value": "Pale"
+                "value": "Green"
             },
             {
                 "weight": 22,
@@ -85,51 +85,48 @@
             },
             {
                 "weight": 3,
-                "value": "Tan"
+                "value": "Pale Blue"
             }
         ],
         "handedness_options": [
             {
-                "weight": 40,
+                "weight": 60,
                 "value": "Left"
             },
             {
-                "weight": 60,
+                "weight": 50,
                 "value": "Right"
             }
         ],
         "name_generators": [
-            "Khivaria Elf Last"
+            "Nymph"
         ]
     },
     "gender_options": [
         {
-            "weight": 45,
+            "weight": 33,
             "value": {
                 "name": "Male",
                 "name_generators": [
-                    "Khivaria Elf First - Male",
-                    "Khivaria Elf Last"
+                    "Nymph"
                 ]
             }
         },
         {
-            "weight": 55,
+            "weight": 33,
             "value": {
                 "name": "Female",
                 "name_generators": [
-                    "Khivaria Elf First - Female",
-                    "Khivaria Elf Last"
+                    "Nymph"
                 ]
             }
         },
         {
-            "weight": 15,
+            "weight": 33,
             "value": {
-                "name": "Other",
+                "name": "Androgynous",
                 "name_generators": [
-                    "Khivaria Elf First - Other",
-                    "Khivaria Elf Last"
+                    "Nymph"
                 ]
             }
         }

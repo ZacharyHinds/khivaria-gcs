@@ -6,12 +6,10 @@
 		{
 			"id": "11c0efc7-07ff-4a8b-9e17-f7e43ae79bbd",
 			"type": "trait_container",
-			"open": true,
 			"children": [
 				{
 					"id": "7a830e80-4f2d-4279-9d75-07247a2b8873",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "c5e01794-8349-4166-96af-7a5b854dc1a9",
@@ -39,6 +37,7 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Attributes",
 					"container_type": "attributes",
 					"calc": {
@@ -48,7 +47,6 @@
 				{
 					"id": "738caf55-538f-4383-b429-51eaf3ea46a8",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "7c406a8e-fa5c-4494-b98f-0654c462909f",
@@ -77,6 +75,7 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Secondary Characteristics",
 					"calc": {
 						"points": 10
@@ -85,7 +84,6 @@
 				{
 					"id": "3ffcedde-8655-4ebd-8c28-b894a6b1c749",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "7a27e85f-001a-4601-bdc9-fa898cb53b86",
@@ -813,6 +811,7 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Advantages",
 					"calc": {
 						"points": 90
@@ -821,7 +820,6 @@
 				{
 					"id": "27c67820-7cb9-472c-a075-d28aab48ccb7",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "cfe8ef0a-e3f7-4573-a034-6c7116ab1707",
@@ -1062,6 +1060,7 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Disadvantages",
 					"calc": {
 						"points": -60
@@ -1070,7 +1069,6 @@
 				{
 					"id": "43b6be2e-262c-4044-a18a-e4e30e2f9962",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "be9e1589-77f1-4cad-a18e-4e4800ea5901",
@@ -1084,14 +1082,16 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Features",
 					"calc": {
 						"points": 0
 					}
 				}
 			],
+			"open": true,
 			"name": "Nymph",
-			"ancestry": "Human",
+			"ancestry": "Nymph",
 			"container_type": "ancestry",
 			"calc": {
 				"points": 60
