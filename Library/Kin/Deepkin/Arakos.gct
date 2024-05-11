@@ -6,12 +6,10 @@
 		{
 			"id": "f390fee4-41bc-4682-b00c-e661b9567457",
 			"type": "trait_container",
-			"open": true,
 			"children": [
 				{
 					"id": "e5c6ea0d-5c96-41c7-8924-f1e27eb08c92",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "7a698d89-8a9d-4d89-bdac-56e8bacb044d",
@@ -39,6 +37,7 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Attributes",
 					"calc": {
 						"points": -30
@@ -47,7 +46,6 @@
 				{
 					"id": "39e850b2-8b37-46ad-a8b0-ac96f8f72391",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "66f7f76b-14ee-4fc1-9cd2-52a0dd44a254",
@@ -76,6 +74,7 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Secondary Characteristics",
 					"calc": {
 						"points": 5
@@ -84,12 +83,10 @@
 				{
 					"id": "f630c76f-c60b-46d3-a83f-4dcbc201bfc5",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "87003555-7c9b-47fd-aec4-e26bf67668fd",
 							"type": "trait_container",
-							"open": true,
 							"children": [
 								{
 									"id": "00e1e48c-11e0-480a-a01d-b4287e85378f",
@@ -103,20 +100,6 @@
 									],
 									"levels": 2,
 									"points_per_level": 5,
-									"prereqs": {
-										"type": "prereq_list",
-										"all": true,
-										"prereqs": [
-											{
-												"type": "trait_prereq",
-												"has": true,
-												"name": {
-													"compare": "is",
-													"qualifier": "Unusual Background (Psionic)"
-												}
-											}
-										]
-									},
 									"can_level": true,
 									"calc": {
 										"points": 10
@@ -269,6 +252,7 @@
 									}
 								}
 							],
+							"open": true,
 							"name": "Psionics",
 							"calc": {
 								"points": 61
@@ -338,7 +322,6 @@
 						{
 							"id": "b89c871e-7504-4432-87f1-30ae6eccd15c",
 							"type": "trait_container",
-							"open": true,
 							"children": [
 								{
 									"id": "16896504-47af-45c6-9656-0f1b5d8acbb7",
@@ -818,6 +801,7 @@
 									}
 								}
 							],
+							"open": true,
 							"name": "Exoskeleton",
 							"calc": {
 								"points": 9
@@ -897,9 +881,9 @@
 						{
 							"id": "73021aa1-49b5-44e6-9193-f8775203b466",
 							"type": "trait",
-							"name": "Innate Attack (Toxic)",
+							"name": "Innate Attack (Spider Venom)",
 							"reference": "B62",
-							"notes": "Spider Poison",
+							"notes": "HT-2 to resist",
 							"tags": [
 								"Advantage",
 								"Exotic",
@@ -938,7 +922,6 @@
 								{
 									"id": "cf3e6518-e3f1-4364-879d-cb63f0d77f22",
 									"type": "modifier_container",
-									"open": true,
 									"children": [
 										{
 											"id": "7114fe43-4213-4440-8a94-e0de32db7571",
@@ -961,12 +944,12 @@
 											"disabled": true
 										}
 									],
+									"open": true,
 									"name": "Hyper Venom"
 								},
 								{
 									"id": "c23b60b5-37ac-41ac-9c90-71cde7b6d0c1",
 									"type": "modifier_container",
-									"open": true,
 									"children": [
 										{
 											"id": "919607f6-3bfc-4a3c-8f6d-19186e79256f",
@@ -989,12 +972,12 @@
 											"disabled": true
 										}
 									],
+									"open": true,
 									"name": "Fast-Acting Venom"
 								},
 								{
 									"id": "81b19a3c-0ed5-42d8-b411-2f36af809f4c",
 									"type": "modifier_container",
-									"open": true,
 									"children": [
 										{
 											"id": "0c249e20-bde0-4881-ab29-9fe5cd226ad2",
@@ -1017,6 +1000,7 @@
 											"disabled": true
 										}
 									],
+									"open": true,
 									"name": "Long-Lasting Venom"
 								},
 								{
@@ -1282,7 +1266,6 @@
 								{
 									"id": "7b6ec550-2196-4214-8bd3-d0e40eda194d",
 									"type": "modifier_container",
-									"open": true,
 									"children": [
 										{
 											"id": "b86e25fd-c2b7-4b79-82cf-dd1990276c3d",
@@ -1295,6 +1278,7 @@
 											"disabled": true
 										}
 									],
+									"open": true,
 									"name": "Potent Venom"
 								}
 							],
@@ -1302,33 +1286,14 @@
 							"points_per_level": 4,
 							"weapons": [
 								{
-									"id": "1a635da5-7d6a-472b-a2e9-4061c33ece9e",
-									"type": "ranged_weapon",
+									"id": "0b689743-3148-40eb-b2f6-f4162dd06dec",
+									"type": "melee_weapon",
 									"damage": {
 										"type": "tox",
 										"base": "1d"
 									},
-									"accuracy": "3",
-									"range": "10",
-									"rate_of_fire": "1",
-									"recoil": "1",
-									"defaults": [
-										{
-											"type": "skill",
-											"name": "Innate Attack"
-										},
-										{
-											"type": "skill",
-											"name": "Innate Attack",
-											"modifier": -2
-										},
-										{
-											"type": "dx",
-											"modifier": -4
-										}
-									],
+									"usage": "Follow Up (Fangs)",
 									"calc": {
-										"level": 6,
 										"damage": "1d tox"
 									}
 								}
@@ -1418,7 +1383,6 @@
 						{
 							"id": "71c7d777-b623-4acf-8c32-3bf92f7de243",
 							"type": "trait_container",
-							"open": true,
 							"children": [
 								{
 									"id": "7b9efe6a-642e-45ed-bf1a-be84701fca9e",
@@ -1509,6 +1473,7 @@
 									}
 								}
 							],
+							"open": true,
 							"name": "Spider Web",
 							"calc": {
 								"points": 16
@@ -1579,6 +1544,7 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Advantages",
 					"calc": {
 						"points": 153
@@ -1587,7 +1553,6 @@
 				{
 					"id": "ee8d60d2-a75d-4468-bb54-ff51790e3355",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "c93bb511-29df-45ea-9ecb-f3854b42b2a6",
@@ -1708,6 +1673,7 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Disadvantages",
 					"calc": {
 						"points": -55
@@ -1716,7 +1682,6 @@
 				{
 					"id": "dcad0aa6-3402-4fca-9bd3-122820dc86ed",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "dab9c239-51b8-40e5-acaa-5990fd31fbb4",
@@ -1734,14 +1699,16 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Features",
 					"calc": {
 						"points": 0
 					}
 				}
 			],
+			"open": true,
 			"name": "Arakos",
-			"ancestry": "Human",
+			"ancestry": "Arakos",
 			"container_type": "ancestry",
 			"calc": {
 				"points": 73
