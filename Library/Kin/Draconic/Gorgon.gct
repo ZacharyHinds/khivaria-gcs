@@ -6,12 +6,10 @@
 		{
 			"id": "a4f2ea07-59d0-4383-8713-b1c0060dbd1e",
 			"type": "trait_container",
-			"open": true,
 			"children": [
 				{
 					"id": "0250653c-e974-4f16-8c6a-cd5343a7d9df",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "cae2a8fc-6db9-475b-840f-c65b93b92284",
@@ -39,6 +37,7 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Attributes",
 					"container_type": "attributes",
 					"calc": {
@@ -57,7 +56,6 @@
 				{
 					"id": "874569da-cb24-4333-afb6-00d5dbc92f35",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "4dd83164-afbc-4577-b7e9-d5f8820a84d5",
@@ -138,7 +136,6 @@
 								{
 									"id": "3878fd6b-f932-4f29-ba63-158eb01db5ae",
 									"type": "modifier_container",
-									"open": true,
 									"children": [
 										{
 											"id": "49956660-30ef-48b9-b1ce-e2abdaa101ae",
@@ -181,6 +178,7 @@
 											"disabled": true
 										}
 									],
+									"open": true,
 									"name": "Attribute Penalties"
 								},
 								{
@@ -202,7 +200,6 @@
 								{
 									"id": "a6a04352-5a45-4782-a33e-6427876eb9a0",
 									"type": "modifier_container",
-									"open": true,
 									"children": [
 										{
 											"id": "19b80ea4-3ac2-4824-bc8d-4171dc30ea48",
@@ -285,13 +282,13 @@
 											"disabled": true
 										}
 									],
+									"open": true,
 									"name": "Incapacitation",
 									"reference": "B36"
 								},
 								{
 									"id": "45a2013a-b1be-4275-a1a3-f54b046f824d",
 									"type": "modifier_container",
-									"open": true,
 									"children": [
 										{
 											"id": "837ad5b8-520c-4af1-be78-860b7d1e0fbd",
@@ -366,13 +363,13 @@
 											"disabled": true
 										}
 									],
+									"open": true,
 									"name": "Irritations",
 									"reference": "B36"
 								},
 								{
 									"id": "28342b74-7327-4054-9ac7-bf14c93f3480",
 									"type": "modifier_container",
-									"open": true,
 									"children": [
 										{
 											"id": "e37fa2a4-d3d0-4085-88d9-14c4ac39b900",
@@ -391,6 +388,7 @@
 											"disabled": true
 										}
 									],
+									"open": true,
 									"name": "Mortal Conditions"
 								},
 								{
@@ -404,7 +402,6 @@
 								{
 									"id": "902dff28-0702-4805-9f4f-0fc2a51a2a07",
 									"type": "modifier_container",
-									"open": true,
 									"children": [
 										{
 											"id": "fb2bbe63-7b0c-47e0-a533-52ebdb265640",
@@ -437,6 +434,7 @@
 											"disabled": true
 										}
 									],
+									"open": true,
 									"name": "Traits"
 								},
 								{
@@ -597,11 +595,11 @@
 							}
 						},
 						{
-							"id": "2610956d-1a46-4b10-93b4-24c9a40896f0",
+							"id": "0fdde08a-eb5a-4a67-a7b0-cc760359f262",
 							"type": "trait",
-							"name": "Innate Attack (Toxic)",
+							"name": "Innate Attack (Snake Venom)",
 							"reference": "B62",
-							"notes": "Snake Venom",
+							"notes": "[HT-3 to resist]",
 							"tags": [
 								"Advantage",
 								"Exotic",
@@ -903,32 +901,13 @@
 							"points_per_level": 4,
 							"weapons": [
 								{
-									"id": "1a635da5-7d6a-472b-a2e9-4061c33ece9e",
-									"type": "ranged_weapon",
+									"id": "25460bb5-688d-4a31-a04f-f93dfce26d8a",
+									"type": "melee_weapon",
 									"damage": {
 										"type": "tox",
 										"base": "1d"
 									},
-									"accuracy": "3",
-									"range": "10",
-									"rate_of_fire": "1",
-									"recoil": "1",
-									"defaults": [
-										{
-											"type": "skill",
-											"name": "Innate Attack",
-											"specialization": "@Attack Type@"
-										},
-										{
-											"type": "skill",
-											"name": "Innate Attack",
-											"modifier": -2
-										},
-										{
-											"type": "dx",
-											"modifier": -4
-										}
-									],
+									"usage": "Follow Up (Snake Bite)",
 									"calc": {
 										"damage": "1d tox"
 									}
@@ -1017,6 +996,7 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Advantages",
 					"calc": {
 						"points": 92
@@ -1025,7 +1005,6 @@
 				{
 					"id": "a6de474a-efcd-45f9-84dc-7caf74519fcb",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "9ce85ebc-44b7-4656-b9b1-8cac2666e3d0",
@@ -1037,9 +1016,9 @@
 								"Disadvantage",
 								"Mental"
 							],
-							"base_points": -10,
 							"cr": 15,
 							"cr_adj": "action_penalty",
+							"base_points": -10,
 							"calc": {
 								"points": -5
 							}
@@ -1080,6 +1059,7 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Disadvantages",
 					"calc": {
 						"points": -21
@@ -1088,7 +1068,6 @@
 				{
 					"id": "7d931036-44b6-4b6a-83ae-49da79a7ced0",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "c7ead2aa-882f-40a3-8c87-9ec3e05c034a",
@@ -1107,12 +1086,14 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Features",
 					"calc": {
 						"points": 0
 					}
 				}
 			],
+			"open": true,
 			"name": "Gorgon",
 			"ancestry": "Human",
 			"container_type": "ancestry",
