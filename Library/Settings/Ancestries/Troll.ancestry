@@ -1,0 +1,125 @@
+{
+	"type": "ancestry",
+	"version": 4,
+	"name": "Troll",
+	"common_options": {
+		"height_formula": "random_height($st-4) * 2",
+		"weight_formula": "random_weight($st-4) * 5",
+		"age_formula": "roll(2d12+21)",
+		"hair_options": [
+			{
+				"weight": 14,
+				"value": "Black"
+			},
+			{
+				"weight": 8,
+				"value": "Brown"
+			},
+			{
+				"weight": 5,
+				"value": "Bald"
+			},
+            {
+                "weight": 4,
+                "value": "Blonde"
+            },
+			{
+				"weight": 3,
+				"value": "Redhead"
+			},
+			{
+				"weight": 1,
+				"value": "Gray"
+			}
+		],
+		"eye_options": [
+			{
+				"weight": 52,
+				"value": "Yellow"
+			},
+			{
+				"weight": 18,
+				"value": "Amber"
+			},
+			{
+				"weight": 10,
+				"value": "Hzel"
+			},
+			{
+				"weight": 10,
+				"value": "Red"
+			},
+			{
+				"weight": 6,
+				"value": "Gray"
+			},
+			{
+				"weight": 4,
+				"value": "Green"
+			}
+		],
+		"skin_options": [
+			{
+				"weight": 3,
+				"value": "Blue"
+			},
+			{
+				"weight": 3,
+				"value": "Light Blue"
+			},
+			{
+				"weight": 3,
+				"value": "Teal"
+			},
+			{
+				"weight": 3,
+				"value": "Purple"
+			},
+			{
+				"weight": 3,
+				"value": "Red"
+			},
+			{
+				"weight": 3,
+				"value": "Pale Purple"
+			},
+			{
+				"weight": 1,
+				"value": "Pink"
+			}
+		],
+		"handedness_options": [
+			{
+				"weight": 1,
+				"value": "Left"
+			},
+			{
+				"weight": 9,
+				"value": "Right"
+			}
+		],
+		"name_generators": [
+			"Troll Male"
+		]
+	},
+	"gender_options": [
+		{
+			"weight": 1,
+			"value": {
+				"name": "Male",
+				"name_generators": [
+					"Troll Male"
+				]
+			}
+		},
+		{
+			"weight": 1,
+			"value": {
+				"name": "Female",
+				"name_generators": [
+					"Troll Female"
+				]
+			}
+		}
+	]
+}

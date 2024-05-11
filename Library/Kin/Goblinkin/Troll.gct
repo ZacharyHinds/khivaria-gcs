@@ -6,12 +6,10 @@
 		{
 			"id": "a4f2ea07-59d0-4383-8713-b1c0060dbd1e",
 			"type": "trait_container",
-			"open": true,
 			"children": [
 				{
 					"id": "0250653c-e974-4f16-8c6a-cd5343a7d9df",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "9ff7674e-b997-4ec3-b25e-f28db11fd5ec",
@@ -90,6 +88,7 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Attributes",
 					"container_type": "attributes",
 					"calc": {
@@ -99,7 +98,6 @@
 				{
 					"id": "75ad98ef-6159-4f02-9057-a2b0dc7d7ff2",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "6556cf9f-c168-4648-a4b5-1c970e9ea518",
@@ -123,6 +121,7 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Secondary Characteristics",
 					"calc": {
 						"points": 0
@@ -131,7 +130,6 @@
 				{
 					"id": "874569da-cb24-4333-afb6-00d5dbc92f35",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "fd168690-ba6a-4176-bdaf-3b72de2b7f1d",
@@ -659,6 +657,7 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Advantages",
 					"calc": {
 						"points": 58
@@ -667,7 +666,6 @@
 				{
 					"id": "a6de474a-efcd-45f9-84dc-7caf74519fcb",
 					"type": "trait_container",
-					"open": true,
 					"children": [
 						{
 							"id": "abbe55f9-9834-44fe-afe2-6be0ec4963f2",
@@ -815,8 +813,8 @@
 								"Disadvantage",
 								"Mental"
 							],
-							"base_points": -10,
 							"cr": 12,
+							"base_points": -10,
 							"calc": {
 								"points": -10
 							}
@@ -1017,14 +1015,16 @@
 							}
 						}
 					],
+					"open": true,
 					"name": "Disadvantages",
 					"calc": {
 						"points": -61
 					}
 				}
 			],
+			"open": true,
 			"name": "Troll",
-			"ancestry": "Human",
+			"ancestry": "Troll",
 			"container_type": "ancestry",
 			"calc": {
 				"points": 69
