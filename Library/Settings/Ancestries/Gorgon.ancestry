@@ -1,0 +1,125 @@
+{
+	"type": "ancestry",
+	"version": 4,
+	"name": "Gorgon",
+	"common_options": {
+		"height_formula": "random_height($st)",
+		"weight_formula": "random_weight($st)",
+		"age_formula": "roll(1d12+14)",
+		"hair_options": [
+			{
+				"weight": 14,
+				"value": "Black"
+			},
+			{
+				"weight": 8,
+				"value": "Brown"
+			},
+			{
+				"weight": 5,
+				"value": "Green"
+			},
+            {
+                "weight": 4,
+                "value": "Yellow"
+            },
+			{
+				"weight": 3,
+				"value": "Red"
+			},
+			{
+				"weight": 1,
+				"value": "Blue"
+			}
+		],
+		"eye_options": [
+			{
+				"weight": 52,
+				"value": "Yellow"
+			},
+			{
+				"weight": 18,
+				"value": "Green"
+			},
+			{
+				"weight": 10,
+				"value": "Orange"
+			},
+			{
+				"weight": 10,
+				"value": "Red"
+			},
+			{
+				"weight": 6,
+				"value": "Gray"
+			},
+			{
+				"weight": 4,
+				"value": "Blue"
+			}
+		],
+		"skin_options": [
+			{
+				"weight": 3,
+				"value": "Dark Brown"
+			},
+			{
+				"weight": 3,
+				"value": "Brown"
+			},
+			{
+				"weight": 3,
+				"value": "Olive"
+			},
+			{
+				"weight": 3,
+				"value": "Light Brown"
+			},
+			{
+				"weight": 3,
+				"value": "Tan"
+			},
+			{
+				"weight": 3,
+				"value": "Freckled"
+			},
+			{
+				"weight": 1,
+				"value": "Pale"
+			}
+		],
+		"handedness_options": [
+			{
+				"weight": 1,
+				"value": "Left"
+			},
+			{
+				"weight": 9,
+				"value": "Right"
+			}
+		],
+		"name_generators": [
+			"Gorgon Male"
+		]
+	},
+	"gender_options": [
+		{
+			"weight": 1,
+			"value": {
+				"name": "Male",
+				"name_generators": [
+					"Gorgon Male"
+				]
+			}
+		},
+		{
+			"weight": 1,
+			"value": {
+				"name": "Female",
+				"name_generators": [
+					"Gorgon Female"
+				]
+			}
+		}
+	]
+}
