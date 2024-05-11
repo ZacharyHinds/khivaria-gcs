@@ -1,0 +1,1101 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "8ac04f42-14c7-4d1b-b6c8-4b81c4d2ddb4",
+	"traits": [
+		{
+			"id": "11c0efc7-07ff-4a8b-9e17-f7e43ae79bbd",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "7a830e80-4f2d-4279-9d75-07247a2b8873",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "c5e01794-8349-4166-96af-7a5b854dc1a9",
+							"type": "trait",
+							"name": "Increased Health",
+							"reference": "B14",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"levels": 2,
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "ht",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 20
+							}
+						}
+					],
+					"name": "Attributes",
+					"container_type": "attributes",
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "738caf55-538f-4383-b429-51eaf3ea46a8",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "7c406a8e-fa5c-4494-b98f-0654c462909f",
+							"type": "trait",
+							"name": "Increased Perception",
+							"reference": "B16",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Mental",
+								"Physical"
+							],
+							"levels": 2,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "per",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"name": "Secondary Characteristics",
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "3ffcedde-8655-4ebd-8c28-b894a6b1c749",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "7a27e85f-001a-4601-bdc9-fa898cb53b86",
+							"type": "trait",
+							"name": "Appearance",
+							"reference": "B21",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "db88e777-c246-49aa-87cc-8c1dbfef8cd0",
+									"type": "modifier",
+									"name": "Attractive",
+									"reference": "B21",
+									"cost": 4,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": 1
+										}
+									]
+								},
+								{
+									"id": "2fda71e1-13b5-4bed-8188-83946dbbb13b",
+									"type": "modifier",
+									"name": "Average",
+									"reference": "B21",
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "59011a6b-7cd8-4a59-8a7b-af75aa057843",
+									"type": "modifier",
+									"name": "Beautiful",
+									"reference": "B21",
+									"cost": 12,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from those attracted to members of your sex, +2 from everyone else",
+											"amount": 4
+										}
+									]
+								},
+								{
+									"id": "f2ef3d46-2535-466f-b85d-82d3a9a59937",
+									"type": "modifier",
+									"name": "Beautiful (Androgynous)",
+									"reference": "B21",
+									"cost": 12,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": 3
+										}
+									]
+								},
+								{
+									"id": "260c9611-0aad-407d-a8f2-cdeab7f8e022",
+									"type": "modifier",
+									"name": "Beautiful (Impressive)",
+									"reference": "B21",
+									"cost": 12,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": 3
+										}
+									]
+								},
+								{
+									"id": "1d6d3fc1-a874-42ee-a40a-ab72d7d653ff",
+									"type": "modifier",
+									"name": "Handsome",
+									"reference": "B21",
+									"cost": 12,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from those attracted to members of your sex, +2 from everyone else",
+											"amount": 4
+										}
+									]
+								},
+								{
+									"id": "66b67232-40a9-49ce-a30c-a41aa79a86e8",
+									"type": "modifier",
+									"name": "Handsome (Androgynous)",
+									"reference": "B21",
+									"cost": 12,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": 3
+										}
+									]
+								},
+								{
+									"id": "5c3f10f5-fb42-44a7-9953-ce727ebc4c89",
+									"type": "modifier",
+									"name": "Handsome (Impressive)",
+									"reference": "B21",
+									"cost": 12,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": 3
+										}
+									]
+								},
+								{
+									"id": "cfef51b4-8526-47be-bb28-49c4e7db46b5",
+									"type": "modifier",
+									"name": "Hideous",
+									"reference": "B21,B202",
+									"cost": -16,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Intimidation"
+											},
+											"amount": 2
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": -4
+										}
+									]
+								},
+								{
+									"id": "67eda3d3-3b02-4324-b86a-cad4432e2092",
+									"type": "modifier",
+									"name": "Horrific",
+									"reference": "B21,B202",
+									"cost": -24,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Intimidation"
+											},
+											"amount": 4
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": -6
+										}
+									]
+								},
+								{
+									"id": "1d0d263d-39e6-4b05-96c9-bcab7c73917a",
+									"type": "modifier",
+									"name": "Impressive",
+									"reference": "B21",
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "ea5ee8d3-92de-44f7-b869-97bbcb0a0446",
+									"type": "modifier",
+									"name": "Monstrous",
+									"reference": "B21,B202",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Intimidation"
+											},
+											"amount": 3
+										},
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": -5
+										}
+									]
+								},
+								{
+									"id": "bcec029e-a194-48dd-a4f3-d79852417ff1",
+									"type": "modifier",
+									"name": "Off-the-Shelf Looks",
+									"reference": "B21",
+									"notes": "Halves the usual reaction bonus - adjust manually",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "4e3e372b-d8bb-41c3-a675-1c37f39c0a06",
+									"type": "modifier",
+									"name": "Transcendent",
+									"reference": "B21",
+									"cost": 20,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead.",
+											"amount": 8
+										}
+									]
+								},
+								{
+									"id": "2bb71c80-552e-499d-a4e6-e57f26881a8c",
+									"type": "modifier",
+									"name": "Transcendent (Androgynous)",
+									"reference": "B21",
+									"cost": 20,
+									"cost_type": "points",
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": 5
+										}
+									]
+								},
+								{
+									"id": "ddf25679-e521-4ac2-b914-5b31d097cc09",
+									"type": "modifier",
+									"name": "Transcendent (Impressive)",
+									"reference": "B21",
+									"cost": 20,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": 5
+										}
+									]
+								},
+								{
+									"id": "52c66ff0-cb7b-4bd8-8d77-4e6f78fa6ce4",
+									"type": "modifier",
+									"name": "Ugly",
+									"reference": "B21",
+									"cost": -8,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": -2
+										}
+									]
+								},
+								{
+									"id": "f2ade180-af68-4cdb-91c2-2b6062b625b5",
+									"type": "modifier",
+									"name": "Unattractive",
+									"reference": "B21",
+									"cost": -4,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": -1
+										}
+									]
+								},
+								{
+									"id": "585340a8-301a-451e-918c-89fac91595d4",
+									"type": "modifier",
+									"name": "Universal",
+									"reference": "B21",
+									"cost": 25
+								},
+								{
+									"id": "e1bcea51-b24b-4e72-a625-be62b9161aaf",
+									"type": "modifier",
+									"name": "Very Beautiful",
+									"reference": "B21",
+									"cost": 16,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead.",
+											"amount": 6
+										}
+									]
+								},
+								{
+									"id": "45fe1d7c-54ed-4171-ac37-0c14d3825e89",
+									"type": "modifier",
+									"name": "Very Beautiful (Androgynous)",
+									"reference": "B21",
+									"cost": 16,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": 4
+										}
+									]
+								},
+								{
+									"id": "211f4936-94c1-4043-862b-d73a066832ac",
+									"type": "modifier",
+									"name": "Very Beautiful (Impressive)",
+									"reference": "B21",
+									"cost": 16,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": 4
+										}
+									]
+								},
+								{
+									"id": "8c0bc9b1-f818-427e-838e-9cb3f1125587",
+									"type": "modifier",
+									"name": "Very Handsome",
+									"reference": "B21",
+									"cost": 16,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from those attracted to members of your sex, +2 from everyone else. Exception: Members of the same sex with reason to dislike you (more than -4 in reaction penalties regardless of bonuses) resent your good looks and react at -2 instead.",
+											"amount": 6
+										}
+									]
+								},
+								{
+									"id": "1cf4494d-453a-403d-890b-7233286080e7",
+									"type": "modifier",
+									"name": "Very Handsome (Androgynous)",
+									"reference": "B21",
+									"cost": 16,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": 4
+										}
+									]
+								},
+								{
+									"id": "19314e0f-05c4-4488-adf0-ba1785d46b23",
+									"type": "modifier",
+									"name": "Very Handsome (Impressive)",
+									"reference": "B21",
+									"cost": 16,
+									"cost_type": "points",
+									"disabled": true,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": 4
+										}
+									]
+								}
+							],
+							"calc": {
+								"points": 25
+							}
+						},
+						{
+							"id": "8b49ae57-e528-487b-b0b3-06ba69871c92",
+							"type": "trait",
+							"name": "Charisma",
+							"reference": "B41",
+							"notes": "+1 to Influence rolls",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"levels": 5,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "fortune-telling"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "leadership"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "panhandling"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "public speaking"
+									},
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 25
+							}
+						},
+						{
+							"id": "5025ff8b-22d6-4fd0-a3a3-2c937c665086",
+							"type": "trait",
+							"name": "Magery",
+							"reference": "B66",
+							"tags": [
+								"Advantage",
+								"Mental",
+								"Supernatural"
+							],
+							"modifiers": [
+								{
+									"id": "10b7c609-d742-473c-a229-fd39e10a948f",
+									"type": "modifier",
+									"name": "Dance",
+									"cost": -40,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "8cffcc39-a19c-4aa2-8a65-f270534b6ad7",
+									"type": "modifier",
+									"name": "Dark-Aspected",
+									"cost": -50,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "9a43b6eb-5fca-4b3b-9475-9c8922652001",
+									"type": "modifier",
+									"name": "Day-Aspected",
+									"cost": -40,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "1db3c1d2-12b8-4d9f-aaec-8a1f58f99922",
+									"type": "modifier",
+									"name": "Musical",
+									"cost": -50,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "7ef63d35-934c-4046-8b55-22208f7a99b6",
+									"type": "modifier",
+									"name": "Night-Aspected",
+									"cost": -40,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "0f92e868-30bd-4a88-8dd7-d1929eb47c0e",
+									"type": "modifier",
+									"name": "One College",
+									"notes": "@College@",
+									"cost": -40,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "7a67c4c3-2454-43a0-acd4-aac1265bd79a",
+									"type": "modifier",
+									"name": "Solitary",
+									"cost": -40,
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "162576be-563f-43f2-9bd3-91db2defc569",
+									"type": "modifier",
+									"name": "Song",
+									"cost": -40,
+									"affects": "levels_only",
+									"disabled": true
+								}
+							],
+							"base_points": 5,
+							"levels": 1,
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "spell_bonus",
+									"match": "all_colleges",
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "thaumatology"
+									},
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 15
+							}
+						},
+						{
+							"id": "ec94678e-8a11-4146-99af-97aa70ba1ff0",
+							"type": "trait",
+							"name": "Plant Empathy",
+							"reference": "B75,P48",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "f8324b06-889c-4087-9027-14c216ad9995",
+									"type": "modifier",
+									"name": "Remote",
+									"reference": "P48",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "989e6863-9863-4c25-b903-f10fa6feed56",
+									"type": "modifier",
+									"name": "Specialized",
+									"reference": "P77",
+									"notes": "All terrestrial plants",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "80b48f0f-ff9c-47be-babd-90ee61b4f007",
+									"type": "modifier",
+									"name": "Specialized",
+									"reference": "P77",
+									"notes": "All aquatic plants",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "0a2dc49c-7f1a-4d5f-bae0-49869798146e",
+									"type": "modifier",
+									"name": "Specialized",
+									"reference": "P77",
+									"notes": "@Large Subset: Herbs, Trees@",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "8bf0092b-9895-4e29-8d23-7cceb777d543",
+									"type": "modifier",
+									"name": "Specialized",
+									"reference": "P77",
+									"notes": "@Small Subset: Evergreens, Medicinals@",
+									"cost": -60,
+									"disabled": true
+								}
+							],
+							"base_points": 5,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "0beda636-4c38-4324-91c7-ad9e701674c0",
+							"type": "trait",
+							"name": "Speak With Plants",
+							"reference": "B87,P77",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "bdb8d929-9f53-4f63-947e-d84b6a7d4b61",
+									"type": "modifier",
+									"name": "Specialized",
+									"reference": "P77",
+									"notes": "All terrestrial plants",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "9c5e75a8-3bac-454e-b4a4-194202b444ae",
+									"type": "modifier",
+									"name": "Specialized",
+									"reference": "P77",
+									"notes": "All aquatic plants",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "8dc28b59-556c-41f3-9835-828e5e57f275",
+									"type": "modifier",
+									"name": "Specialized",
+									"reference": "P77",
+									"notes": "@Large Subset: Herbs, Trees@",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "b76b0e1c-feed-4012-ace8-6c5ed905dcee",
+									"type": "modifier",
+									"name": "Specialized",
+									"reference": "P77",
+									"notes": "@Small Subset: Evergreens, Medicinals@",
+									"cost": -60,
+									"disabled": true
+								},
+								{
+									"id": "f0faa9bf-7a6f-42fe-a7d0-90ff596d88ae",
+									"type": "modifier",
+									"name": "Sapience",
+									"reference": "P77",
+									"cost": 40,
+									"disabled": true
+								}
+							],
+							"base_points": 15,
+							"calc": {
+								"points": 15
+							}
+						},
+						{
+							"id": "d6e93937-4cc1-447a-b3d7-6d6ba6e4b345",
+							"type": "trait",
+							"name": "Unaging",
+							"reference": "B95",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "1261962a-1801-4e7d-bc8a-bca3b440c017",
+									"type": "modifier",
+									"name": "Age Control",
+									"reference": "B95",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "2dfca512-38e7-47f2-9edf-b1efbecf3f2b",
+									"type": "modifier",
+									"name": "IQ Only",
+									"reference": "RSWL24",
+									"cost": -75,
+									"disabled": true
+								}
+							],
+							"base_points": 5,
+							"calc": {
+								"points": 5
+							}
+						}
+					],
+					"name": "Advantages",
+					"calc": {
+						"points": 90
+					}
+				},
+				{
+					"id": "27c67820-7cb9-472c-a075-d28aab48ccb7",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "cfe8ef0a-e3f7-4573-a034-6c7116ab1707",
+							"type": "trait",
+							"name": "Dependency (Mana)",
+							"reference": "B130",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "0aeec007-6253-4372-88e0-bdc09abfb656",
+									"type": "modifier",
+									"name": "Rarity: Rare",
+									"reference": "B130",
+									"cost": -30,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "916f306e-8e09-4f68-addd-f30679479387",
+									"type": "modifier",
+									"name": "Rarity: Occasional",
+									"reference": "B130",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "3760b575-8e00-41ba-8952-7a3e92cc0997",
+									"type": "modifier",
+									"name": "Rarity: Common",
+									"reference": "B130",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "17782375-a00d-4653-b548-684db103545c",
+									"type": "modifier",
+									"name": "Rarity: Very Common",
+									"reference": "B130",
+									"cost": -5,
+									"cost_type": "points"
+								},
+								{
+									"id": "43ea9705-d072-4120-94b0-90c53ae505a0",
+									"type": "modifier",
+									"name": "Illegal",
+									"reference": "B130",
+									"cost": -5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "2c187ccb-e2af-4c0e-b8d0-e7edd46baf0b",
+									"type": "modifier",
+									"name": "Frequency: Constantly",
+									"reference": "B130",
+									"notes": "Lose 1 HP per minute without it",
+									"cost": 5,
+									"cost_type": "multiplier"
+								},
+								{
+									"id": "23f0a696-dd39-4730-9af9-286973b634d8",
+									"type": "modifier",
+									"name": "Frequency: Hourly",
+									"reference": "B130",
+									"notes": "Lose 1 HP per 10 minutes after missing a hourly dose",
+									"cost": 4,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "04902b95-c803-4338-ad3f-652fcef026a8",
+									"type": "modifier",
+									"name": "Frequency: Daily",
+									"reference": "B130",
+									"notes": "Lose 1 HP per hour after missing a daily dose",
+									"cost": 3,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "5c2f09e2-354e-4e8b-aba7-657cc2ac270f",
+									"type": "modifier",
+									"name": "Frequency: Weekly",
+									"reference": "B130",
+									"notes": "Lose 1 HP per six hours after missing a weekly dose",
+									"cost": 2,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "a2dbea08-d51d-41a3-9677-8e3e246081f5",
+									"type": "modifier",
+									"name": "Frequency: Monthly",
+									"reference": "B130",
+									"notes": "Lose 1 HP per day after missing a monthly dose",
+									"cost": 1,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "7d99517d-9e8c-4f8d-b1f6-b0b51178fd7c",
+									"type": "modifier",
+									"name": "Frequency: Seasonally",
+									"reference": "B130",
+									"notes": "Lose 1 HP per 3 days after missing a seasonal dose",
+									"cost": 0.3333,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "147ed92d-36ff-4abb-9c1f-426fd8636baf",
+									"type": "modifier",
+									"name": "Frequency: Yearly",
+									"reference": "B130",
+									"notes": "Lose 1 HP per 2 weeks after missing a yearly dose",
+									"cost": 0.1,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "215eeb83-090c-4c38-bec8-778b56a3984d",
+									"type": "modifier",
+									"name": "Aging",
+									"reference": "B130",
+									"notes": "Age 2 years for each HP lost due to this dependency",
+									"cost": 30,
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": -25
+							}
+						},
+						{
+							"id": "8d291fa4-4c84-4945-9723-f7f6232c16e8",
+							"type": "trait",
+							"name": "Sense of Duty",
+							"reference": "DF3:6",
+							"notes": "Nature",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "e46bac48-69fe-48c4-b240-20d08b13ad37",
+							"type": "trait",
+							"name": "Vulnerability",
+							"reference": "B161",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "3f353e94-730b-43fd-880e-592d4c1622ef",
+									"type": "modifier",
+									"name": "Cold Iron",
+									"reference": "B161",
+									"cost": -5,
+									"cost_type": "points"
+								},
+								{
+									"id": "6baa28ab-5718-4055-abcc-490f7e6b4d77",
+									"type": "modifier",
+									"name": "Iron",
+									"reference": "B161",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "31534585-89f0-4196-996a-9b3d2767af32",
+									"type": "modifier",
+									"name": "@Common attack@",
+									"reference": "B161",
+									"cost": -15,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "3a37f631-2d77-46ad-8b12-e8bcd6628467",
+									"type": "modifier",
+									"name": "@Very common attack@",
+									"reference": "B161",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "913271d0-8abd-45eb-9872-0d4e84724c71",
+									"type": "modifier",
+									"name": "Wounding x2",
+									"reference": "B161",
+									"cost": 2,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "7335051d-5f75-4433-99dd-5063d7843152",
+									"type": "modifier",
+									"name": "Wounding x3",
+									"reference": "B161",
+									"cost": 3,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "1cc122c8-4c6d-4879-bfb6-a53d68f21383",
+									"type": "modifier",
+									"name": "Wounding x4",
+									"reference": "B161",
+									"cost": 4,
+									"cost_type": "multiplier"
+								},
+								{
+									"id": "1b297ab4-276e-459f-becd-45b3157757e8",
+									"type": "modifier",
+									"name": "Fatigue Only",
+									"reference": "B161",
+									"cost": -50,
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": -20
+							}
+						}
+					],
+					"name": "Disadvantages",
+					"calc": {
+						"points": -60
+					}
+				},
+				{
+					"id": "43b6be2e-262c-4044-a18a-e4e30e2f9962",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "be9e1589-77f1-4cad-a18e-4e4800ea5901",
+							"type": "trait",
+							"name": "Feature: Skin color and hair based on some aspect of nature.",
+							"tags": [
+								"Physical"
+							],
+							"calc": {
+								"points": 0
+							}
+						}
+					],
+					"name": "Features",
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"name": "Nymph",
+			"ancestry": "Human",
+			"container_type": "ancestry",
+			"calc": {
+				"points": 60
+			}
+		}
+	]
+}

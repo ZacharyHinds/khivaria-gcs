@@ -1,0 +1,4131 @@
+{
+	"type": "spell_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "8a690e2a-cce2-4d2b-917c-54b5a5654c3e",
+			"type": "spell",
+			"name": "Embolism",
+			"reference": "MDS9",
+			"tags": [
+				"Air"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "12",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (air)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Essential Air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Body of Air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "dc920292-4963-4ca8-a4a8-427fc284a7e9",
+			"type": "spell",
+			"name": "Steal Breath",
+			"reference": "MDS9",
+			"tags": [
+				"Air"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "13",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (air)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Devitalize Air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 7
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "e6e7fc6e-f45a-4241-893c-51edbabd3ede",
+			"type": "spell",
+			"name": "Abominable Alteration",
+			"reference": "MDS9",
+			"tags": [
+				"Animal"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Animal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT or Will",
+			"casting_cost": "11",
+			"maintenance_cost": "-",
+			"casting_time": "10 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (animal)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shapeshift Others"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Alter Body"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "fd567af9-1b00-4c34-814e-70c41908c64c",
+			"type": "spell",
+			"name": "Thousand-Legged Demise",
+			"reference": "MDS10",
+			"tags": [
+				"Animal"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Animal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "11",
+			"maintenance_cost": "-",
+			"casting_time": "5 sec",
+			"duration": "1 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (animal)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shapeshift Others"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Vermin Control"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "a4be3243-732e-4dea-bf1e-67b4e6e993b4",
+			"type": "spell",
+			"name": "Death",
+			"reference": "MDS10",
+			"tags": [
+				"Body Control"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Body Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "12",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (body control)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Deathtouch"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Choke"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "58c17576-c431-4b86-a6b0-a0729af7561f",
+			"type": "spell",
+			"name": "Doomtouch",
+			"reference": "MDS11",
+			"tags": [
+				"Body Control"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Body Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Melee",
+			"casting_cost": "5-13",
+			"maintenance_cost": "-",
+			"casting_time": "-",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (body control)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Weaken Blood"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Deathtouch"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "c4ca4c8a-f534-4e23-8e00-9744bafa901c",
+			"type": "spell",
+			"name": "Accursed Triangle",
+			"reference": "MDS11",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Communication \u0026 Empathy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "13",
+			"maintenance_cost": "-",
+			"casting_time": "10 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (communication \u0026 empathy)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Exchange Bodies"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "d1a592e5-05d7-4a7c-9599-07905ac9e556",
+			"type": "spell",
+			"name": "Telepathic Overload",
+			"reference": "MDS11",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Communication \u0026 Empathy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT or Will",
+			"casting_cost": "7-15",
+			"maintenance_cost": "-",
+			"casting_time": "4 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (communication \u0026 empathy)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Telepathy"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Communication \u0026 Empathy"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "7ae2ac21-c61d-4ee3-affd-3832b58cf449",
+			"type": "spell",
+			"name": "Dust to Dust",
+			"reference": "MDS11",
+			"tags": [
+				"Earth"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "13",
+			"maintenance_cost": "-",
+			"casting_time": "4 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (earth)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Flesh to Stone"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Earth to Air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "1402626a-5f41-45bb-9159-a5f8455593f4",
+			"type": "spell",
+			"name": "Heart of Stone",
+			"reference": "MDS11",
+			"tags": [
+				"Earth"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "13",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Partial Petrification"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery 3"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 3
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "aaaa7573-bbb0-476c-90b5-caf2d1b910f8",
+			"type": "spell",
+			"name": "Assassin's Weapon",
+			"reference": "MDS12",
+			"notes": "Half cost for ammunition certain to be destroyed in one use (e.g. a bullet)",
+			"tags": [
+				"Enchantment"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Enchantment"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Enchantment",
+			"casting_cost": "500",
+			"maintenance_cost": "-",
+			"casting_time": "-",
+			"duration": "Indefinite",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (enchantment)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Puissance"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Penetrating Weapon"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "23e6d0b9-9f0d-406d-bf87-502fae11935b",
+			"type": "spell",
+			"name": "Mortal Malefice",
+			"reference": "MDS12",
+			"notes": "Special ingredients cost $550",
+			"tags": [
+				"Enchantment"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Enchantment"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "275",
+			"maintenance_cost": "-",
+			"casting_time": "-",
+			"duration": "Indefinite",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (enchantment)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Soul Jar"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Malefice"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "389c108b-5524-4f07-93ff-feb23e98e3e9",
+			"type": "spell",
+			"name": "Cremate",
+			"reference": "MDS12",
+			"tags": [
+				"Fire"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Fire"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Melee",
+			"resist": "HT",
+			"casting_cost": "3-19",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "1 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (fire)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Fast Fire"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Essential Flame"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Burning Touch"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "27b74b86-77d3-41bb-a568-f6786344d04e",
+			"type": "spell",
+			"name": "Snuff Life's Flame",
+			"reference": "MDS12",
+			"tags": [
+				"Fire"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Fire"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "14",
+			"maintenance_cost": "-",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (fire)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Body of Flames"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "99d6f56b-83d1-4df3-8a57-8e201d821b83",
+			"type": "spell",
+			"name": "Butcher",
+			"reference": "MDS12",
+			"notes": "Cost: 3 or subject's racial average IQ, whichever is higher.",
+			"tags": [
+				"Food"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Food"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Special",
+			"casting_cost": "Special",
+			"maintenance_cost": "-",
+			"casting_time": "10 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (food)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Prepare Game"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "17e4127e-8c11-4c2c-9d2e-7ae376ccfd30",
+			"type": "spell",
+			"name": "Death's Banquet",
+			"reference": "MDS13",
+			"tags": [
+				"Food"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Food"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Special",
+			"casting_cost": "3-19",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (food)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Poison Food"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Essential Food"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "8bfdc214-d3ae-443b-92f4-42abb943374c",
+			"type": "spell",
+			"name": "Dimensional Dissection",
+			"reference": "MDS13",
+			"tags": [
+				"Void"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Void"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT or Will",
+			"casting_cost": "13",
+			"maintenance_cost": "-",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (gate)"
+								}
+							}
+						]
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "spell_prereq",
+								"sub_type": "name",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "Timeport Other"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							},
+							{
+								"type": "spell_prereq",
+								"sub_type": "name",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "Teleport Other"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							},
+							{
+								"type": "spell_prereq",
+								"sub_type": "name",
+								"has": true,
+								"qualifier": {
+									"compare": "contains",
+									"qualifier": "Plane Shift Other"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "ee1f2a89-9286-411a-b4a3-131799e1808b",
+			"type": "spell",
+			"name": "Underworld Imprisonment",
+			"reference": "MDS13",
+			"tags": [
+				"Void"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Void"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "14",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Permanent#",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (void)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Plane Shift Other"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "9ecb562b-349d-45c1-9e6c-c75a0aba9139",
+			"type": "spell",
+			"name": "Euthanize",
+			"reference": "MDS14",
+			"tags": [
+				"Healing"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Healing"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Special",
+			"casting_cost": "8",
+			"maintenance_cost": "-",
+			"casting_time": "1 min",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"notes": {
+							"compare": "does_not_contain",
+							"qualifier": "one college"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "one college (healing)"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Status"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Spirit Empathy"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "0f643ea8-ad57-4922-9738-4bd377782e9e",
+			"type": "spell",
+			"name": "Resuscitate",
+			"difficulty": "iq/vh",
+			"college": [
+				"Healing"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Melee",
+			"casting_cost": "12",
+			"maintenance_cost": "-",
+			"casting_time": "-",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "1ac48941-d218-4307-b396-f7cd733a85d3",
+			"type": "spell",
+			"name": "Create Foreign Body",
+			"reference": "MDS14",
+			"tags": [
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "11",
+			"maintenance_cost": "-",
+			"casting_time": "2 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (illusion \u0026 creation)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Body-Reading"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Create Object"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "2324aefe-b720-417b-bc85-c75715febbc7",
+			"type": "spell",
+			"name": "Phantom Killer",
+			"reference": "MDS14",
+			"tags": [
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "IQ or Per",
+			"casting_cost": "25",
+			"maintenance_cost": "-",
+			"casting_time": "-",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (illusion \u0026 creation)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Phantom"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "9a8d933d-b2b5-412f-a7e7-dbb9d522cc60",
+			"type": "spell",
+			"name": "Forbidden Wisdom",
+			"reference": "MDS15",
+			"tags": [
+				"Knowledge"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Knowledge"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "IQ",
+			"casting_cost": "11",
+			"maintenance_cost": "-",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (knowledge)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Recall"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "See Secrets"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "606878ed-5f4e-4920-bb1d-284458076fef",
+			"type": "spell",
+			"name": "Vision of Doom",
+			"reference": "MDS15",
+			"tags": [
+				"Knowledge"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Knowledge"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "IQ",
+			"casting_cost": "10",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Lasting, until subject dies, fails at suicide and resists, or is saved by Remove Curse",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (knowledge)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Summon Shade"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "5fea22ca-b53e-4f75-8857-abd25801b648",
+			"type": "spell",
+			"name": "Cleansing Light",
+			"reference": "MDS16",
+			"tags": [
+				"Light \u0026 Darkness"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Light \u0026 Darkness"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "13-16",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "1 minute or until a target is hit",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (light \u0026 darkness)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sunbolt"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Light Jet"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Flash"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Light \u0026 Darkness"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "b1813702-1cce-4b90-b6f4-1f8bd51e66c3",
+			"type": "spell",
+			"name": "Shadow-Slay",
+			"reference": "MDS16",
+			"tags": [
+				"Light \u0026 Darkness"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Light \u0026 Darkness"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT or Will",
+			"casting_cost": "14",
+			"maintenance_cost": "-",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (light \u0026 darkness)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Body of Shadow"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Remove Shadow"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "2f651449-7bb1-4336-ac68-aafddc68da14",
+			"type": "spell",
+			"name": "Annihilation",
+			"reference": "MDS16",
+			"tags": [
+				"Making \u0026 Breaking"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Making \u0026 Breaking"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "8-14",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (making \u0026 breaking)"
+								}
+							}
+						]
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "spell_prereq",
+								"sub_type": "name",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "Deathtouch"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							},
+							{
+								"type": "spell_prereq",
+								"sub_type": "name",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "Steal Vitality"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Disintegrate"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "701e55f0-1d8e-4cb1-a936-a473556d3b93",
+			"type": "spell",
+			"name": "Destabilization",
+			"reference": "MDS16",
+			"tags": [
+				"Making \u0026 Breaking"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Making \u0026 Breaking"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "10-16",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (making \u0026 breaking)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Annihilation"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Explode"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "0a5d1786-ca80-4367-9e26-302c5315163e",
+			"type": "spell",
+			"name": "Dispel Spark",
+			"reference": "MDS17",
+			"tags": [
+				"Meta"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Meta"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT or Will",
+			"casting_cost": "12",
+			"maintenance_cost": "-",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (meta)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Drain Mana"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Remove Aura"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "12996e4b-29b7-4382-af16-0def92085986",
+			"type": "spell",
+			"name": "Dread Curse",
+			"reference": "MDS17",
+			"tags": [
+				"Meta"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Meta"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "10",
+			"maintenance_cost": "-",
+			"casting_time": "4 sec",
+			"duration": "Lasting, until the subject fails a dice roll or is saved by Remove Curse.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (meta)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Curse"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "7c92af47-189d-4124-a582-1cf4ce9b4e17",
+			"type": "spell",
+			"name": "Coma",
+			"reference": "MDS17",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "11",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (mind control)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Lesser Geas"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sleep"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "7484860d-75a9-4ba6-b0fe-4ad75e8878b8",
+			"type": "spell",
+			"name": "Mind-Killer",
+			"reference": "MDS17",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "13",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (mind control)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sickness"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Strengthen Will"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "4ebf6cc0-6f64-4a5f-823f-bd47ce091af8",
+			"type": "spell",
+			"name": "Disruption",
+			"reference": "MDS17",
+			"tags": [
+				"Movement"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Movement"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "12-18",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (movement)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Undo"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Manipulate"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Movement"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "12c70f32-e99b-4892-8d64-66bff6b28e7f",
+			"type": "spell",
+			"name": "Quarter",
+			"reference": "MDS18",
+			"tags": [
+				"Movement"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Movement"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "15",
+			"maintenance_cost": "-",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (movement)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Movement"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Pull"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Repel"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "6549b7ce-6241-44bb-9ac3-556ca3471649",
+			"type": "spell",
+			"name": "Soul Prison",
+			"reference": "MDS18",
+			"tags": [
+				"Necromancy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Necromancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "12",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Permanent, unless reversed by Remove Curse before the subject dies",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (necromancy)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Banish"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Soul Jar"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "3fd54780-40dd-426c-a42d-c7b7c64cff80",
+			"type": "spell",
+			"name": "Suicide",
+			"reference": "MDS19",
+			"notes": "Cost: Desired number of HP and/or FP lost",
+			"tags": [
+				"Necromancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Necromancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "-",
+			"casting_cost": "Special",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (necromancy)"
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "1fe9f9ab-ec2e-4f5a-b299-1ebb1f389e05",
+			"type": "spell",
+			"name": "Zombify",
+			"reference": "MDS18",
+			"tags": [
+				"Necromancy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Necromancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Special",
+			"resist": "-",
+			"casting_cost": "10",
+			"maintenance_cost": "-",
+			"casting_time": "1 min",
+			"duration": "Subject's HT-10 min, permanent afterwards",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (necromancy)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Pestilence"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Zombie"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "f6db7f51-0277-40d4-8d29-ef63ed8aa96b",
+			"type": "spell",
+			"name": "Murder Blossom",
+			"reference": "MDS19",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "-",
+			"casting_cost": "8-11",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Create Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Pollen Cloud"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "1042f18a-d5d5-41c3-a4c8-843a94fba883",
+			"type": "spell",
+			"name": "Swamp Rot",
+			"reference": "MDS19",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "11",
+			"maintenance_cost": "-",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Body of Slime"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "4811facf-9b9c-46ea-986d-8ad1a9da61c7",
+			"type": "spell",
+			"name": "Black Sphere",
+			"reference": "MDS20",
+			"notes": "Resistance: DX or 2x Basic Speed, or any active defense involving teleportation or insubstantiality",
+			"tags": [
+				"Protection \u0026 Warning"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Protection \u0026 Warning"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Special",
+			"casting_cost": "15",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (protection \u0026 warning)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Utter Dome"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "112e33cf-d145-4995-a25d-202a008ad1f7",
+			"type": "spell",
+			"name": "Force Guillotine",
+			"reference": "MDS20",
+			"tags": [
+				"Protection \u0026 Warning"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Protection \u0026 Warning"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "15",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (protection \u0026 warning)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Force Wall"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "5fff1c15-db77-4974-a88c-5b5ebb7daa64",
+			"type": "spell",
+			"name": "Fatal Frequency",
+			"reference": "MDS20",
+			"tags": [
+				"Sound"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Sound"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "7-14",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (sound)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Concussion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sound Jet"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "a3bb6e23-094c-4a74-947b-3382507f3346",
+			"type": "spell",
+			"name": "Wail of the Banshee",
+			"reference": "MDS20",
+			"tags": [
+				"Sound"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Sound"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (sound)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Message"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sound"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ff75a80a-99be-40a5-95ba-bef35b8161cc",
+			"type": "spell",
+			"name": "Dissipate",
+			"reference": "MDS21",
+			"tags": [
+				"Water"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "12",
+			"maintenance_cost": "-",
+			"casting_time": "2 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (water)"
+								}
+							}
+						]
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "spell_prereq",
+										"sub_type": "name",
+										"has": true,
+										"qualifier": {
+											"compare": "is",
+											"qualifier": "Flesh to Ice"
+										},
+										"quantity": {
+											"compare": "at_least",
+											"qualifier": 1
+										}
+									},
+									{
+										"type": "spell_prereq",
+										"sub_type": "name",
+										"has": true,
+										"qualifier": {
+											"compare": "is",
+											"qualifier": "Melt Ice"
+										},
+										"quantity": {
+											"compare": "at_least",
+											"qualifier": 1
+										}
+									}
+								]
+							},
+							{
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "spell_prereq",
+										"sub_type": "name",
+										"has": true,
+										"qualifier": {
+											"compare": "is",
+											"qualifier": "Earth to Water"
+										},
+										"quantity": {
+											"compare": "at_least",
+											"qualifier": 1
+										}
+									},
+									{
+										"type": "spell_prereq",
+										"sub_type": "name",
+										"has": true,
+										"qualifier": {
+											"compare": "is",
+											"qualifier": "Body of Water"
+										},
+										"quantity": {
+											"compare": "at_least",
+											"qualifier": 1
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "6ad8c138-bdd2-4345-b65d-190950b8304f",
+			"type": "spell",
+			"name": "Drown",
+			"reference": "MDS21",
+			"tags": [
+				"Water"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "13",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "4 minutes",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (water)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Breathe Air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Breathe Water"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "9fa8202f-2123-418b-a129-abe9d33a748e",
+			"type": "spell",
+			"name": "Grave Grounding",
+			"reference": "MDS22",
+			"tags": [
+				"Weather"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Weather"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "14",
+			"maintenance_cost": "-",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (weather)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Body of Lightning"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Resist Lightning"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "2bc554f3-9456-42de-a6ff-8898603b0b32",
+			"type": "spell",
+			"name": "Lethal Lightning",
+			"reference": "MDS22",
+			"tags": [
+				"Weather"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Weather"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"resist": "-",
+			"casting_cost": "2 per 1d-1 damage, up to 2x Magery/sec",
+			"maintenance_cost": "-",
+			"casting_time": "1-3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (weather)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Lightning"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		}
+	]
+}

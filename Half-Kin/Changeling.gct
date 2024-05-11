@@ -1,0 +1,466 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "e775b8e9-8f09-49e5-af8e-7c477bfbd881",
+	"traits": [
+		{
+			"id": "a4f2ea07-59d0-4383-8713-b1c0060dbd1e",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "874569da-cb24-4333-afb6-00d5dbc92f35",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "ba6e18ad-8ce0-42d8-9290-2b306e3dd7b6",
+							"type": "trait",
+							"name": "Charisma",
+							"reference": "B41",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"levels": 1,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "fortune-telling"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "leadership"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "panhandling"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "public speaking"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "from sapient being with whom you actively interact (converse, lecture, etc.)",
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "to Influence rolls",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "9ce3907d-6a5c-4eb4-84e3-f9c012644b56",
+							"type": "trait",
+							"name": "Morph",
+							"reference": "B84",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "256abf35-ba9e-4bfb-adf9-9b1160eb1681",
+									"type": "modifier",
+									"name": "Unlimited",
+									"reference": "B85",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "15e8ea5b-a4ce-4f72-b443-4b5745ddf08e",
+									"type": "modifier",
+									"name": "Cosmetic",
+									"reference": "B85",
+									"cost": -50
+								},
+								{
+									"id": "df2d9420-a499-4a4c-87ab-27b9bcd7e159",
+									"type": "modifier",
+									"name": "Retains Shape",
+									"reference": "B85",
+									"cost": -20
+								},
+								{
+									"id": "4f84495c-1628-4c9f-9ad8-08c7fd0d3ce9",
+									"type": "modifier",
+									"name": "Mass Conservation",
+									"reference": "B85",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "50c07901-2485-4733-bfd4-7c8c99d374e7",
+									"type": "modifier",
+									"name": "Active Change",
+									"reference": "P75",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "d921b98c-4a39-4164-a8de-8ee05d4d1f80",
+									"type": "modifier",
+									"name": "Improvised Forms",
+									"reference": "P75",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "9edb757f-a8ad-4489-a730-cc19ddfb8327",
+									"type": "modifier",
+									"name": "Cosmic (For Improvised Forms)",
+									"reference": "P75",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "79cadbb2-9a8a-4063-8aff-6213b733f3c0",
+									"type": "modifier",
+									"name": "No Memorization Required",
+									"reference": "P75",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "20988bb7-8846-4d1e-a497-c66d5796678c",
+									"type": "modifier",
+									"name": "Cannot Memorize Forms",
+									"reference": "P75",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "f0241224-4e6a-4ebf-8a97-b87e00a168c9",
+									"type": "modifier",
+									"name": "Flawed",
+									"reference": "P75",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "73d30418-6a28-4302-8699-2a0d6c205d63",
+									"type": "modifier",
+									"name": "Unliving Forms Only",
+									"reference": "P75",
+									"disabled": true
+								},
+								{
+									"id": "453bc9ce-8b53-45ae-b97d-cb5558239d3b",
+									"type": "modifier",
+									"name": "Magical",
+									"reference": "P27",
+									"notes": "Requires ambient Mana, and vulnerable to anti-powers.",
+									"cost": -10
+								}
+							],
+							"base_points": 100,
+							"calc": {
+								"points": 20
+							}
+						},
+						{
+							"id": "f0f34216-86b0-404c-ae49-f3629ace6b44",
+							"type": "trait",
+							"name": "Night Vision",
+							"reference": "B71,P87",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"levels": 5,
+							"points_per_level": 1,
+							"can_level": true,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "e15bc3a5-bf7b-4865-8f2a-18edfc9fc9c1",
+							"type": "trait",
+							"name": "Voice",
+							"reference": "B97",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"base_points": 10,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "diplomacy"
+									},
+									"amount": 2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "fast-talk"
+									},
+									"amount": 2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "starts_with",
+										"qualifier": "mimicry"
+									},
+									"amount": 2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "performance"
+									},
+									"amount": 2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "politics"
+									},
+									"amount": 2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "public speaking"
+									},
+									"amount": 2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "sex appeal"
+									},
+									"amount": 2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "singing"
+									},
+									"amount": 2
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "from others who can hear your voice",
+									"amount": 2
+								}
+							],
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"name": "Advantages",
+					"calc": {
+						"points": 40
+					}
+				},
+				{
+					"id": "a6de474a-efcd-45f9-84dc-7caf74519fcb",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "3b112511-3b93-47a6-8b93-ce15eb8acd90",
+							"type": "trait",
+							"name": "Secret (Changeling)",
+							"reference": "B152",
+							"tags": [
+								"Disadvantage",
+								"Social"
+							],
+							"modifiers": [
+								{
+									"id": "be0d3c20-c61c-49f3-ba2e-5a2b43109748",
+									"type": "modifier",
+									"name": "Serious Embarrassment",
+									"reference": "B152",
+									"cost": -5,
+									"cost_type": "points"
+								},
+								{
+									"id": "0fc56f73-1aad-419e-b07f-c7ca028b725a",
+									"type": "modifier",
+									"name": "Utter Rejection",
+									"reference": "B152",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "00e88f4b-24f3-47c5-bdea-d27113d1a077",
+									"type": "modifier",
+									"name": "Imprisonment",
+									"reference": "B152",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "d1bbcbc7-5028-453c-8728-1b004334b66a",
+									"type": "modifier",
+									"name": "Possible Death",
+									"reference": "B152",
+									"cost": -30,
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "122aa9e0-4391-48a1-afb9-1962039eff45",
+							"type": "trait",
+							"name": "Vulnerability",
+							"reference": "B161",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "da840630-abbc-426e-a9e3-f7cd34ab0956",
+									"type": "modifier",
+									"name": "Cold Iron",
+									"reference": "B161",
+									"cost": -5,
+									"cost_type": "points"
+								},
+								{
+									"id": "c4f25bac-aec3-430a-b8e2-c5cc8ca62d3d",
+									"type": "modifier",
+									"name": "@Occasional attack@",
+									"reference": "B161",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "b94356f2-bfcd-4b44-afcf-9491a86b2ff9",
+									"type": "modifier",
+									"name": "@Common attack@",
+									"reference": "B161",
+									"cost": -15,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "c6e65360-efaf-470b-8f12-7e1ae885cf7e",
+									"type": "modifier",
+									"name": "@Very common attack@",
+									"reference": "B161",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "47f0d0dd-e3de-4212-9348-f73dd42804c6",
+									"type": "modifier",
+									"name": "Wounding x2",
+									"reference": "B161",
+									"cost": 2,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "7e490fc9-227f-4cab-86b7-6570ed3ec050",
+									"type": "modifier",
+									"name": "Wounding x3",
+									"reference": "B161",
+									"cost": 3,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "bcb496da-fb92-4f4a-a8bc-ade01ceacaa0",
+									"type": "modifier",
+									"name": "Wounding x4",
+									"reference": "B161",
+									"cost": 4,
+									"cost_type": "multiplier"
+								},
+								{
+									"id": "bac139dd-b536-4d88-aafa-fa927c454816",
+									"type": "modifier",
+									"name": "Fatigue Only",
+									"reference": "B161",
+									"cost": -50,
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": -20
+							}
+						}
+					],
+					"name": "Disadvantages",
+					"calc": {
+						"points": -25
+					}
+				}
+			],
+			"name": "Changeling",
+			"ancestry": "Human",
+			"container_type": "ancestry",
+			"calc": {
+				"points": 15
+			}
+		}
+	]
+}

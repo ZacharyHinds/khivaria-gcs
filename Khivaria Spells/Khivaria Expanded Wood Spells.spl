@@ -1,0 +1,3425 @@
+{
+	"type": "spell_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "01f1d021-3bb0-471e-bd45-7fe3771c00a4",
+			"type": "spell",
+			"name": "Blade of Grass",
+			"reference": "MPS10",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1 per 12\" of length",
+			"maintenance_cost": "Half",
+			"casting_time": "1 Sec.",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "7638e1ad-20f8-4f19-a02e-623171362350",
+			"type": "spell",
+			"name": "Bloodsucking Branches",
+			"reference": "MPS11",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2",
+			"maintenance_cost": "Half",
+			"casting_time": "1 Sec. x radius",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Weaken Blood"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 6
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "04299c4e-9883-4aac-8f73-583a2404d8d0",
+			"type": "spell",
+			"name": "Body of Leaves",
+			"reference": "MPS11",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5",
+			"maintenance_cost": "2",
+			"casting_time": "4 Sec.",
+			"duration": "1 Hour",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Form Other"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Body of Slime"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "5d8c99e5-8383-4166-ab50-1dbb67718af0",
+			"type": "spell",
+			"name": "Branch Fingers",
+			"reference": "MPS18",
+			"notes": "Default: Wooden Arm -2, cannot exceed prerequisite spell",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5/6",
+			"maintenance_cost": "4",
+			"casting_time": "1 Sec.",
+			"duration": "5 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Wooden Arm"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "4dec6a50-c082-4d84-ba8a-315559913bbd",
+			"type": "spell",
+			"name": "Breakfall Plants",
+			"reference": "MPS13",
+			"tags": [
+				"Movement",
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Movement",
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1 / 50 lb.",
+			"maintenance_cost": "Half",
+			"casting_time": "1 Sec.",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (movement)"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Walk Through Plants"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "apportation"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "e73093f2-fe8b-4a67-98b8-8490744846f6",
+			"type": "spell",
+			"name": "Buoyant Plant Life",
+			"reference": "MPS11",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1/2",
+			"maintenance_cost": "Half",
+			"casting_time": "30 Sec.",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Identify Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "2c997fd3-ab94-4f4a-9b06-133a45fa128e",
+			"type": "spell",
+			"name": "Capturing Vines",
+			"reference": "MPS12",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1",
+			"maintenance_cost": "Half",
+			"casting_time": "4 Sec.",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Grasping Branch"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "07f719d6-5006-42e8-bc19-826a0c6c1c0b",
+			"type": "spell",
+			"name": "Change Species",
+			"reference": "MPS12",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "Min. 4",
+			"maintenance_cost": "Half",
+			"casting_time": "30 Sec.",
+			"duration": "1 hour",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Reverse Plant Growth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "3ba296b3-48cd-4352-b06a-197b3aa53172",
+			"type": "spell",
+			"name": "Contagious Creeping Moss",
+			"reference": "MPS18",
+			"notes": "Default: Gather Moss -4, cannot exceed prerequisite spell",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "7",
+			"maintenance_cost": "6",
+			"casting_time": "3 Sec.",
+			"duration": "5 Sec.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Pestilence"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Gather Moss"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "14c81eb7-e956-4e48-88d2-14dec7cc22c8",
+			"type": "spell",
+			"name": "Create Book",
+			"reference": "MPS18",
+			"notes": "Default: Create Paper -4, cannot exceed prerequisite spell",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Wood",
+			"spell_class": "Regular",
+			"casting_cost": "2/4/6",
+			"maintenance_cost": "-",
+			"casting_time": "4 Min.",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Create Paper"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "83e01a5c-b7df-4720-97ae-3d1fa14ba43b",
+			"type": "spell",
+			"name": "Create Paper",
+			"reference": "MPS12",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "Varies",
+			"maintenance_cost": "-",
+			"casting_time": "4 Min.",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Heal Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "6b6495d2-1e99-489c-8a62-9b277d2ac7e5",
+			"type": "spell",
+			"name": "Druid's Panacea",
+			"reference": "MPS12",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1-3 once per day",
+			"maintenance_cost": "-",
+			"casting_time": "10 Min.",
+			"duration": "Varies",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Plant Empathy"
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Body of Wood"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "33678942-e4ba-41b2-adef-a14f1b2bb6cc",
+			"type": "spell",
+			"name": "Exploding Vegetable",
+			"reference": "MPS13",
+			"notes": "Affects only vegetables",
+			"tags": [
+				"Making \u0026 Breaking",
+				"Wood"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Making \u0026 Breaking",
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2-6",
+			"maintenance_cost": "-",
+			"casting_time": "1 Sec.",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "983f8519-afd9-480e-8b50-59d9f49c8fd1",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "frag/2 points",
+						"base": "1d"
+					},
+					"calc": {
+						"damage": "1d frag/2 points"
+					}
+				}
+			]
+		},
+		{
+			"id": "6c28d387-f724-447e-8698-a04ca4cdf8c4",
+			"type": "spell",
+			"name": "Fast Plant Growth",
+			"reference": "MPS12",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2",
+			"maintenance_cost": "Half",
+			"casting_time": "30 Sec.",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Growth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "10d71d55-89d7-4dab-abfd-abb1b60a2a7a",
+			"type": "spell",
+			"name": "Fling Fruit",
+			"reference": "MPS13",
+			"notes": "throws vegetable with ST 15, p. B355.  Cost: 1 pt for a vegetable up to 10 lbs (1d dmg); 2 pts for something up to 25 lbs (1d+1 dmg).",
+			"tags": [
+				"Movement",
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Movement",
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "1 or 2",
+			"maintenance_cost": "-",
+			"casting_time": "1 Sec.",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (movement)"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "apportation"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "4d98b3c1-f045-4c5d-b1d2-50541c1c18f2",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Special cr"
+					},
+					"accuracy": "1",
+					"range": "20/60",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						}
+					],
+					"calc": {
+						"damage": "Special cr"
+					}
+				}
+			]
+		},
+		{
+			"id": "8fd8cd20-d651-4344-bf3e-bad8b9531ca7",
+			"type": "spell",
+			"name": "Forest Defense",
+			"reference": "MPS13",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Blocking",
+			"casting_cost": "1-3",
+			"maintenance_cost": "-",
+			"casting_time": "1 Sec.",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Animate Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "38bc9566-f8d8-471a-9178-3aa666b23375",
+			"type": "spell",
+			"name": "Gather Moss",
+			"reference": "MPS13",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "2",
+			"casting_time": "3 Sec.",
+			"duration": "5 Sec.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Hair Growth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Fast Plant Growth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ba109290-087f-4eff-a948-69cac0034fcb",
+			"type": "spell",
+			"name": "Grant Plant Intelligence",
+			"reference": "MPS13",
+			"tags": [
+				"Mind Control",
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Mind Control",
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3/pt of IQ",
+			"maintenance_cost": "One Third",
+			"casting_time": "1 Sec.",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (mind control)"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Speech"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "3b2db7f9-ef4f-4ee2-9a5d-3c625ad2e1d7",
+			"type": "spell",
+			"name": "Grasping Branch",
+			"reference": "MPS14",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "2",
+			"casting_time": "3 Sec.",
+			"duration": "10 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Animate Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "122b304c-4b73-4077-9f96-fe0457f88ad8",
+			"type": "spell",
+			"name": "Green Death",
+			"reference": "MPS14",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "6",
+			"maintenance_cost": "-",
+			"casting_time": "30 Sec.",
+			"duration": "1 hour",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sickness"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Create Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "a2ec55c7-bbb7-423a-a0cb-d8ea4679b5af",
+			"type": "spell",
+			"name": "Green Telurgy",
+			"reference": "MPS14",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1/SM (min 2)",
+			"maintenance_cost": "1",
+			"casting_time": "30 Sec.",
+			"duration": "5 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Speech"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "e7eda0d1-df66-46ee-af86-2a032160f4b2",
+			"type": "spell",
+			"name": "Harvest",
+			"reference": "MPS14",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1/4",
+			"maintenance_cost": "-",
+			"casting_time": "20 Sec.",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Measurement"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Identify Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Apportation"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "e32ffab5-ae87-4c09-9693-9e5ec3a34c70",
+			"type": "spell",
+			"name": "Hypnotic Leaves",
+			"reference": "MPS15",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2",
+			"maintenance_cost": "Half",
+			"casting_time": "4 Sec.",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Sense"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Daze"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "09992871-7d94-4a04-bba8-d378abd307d3",
+			"type": "spell",
+			"name": "Improved Firewood",
+			"reference": "MPS15",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1/ lb.",
+			"maintenance_cost": "-",
+			"casting_time": "10 Sec. / 5lb.",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Identify Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "a22621dd-7833-4884-8140-b6d2c0bd166c",
+			"type": "spell",
+			"name": "Invoke Fence",
+			"reference": "MPS15",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3 / 10 yards",
+			"maintenance_cost": "-",
+			"casting_time": "2 Min.",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Heal Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "471b122d-23f9-4005-8ff9-9036c8d12445",
+			"type": "spell",
+			"name": "Join Plants",
+			"reference": "MPS15",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3/4",
+			"maintenance_cost": "-",
+			"casting_time": "10 Sec.",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "8f4fd8d5-1769-47a2-9d06-62aac39a5d6a",
+			"type": "spell",
+			"name": "Miniaturize Plant",
+			"reference": "MPS16",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "1 / Min.",
+			"casting_time": "30 Sec.",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Reverse Plant Growth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "65394c99-e4d2-4d0e-b5ca-144591233a22",
+			"type": "spell",
+			"name": "Plant to Object",
+			"reference": "MPS16",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2 / 5 lb.",
+			"maintenance_cost": "-",
+			"casting_time": "Sec. = Cost",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Plants"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "292674e4-9c1c-4bd9-b198-696e9ee8193f",
+			"type": "spell",
+			"name": "Process Plant/TL",
+			"reference": "MPS16",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "-",
+			"casting_time": "30 Sec.",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Heal Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Distill"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "6b14c611-a4db-4689-8f85-ce49b3e53da0",
+			"type": "spell",
+			"name": "Razor Grass",
+			"reference": "MPS16",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "10 Sec.",
+			"duration": "10 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Growth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Essential Wood"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "8720d525-8653-49b6-95b4-231bd6aecbd6",
+			"type": "spell",
+			"name": "Resilient Vegetation",
+			"reference": "MPS17",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 Min.",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "27325c21-22b7-4b10-bc72-2a038e13d44f",
+			"type": "spell",
+			"name": "Reverse Plant Growth",
+			"reference": "MPS17",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "2",
+			"casting_time": "1 Sec.",
+			"duration": "30 Sec.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Growth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "d05ff05b-c9c6-4b12-a326-8f0e8ad12297",
+			"type": "spell",
+			"name": "Run Across Treetops",
+			"reference": "MPS17",
+			"tags": [
+				"Movement",
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Movement",
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "2",
+			"casting_time": "1 Sec.",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Levitation"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Breakfall Plants"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "28837baa-bfac-466a-8565-8df494a8bac1",
+			"type": "spell",
+			"name": "Searching Roots",
+			"reference": "MPS18",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Information",
+			"casting_cost": "2",
+			"maintenance_cost": "1",
+			"casting_time": "5 Min.",
+			"duration": "10 Sec.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Animate Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "4cc2564a-39e5-44f9-a869-886c93459587",
+			"type": "spell",
+			"name": "Seaweed Clutch",
+			"reference": "MPS18",
+			"notes": "Default: Capturing Vines -4, cannot exceed prerequisite spell",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "5",
+			"maintenance_cost": "Half",
+			"casting_time": "4 Sec.",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Capturing Vines"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "f9945a65-901c-4a28-b3a6-6627e5c4a018",
+			"type": "spell",
+			"name": "See Plant Health",
+			"reference": "MPS19",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 Sec.",
+			"duration": "30 Sec.",
+			"points": 1
+		},
+		{
+			"id": "12fe0e47-e72e-4e95-b9bc-4e3fc19e4fa1",
+			"type": "spell",
+			"name": "Shuriken Leaf",
+			"reference": "MPS19",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1/3",
+			"maintenance_cost": "-",
+			"casting_time": "1 Sec.",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Blade of Grass"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "3195abe6-9134-4055-b30c-333f911288ee",
+			"type": "spell",
+			"name": "Slimy Skin",
+			"reference": "MPS19",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5",
+			"maintenance_cost": "4",
+			"casting_time": "3 Sec.",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Wooden Arm"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Water"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "76e79b84-b7a7-41a0-b5a3-55c05696035f",
+			"type": "spell",
+			"name": "Spying Blossom",
+			"reference": "MPS19",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "1/2",
+			"casting_time": "10 Sec.",
+			"duration": "5 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Sense"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "71241c38-0d19-48c6-94d1-a75368f0c80a",
+			"type": "spell",
+			"name": "Summon Dryad",
+			"reference": "MPS13",
+			"tags": [
+				"Air",
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Air",
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Special",
+			"casting_cost": "23",
+			"maintenance_cost": "-",
+			"casting_time": "30 Sec.",
+			"duration": "1 Hour",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (air)"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Wood"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 7
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sense Spirit"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "a83aa705-aa2a-4005-833d-1e41edcf2cb9",
+			"type": "spell",
+			"name": "Targeted Creeping Moss",
+			"reference": "MPS18",
+			"notes": "Default: Gather Moss -4, cannot exceed prerequisite spell",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "7",
+			"maintenance_cost": "6",
+			"casting_time": "3 Sec.",
+			"duration": "5 Sec.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Gather Moss"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "806d0602-bab7-41ab-9ad6-b91d266ac3d6",
+			"type": "spell",
+			"name": "Toxic Plant",
+			"reference": "MPS19",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1/3/5/8",
+			"maintenance_cost": "Half",
+			"casting_time": "1 Min.",
+			"duration": "2 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Growth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sickness"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "828147c7-ac8f-4823-84dc-82fd36efc123",
+			"type": "spell",
+			"name": "Trapped Light",
+			"reference": "MPS20",
+			"tags": [
+				"Light \u0026 Darkness",
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Light \u0026 Darkness",
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "1",
+			"casting_time": "5 Sec.",
+			"duration": "10 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Growth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Flash"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "998bea01-bd23-430c-9603-aedb305e01a8",
+			"type": "spell",
+			"name": "Tree Bark Armor",
+			"reference": "MPS20",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "4",
+			"maintenance_cost": "3",
+			"casting_time": "4 Sec.",
+			"duration": "10 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Essential Wood"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "25a90a66-928b-4762-862c-d50439e8409a",
+			"type": "spell",
+			"name": "Treetop Blink",
+			"reference": "MPS21",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Blocking",
+			"casting_cost": "3",
+			"maintenance_cost": "-",
+			"casting_time": "1 Sec.",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Forest Defense"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Run Across Treetops"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "14f24482-7323-4402-a3a3-46d97c411f0a",
+			"type": "spell",
+			"name": "Undergrowth Ambush",
+			"reference": "MPS21",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "Half",
+			"casting_time": "6 Sec.",
+			"duration": "15 Sec.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Searching Roots"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "d7610b1f-05a3-4f49-9b98-9bcda1d5642a",
+			"type": "spell",
+			"name": "Vine to Snake",
+			"reference": "MPS13",
+			"tags": [
+				"Illusion \u0026 Creation",
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Illusion \u0026 Creation",
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "Varies",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec/cost",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (illusion \u0026 creation)"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Create Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "fbd16bb0-eb3e-4f55-bd75-ba736d16e5fd",
+			"type": "spell",
+			"name": "Wood Golem",
+			"reference": "MPS13",
+			"notes": "add ST +2, HP +10, DR 4, and Fragile (Combustible) to clay golem traits",
+			"tags": [
+				"Enchantment",
+				"Wood"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Enchantment",
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Enchantment",
+			"casting_cost": "360",
+			"maintenance_cost": "-",
+			"casting_time": "Varies",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "animation"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "enchant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "1bb1ffc8-378e-4743-bec2-654c8b387b0b",
+			"type": "spell",
+			"name": "Wooden Arm",
+			"reference": "MPS21",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3/4",
+			"maintenance_cost": "2",
+			"casting_time": "1 Sec.",
+			"duration": "5 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (wood)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Wood"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 6
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "6806dbf5-f067-443d-8ee5-0ecec77a02d2",
+			"type": "spell",
+			"name": "Woodfall",
+			"reference": "MPS21",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2 / lb. (max. 10)",
+			"maintenance_cost": "Same",
+			"casting_time": "1 Sec.",
+			"duration": "10 Sec.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Rain of Nuts"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		}
+	]
+}

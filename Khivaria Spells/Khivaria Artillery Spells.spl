@@ -1,0 +1,3767 @@
+{
+	"type": "spell_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "4fd3306a-a26a-4f4d-8606-d6c51846e2d2",
+			"type": "spell",
+			"name": "Cloud of Doom",
+			"reference": "MAS9",
+			"reference_highlight": "Cloud of Doom",
+			"tags": [
+				"Air",
+				"Artillery"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "5",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "5 secs",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Stench"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Devitalize Air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "36b6166d-dcf5-48c2-852a-6632190489a6",
+			"type": "spell",
+			"name": "Falling Sky",
+			"reference": "MAS9",
+			"reference_highlight": "Falling Sky",
+			"tags": [
+				"Air",
+				"Artillery"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2/1d",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec/2 base cost",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Concussion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Destroy Air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 8
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "0a3e3443-22c6-4eb8-b19d-ff7d2c4fbd2f",
+			"type": "spell",
+			"name": "Twisting Terror",
+			"reference": "MAS10",
+			"reference_highlight": "Twisting Terror",
+			"tags": [
+				"Air",
+				"Artillery"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2/1 yard moved",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec/2 base cost",
+			"duration": "Special",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Windstorm"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ccb08245-8a8b-407f-a5da-0616ad525b9d",
+			"type": "spell",
+			"name": "Creeping Plague",
+			"reference": "MAS10",
+			"reference_highlight": "Creeping Plague",
+			"tags": [
+				"Animal",
+				"Artillery"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Animal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2",
+			"maintenance_cost": "Same",
+			"casting_time": "2 secs",
+			"duration": "1 minute",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							},
+							{
+								"type": "spell_prereq",
+								"sub_type": "name",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "Beast-Summoning"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							},
+							{
+								"type": "spell_prereq",
+								"sub_type": "name",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "Vermin Control"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					},
+					{
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							},
+							{
+								"type": "spell_prereq",
+								"sub_type": "name",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "Create Animal"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "1311071b-b37d-43f0-a07a-9a20e5d305f6",
+			"type": "spell",
+			"name": "Death Field",
+			"reference": "MAS11",
+			"reference_highlight": "Death Field",
+			"tags": [
+				"Artillery",
+				"Body Control"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Body Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"resist": "HT",
+			"casting_cost": "2/1d",
+			"casting_time": "1/2 base cost",
+			"duration": "Intantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Deathtouch"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Body Control"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "d802be15-f71d-4e3b-8a7c-d39160fcd054",
+			"type": "spell",
+			"name": "Plague Touch",
+			"reference": "MAS11",
+			"reference_highlight": "Plague Touch",
+			"tags": [
+				"Artillery",
+				"Body Control",
+				"Necromancy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Body Control",
+				"Necromancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Melee",
+			"casting_cost": "Any multiple of 3",
+			"casting_time": "2 secs",
+			"duration": "Special",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Deathtouch"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Pestilence"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sense Foes"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "176401a2-93a5-48fc-84ec-a7407e674190",
+			"type": "spell",
+			"name": "Psychic Scream",
+			"reference": "MAS12",
+			"reference_highlight": "Psychic Scream",
+			"tags": [
+				"Artillery",
+				"Communication \u0026 Empathy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Communication \u0026 Empathy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3/yard radius",
+			"casting_time": "1 sec/yard radius",
+			"duration": "10 secs",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Mind-Sending"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Communications \u0026 Empathy"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "c5d9156c-eb9d-4ece-b67f-e7d793212c12",
+			"type": "spell",
+			"name": "Boulder Barrage",
+			"reference": "MAS12",
+			"reference_highlight": "Boulder Barrage",
+			"tags": [
+				"Artillery",
+				"Earth"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2/1d+1",
+			"casting_time": "1/2 base cost",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Rain of Stones"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Stone Missile"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "6e42a789-18cf-4659-9dc3-9149a4d6483e",
+			"type": "spell",
+			"name": "Sand Blast",
+			"reference": "MAS12",
+			"reference_highlight": "Sand Blast",
+			"tags": [
+				"Artillery",
+				"Earth"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2/1d×Cone width",
+			"casting_time": "1/1d",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sand Jet"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sandstorm"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "682954d2-6989-44a2-ab90-8dbaf5da4adc",
+			"type": "spell",
+			"name": "Seismic Shock",
+			"reference": "MAS13",
+			"reference_highlight": "Seismic Shock",
+			"tags": [
+				"Artillery",
+				"Earth"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "8",
+			"casting_time": "1 sec",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Earthquake"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "799a916b-ef6e-45b1-9daa-782e3163af84",
+			"type": "spell",
+			"name": "Doom Wish",
+			"reference": "MAS14",
+			"reference_highlight": "Doom Wish",
+			"tags": [
+				"Artillery",
+				"Enchantment"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Enchantment"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Enchantment",
+			"casting_cost": "2000",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Magery"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 6
+										}
+									},
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 17
+										},
+										"which": "iq"
+									}
+								]
+							},
+							{
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Magery"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 5
+										}
+									},
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 18
+										},
+										"which": "iq"
+									}
+								]
+							},
+							{
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Magery"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 4
+										}
+									},
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 19
+										},
+										"which": "iq"
+									}
+								]
+							},
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 20
+								},
+								"which": "iq"
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Wish"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 3
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "eb67eba4-824f-456a-9d40-9af32f2cc606",
+			"type": "spell",
+			"name": "Vengeful Staff",
+			"reference": "MAS14",
+			"reference_highlight": "Vengeful Staff",
+			"tags": [
+				"Artillery",
+				"Enchantment"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Enchantment"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Enchantment",
+			"casting_cost": "20/1d",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 3
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Enchant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Explode"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "01bbc16e-df80-437c-8db9-7f35fa18d6d8",
+			"type": "spell",
+			"name": "Fire Swarm",
+			"reference": "MAS14",
+			"reference_highlight": "Fire Swarm",
+			"tags": [
+				"Artillery",
+				"Fire"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Fire"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2/1d×cone width",
+			"casting_time": "1 sec/1d",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Fire"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Fireball"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Flame Jet"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "d3af48e8-2a6f-42b1-8fb0-c53bf422e3d2",
+			"type": "spell",
+			"name": "Improved Explosive Fireball",
+			"reference": "MAS15",
+			"reference_highlight": "Improved Explosive Fireball",
+			"tags": [
+				"Artillery",
+				"Fire"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Fire"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "3-3xMagery#",
+			"casting_time": "1-3 secs",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Fire"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Explosive Fireball"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "ba0ad782-9676-4461-bfba-15fc6fddd2fb",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "burn ex/3 points",
+						"base": "1d"
+					},
+					"accuracy": "2",
+					"range": "50/100",
+					"rate_of_fire": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						}
+					],
+					"calc": {
+						"damage": "1d burn ex/3 points"
+					}
+				}
+			]
+		},
+		{
+			"id": "1585a6c3-8627-4913-944d-0b54c8f61bea",
+			"type": "spell",
+			"name": "Towering Inferno",
+			"reference": "MAS15",
+			"reference_highlight": "Towering Inferno",
+			"tags": [
+				"Artillery",
+				"Fire"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Fire"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2/1d",
+			"casting_time": "1/2 base cost",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Rain of Fire"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Fire"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 7
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Fire Cloud"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "b95264b7-be05-4739-9002-3c60c434e876",
+			"type": "spell",
+			"name": "Hell Zone",
+			"reference": "MAS16",
+			"reference_highlight": "Hell Zone",
+			"tags": [
+				"Artillery",
+				"Void"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Void"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "10",
+			"maintenance_cost": "Half",
+			"casting_time": "1/2 base cost",
+			"duration": "10 secs",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Beacon"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Planar Summons"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "fa310c63-db7a-4cc8-94d0-c01a19a8250c",
+			"type": "spell",
+			"name": "Null Sphere",
+			"reference": "MAS16",
+			"reference_highlight": "Null Sphere",
+			"tags": [
+				"Artillery",
+				"Void"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Void"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "4-4×Magery#",
+			"casting_time": "1-3 secs",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Create Gate"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 5
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "fd2482df-5240-4836-9df0-67cba1a063ef",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Special"
+					},
+					"accuracy": "2",
+					"range": "40/80",
+					"rate_of_fire": "1",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						}
+					],
+					"calc": {
+						"damage": "Special"
+					}
+				}
+			]
+		},
+		{
+			"id": "eec6df7f-6f43-4912-b42d-8b809814cc4a",
+			"type": "spell",
+			"name": "Splat",
+			"reference": "MAS16",
+			"reference_highlight": "Splat",
+			"tags": [
+				"Artillery",
+				"Movement",
+				"Void"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Movement",
+				"Void"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "5",
+			"casting_time": "3 secs",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Create Door"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "0c6ed88e-0502-4de5-a4ef-d7a661570797",
+			"type": "spell",
+			"name": "Disinfect",
+			"reference": "MAS17",
+			"reference_highlight": "Disinfect",
+			"tags": [
+				"Artillery",
+				"Healing"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Healing"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"resist": "HT",
+			"casting_cost": "2/1d",
+			"casting_time": "1/2 base cost",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Cure Disease"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Remove Contagion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Healing"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "f2f95a14-5aa0-4dc5-89d8-1647d577298c",
+			"type": "spell",
+			"name": "Create Trap",
+			"reference": "MAS17",
+			"reference_highlight": "Create Trap",
+			"tags": [
+				"Artillery",
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "5",
+			"casting_time": "1 sec/yard",
+			"duration": "5 secs",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Create Object"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Illusion \u0026 Creation"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "104aba5f-9762-4508-a719-e59200062163",
+			"type": "spell",
+			"name": "Mirror, Mirror",
+			"reference": "MAS17",
+			"reference_highlight": "Mirror, Mirror",
+			"tags": [
+				"Artillery",
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"resist": "Special",
+			"casting_cost": "10",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec/yard",
+			"duration": "1 minute or phantoms destroyed",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Initiative"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Phantom"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "388af4ea-d593-4509-ae45-18f4f3127f1d",
+			"type": "spell",
+			"name": "Sunburst",
+			"reference": "MAS18",
+			"reference_highlight": "Sunburst",
+			"tags": [
+				"Artillery",
+				"Light \u0026 Darkness"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Light \u0026 Darkness"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "2-2×Magery#",
+			"casting_time": "1-3 secs",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Light \u0026 Darkness"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Flash"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sunbolt"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 3
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "7ca2114b-d549-4877-b9c3-42c606c63dc2",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "Special"
+					},
+					"accuracy": "1",
+					"range": "25/50",
+					"rate_of_fire": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						}
+					],
+					"calc": {
+						"damage": "Special"
+					}
+				}
+			]
+		},
+		{
+			"id": "d002d2f7-6784-4177-a63c-922180aa6897",
+			"type": "spell",
+			"name": "Sun's Arc",
+			"reference": "MAS18",
+			"reference_highlight": "Sun's Arc",
+			"tags": [
+				"Artillery",
+				"Light \u0026 Darkness"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Light \u0026 Darkness"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5/1d",
+			"casting_time": "1-3 secs",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Light \u0026 Darkness"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Light Jet"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sunbolt"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "e043ce9a-824b-49d6-a280-0bf32514e804",
+			"type": "spell",
+			"name": "Explosive Mine",
+			"reference": "MAS19",
+			"reference_highlight": "Explosive Mine",
+			"tags": [
+				"Artillery",
+				"Making \u0026 Breaking"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Making \u0026 Breaking"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "4/1d",
+			"casting_time": "1-3 secs",
+			"duration": "1 minute or triggered",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Making \u0026 Breaking"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Explode"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 3
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "25aa7b18-1267-4b41-afb7-5c6ed3f99908",
+			"type": "spell",
+			"name": "Minefield",
+			"reference": "MAS19",
+			"reference_highlight": "Minefield",
+			"tags": [
+				"Artillery",
+				"Making \u0026 Breaking"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Making \u0026 Breaking"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2-4×Magery",
+			"casting_time": "1 sec/1d",
+			"duration": "1 minute or minefield cleared",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Explosive Mine"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ffdb19c4-53cb-4d6b-bcbc-4173bba37afd",
+			"type": "spell",
+			"name": "Mana Storm",
+			"reference": "MAS19",
+			"reference_highlight": "Mana Storm",
+			"tags": [
+				"Artillery",
+				"Meta"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Meta"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "3",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec/yard",
+			"duration": "10",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Drain Mana"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Restore Mana"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "fd6f79ec-90d0-4400-b507-b1d71fc83c1c",
+			"type": "spell",
+			"name": "Punishment Circle",
+			"reference": "MAS19",
+			"reference_highlight": "Punishment Circle",
+			"tags": [
+				"Artillery",
+				"Meta",
+				"Necromancy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Meta",
+				"Necromancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "3",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec/yard",
+			"duration": "1 minute",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "spell_prereq",
+								"sub_type": "name",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "Pentagram"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							},
+							{
+								"type": "spell_prereq",
+								"sub_type": "name",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "Repel Spirits"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 3
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "87070749-d77d-4eb4-aed1-f56c870dac3d",
+			"type": "spell",
+			"name": "Mass Mutilation",
+			"reference": "MAS20",
+			"reference_highlight": "Mass Mutilation",
+			"tags": [
+				"Artillery",
+				"Mind Control"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"resist": "Will",
+			"casting_cost": "4",
+			"casting_time": "1 sec/yard",
+			"duration": "1 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Madness"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Mass Suggestion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Mind Control"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "4ad393a7-edd5-4cc1-9ffc-97568d18ad6f",
+			"type": "spell",
+			"name": "Stabbing Party",
+			"reference": "MAS20",
+			"reference_highlight": "Stabbing Party",
+			"tags": [
+				"Artillery",
+				"Mind Control"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"resist": "Will",
+			"casting_cost": "4",
+			"casting_time": "1 sec/yard",
+			"duration": "1 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Command"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Mass Suggestion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Mind Control"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "a6f9029c-030a-401a-a5f6-930c3b5f6b6a",
+			"type": "spell",
+			"name": "Collision",
+			"reference": "MAS21",
+			"reference_highlight": "Collision",
+			"tags": [
+				"Artillery",
+				"Movement"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Movement"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1/2ST",
+			"casting_time": "3 secs",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Poltergeist"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Pull"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Movement"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "a6eaa958-483d-488d-800d-bd658f6f6487",
+			"type": "spell",
+			"name": "Crushing Fist",
+			"reference": "MAS21",
+			"reference_highlight": "Crushing Fist",
+			"tags": [
+				"Artillery",
+				"Movement"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Movement"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "3",
+			"casting_time": "1 sec",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Distant Blow"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Wizard Hand"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Movement"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "2d8afc1e-b90a-4dde-a5da-6f69b79e4919",
+			"type": "spell",
+			"name": "Slasher",
+			"reference": "MAS22",
+			"reference_highlight": "Slasher",
+			"tags": [
+				"Artillery",
+				"Movement"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Movement"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2/lb",
+			"casting_time": "1 sec/yd",
+			"duration": "5 secs or until weapons are destroyed",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Dancing Object"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Winged Knife"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Movement"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "d3aefa29-0766-40ad-86fe-d247180859f3",
+			"type": "spell",
+			"name": "Spirit Incursion",
+			"reference": "MAS22",
+			"reference_highlight": "Spirit Incursion",
+			"tags": [
+				"Artillery",
+				"Necromancy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Necromancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "3",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec/yd",
+			"duration": "10 secs",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Skull-Spirit"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Necromancy"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "e0dc910f-d8b1-47fa-b073-891603123911",
+			"type": "spell",
+			"name": "Self-Destruct",
+			"reference": "MAS23",
+			"reference_highlight": "Self-Destruct",
+			"tags": [
+				"Artillery",
+				"Fire",
+				"Meta",
+				"Necromancy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Fire",
+				"Meta",
+				"Necromancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "12",
+			"casting_time": "1 sec",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Explode"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "spell_prereq",
+								"sub_type": "college",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "Fire"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 10
+								}
+							},
+							{
+								"type": "spell_prereq",
+								"sub_type": "college",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "Meta"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 10
+								}
+							},
+							{
+								"type": "spell_prereq",
+								"sub_type": "college",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "Necromancy"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 10
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college_count",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "bb7852ca-e5a0-41b6-9a2b-b53fb44d5f92",
+			"type": "spell",
+			"name": "Devil's Dust",
+			"reference": "MAS23",
+			"reference_highlight": "Devil's Dust",
+			"tags": [
+				"Artillery",
+				"Wood"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"resist": "HT",
+			"casting_cost": "5",
+			"casting_time": "1 sec",
+			"duration": "5 secs",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Pollen Cloud"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Wood"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "6fdeb9b4-9ef8-4de4-b74b-68b7b1661db2",
+			"type": "spell",
+			"name": "Ironweed",
+			"reference": "MAS23",
+			"reference_highlight": "Ironweed",
+			"tags": [
+				"Artillery",
+				"Wood"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1",
+			"casting_time": "1 sec/yard",
+			"duration": "1 minute",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Essential Wood"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Growth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ccb3b1d3-e11a-4dc0-93a1-bfbed495f307",
+			"type": "spell",
+			"name": "Diminishing Dome",
+			"reference": "MAS24",
+			"reference_highlight": "Diminishing Dome",
+			"tags": [
+				"Artillery",
+				"Protection \u0026 Warning"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Protection \u0026 Warning"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "4",
+			"casting_time": "1 sec",
+			"duration": "1 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Force Dome"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "7785c8e3-7f44-492e-a9f3-cc2ee34cd5fe",
+			"type": "spell",
+			"name": "Force Ball",
+			"reference": "MAS24",
+			"reference_highlight": "Force Ball",
+			"tags": [
+				"Artillery",
+				"Movement",
+				"Protection \u0026 Warning"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Movement",
+				"Protection \u0026 Warning"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "2-2×Magery#",
+			"casting_time": "1-3 secs",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Catch Spell"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Force Dome"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sense Foes"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "a11729f6-7c01-4218-a0eb-c19a49dcab8b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr dkb/2 energy",
+						"base": "1d"
+					},
+					"accuracy": "2",
+					"range": "80",
+					"rate_of_fire": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						}
+					],
+					"calc": {
+						"damage": "1d cr dkb/2 energy"
+					}
+				}
+			]
+		},
+		{
+			"id": "a1ecb916-a66b-4faf-b2b1-e9d1619d240c",
+			"type": "spell",
+			"name": "Improved Concussion",
+			"reference": "MAS25",
+			"reference_highlight": "Improved Concussion",
+			"tags": [
+				"Artillery",
+				"Sound"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Sound"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "3-3×Magery#",
+			"casting_time": "1-3 secs",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Concussion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Great Voice"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sound"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 7
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "a11729f6-7c01-4218-a0eb-c19a49dcab8b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex/3 energy",
+						"base": "1d"
+					},
+					"accuracy": "2",
+					"range": "40/80",
+					"rate_of_fire": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						}
+					],
+					"calc": {
+						"damage": "1d cr ex/3 energy"
+					}
+				}
+			]
+		},
+		{
+			"id": "9cdb81f8-bf45-418b-bf0b-f0067b721392",
+			"type": "spell",
+			"name": "Perilous Pulsations",
+			"reference": "MAS25",
+			"reference_highlight": "Perilous Pulsations",
+			"tags": [
+				"Artillery",
+				"Sound"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Sound"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "5",
+			"maintenance_cost": "Same",
+			"casting_time": "3 secs",
+			"duration": "5 secs",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Concussion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sound Jet"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sound"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 7
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "e09acf44-f0e1-48eb-878f-3a9fe33dbec1",
+			"type": "spell",
+			"name": "Withering Wail",
+			"reference": "MAS25",
+			"reference_highlight": "Withering Wail",
+			"tags": [
+				"Artillery",
+				"Sound"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Sound"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2/1d",
+			"casting_time": "1 sec/1d",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Great Voice"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Noise"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Sound"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "943b2ddf-c017-4d66-b949-61f985728466",
+			"type": "spell",
+			"name": "Flammability",
+			"reference": "MAS26",
+			"reference_highlight": "Flammability",
+			"tags": [
+				"Artillery",
+				"Energy",
+				"Fire",
+				"Technological"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Fire",
+				"Technological"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "2",
+			"maintenance_cost": "Half",
+			"casting_time": "1-3 secs",
+			"duration": "1 minute",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Essential Fuel"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Purify Fuel"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 3
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "cbe9e622-db39-45ac-ac81-462473a02989",
+			"type": "spell",
+			"name": "Arctic Blast",
+			"reference": "MAS27",
+			"reference_highlight": "Arctic Blast",
+			"tags": [
+				"Artillery",
+				"Water"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2/1d×Cone width",
+			"casting_time": "1 sec/1d",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Frostbite"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Icy Breath"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "84a6ab96-c75e-4edb-a9b8-896cc0a0a057",
+			"type": "spell",
+			"name": "Cone of Corrosion",
+			"reference": "MAS27",
+			"reference_highlight": "Cone of Corrosion",
+			"tags": [
+				"Artillery",
+				"Water"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2/1d-1×Cone width",
+			"casting_time": "1 sec/1d-1",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Acid Jet"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "61b80ae7-8ed1-40ed-8aec-7a72a96f15b5",
+			"type": "spell",
+			"name": "Scald",
+			"reference": "MAS27",
+			"reference_highlight": "Scald",
+			"tags": [
+				"Artillery",
+				"Water"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2/1d",
+			"casting_time": "1 sec/1d",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Create Steam"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Steam Jet"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "b46dfd50-9b99-45f5-b780-191cdbaaafca",
+			"type": "spell",
+			"name": "Wilting",
+			"reference": "MAS28",
+			"reference_highlight": "Wilting",
+			"tags": [
+				"Artillery",
+				"Water"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2/1d",
+			"casting_time": "1 sec/1d",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Dehydrate"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Water"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "a91673d3-b107-4002-ad8e-63c9cc2eee58",
+			"type": "spell",
+			"name": "Chain Lightning",
+			"reference": "MAS29",
+			"reference_highlight": "Chain Lightning",
+			"tags": [
+				"Air",
+				"Artillery",
+				"Weather"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Air",
+				"Weather"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "2-2×Magery#",
+			"casting_time": "1-3 secs",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Ball of Lightning"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Resist Lightning"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "dce7d2c1-9551-4a87-8872-2838a3d5b7bc",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "burn sur",
+						"base": "1d",
+						"modifier_per_die": -1
+					},
+					"accuracy": "3",
+					"range": "100",
+					"rate_of_fire": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						}
+					],
+					"calc": {
+						"damage": "1d (-1 per die) burn sur"
+					}
+				}
+			]
+		},
+		{
+			"id": "dd2de4ac-c8d3-4ab7-a07e-b011c5f23995",
+			"type": "spell",
+			"name": "Ice Storm",
+			"reference": "MAS29",
+			"reference_highlight": "Ice Storm",
+			"tags": [
+				"Artillery",
+				"Water",
+				"Weather"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Water",
+				"Weather"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2/1d",
+			"casting_time": "1 sec/1d",
+			"duration": "Instantaneous",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Hail"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Storm"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "b159e284-9329-442b-bdd5-45f9dca2ba87",
+			"type": "spell",
+			"name": "Improved Explosive Lightning",
+			"reference": "MAS29",
+			"reference_highlight": "Improved Explosive Lightning",
+			"tags": [
+				"Air",
+				"Artillery",
+				"Weather"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Air",
+				"Weather"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "3-3×Magery#",
+			"casting_time": "1-3 secs",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "spell_prereq",
+								"sub_type": "college",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "Air"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 10
+								}
+							},
+							{
+								"type": "spell_prereq",
+								"sub_type": "college",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "Weather"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 10
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Explosive Lightning"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "dce7d2c1-9551-4a87-8872-2838a3d5b7bc",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "burn ex/3 energy",
+						"base": "1d-1"
+					},
+					"accuracy": "3",
+					"range": "50/100",
+					"rate_of_fire": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						}
+					],
+					"calc": {
+						"damage": "1d-1 burn ex/3 energy"
+					}
+				}
+			]
+		}
+	]
+}

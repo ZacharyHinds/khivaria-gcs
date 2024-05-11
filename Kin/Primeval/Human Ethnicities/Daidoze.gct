@@ -1,0 +1,186 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "38f6546a-feec-4e92-ba05-9c522083f51d",
+	"traits": [
+		{
+			"id": "b0581ccf-90ef-4076-8ea1-fdbf4338e8f7",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "1d03af68-75fa-4e9b-8c90-8001c3ce74a3",
+					"type": "trait_container",
+					"open": true,
+					"name": "Attributes",
+					"container_type": "attributes",
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "648efdac-586c-4b55-a973-5ee0bfd92788",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "17d13de3-498d-4a55-b3ec-1f11aeda475b",
+							"type": "trait",
+							"name": "Cultural Adaptability",
+							"reference": "B46",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "93b78dfa-518a-4672-8ebd-fb558ebbff17",
+									"type": "modifier",
+									"name": "Xeno",
+									"cost": 10,
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"base_points": 10,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "2376d730-9b82-4ea3-a00c-bca67122fe53",
+							"type": "trait",
+							"name": "Talent (Outdoorsman)",
+							"reference": "PU3:14",
+							"tags": [
+								"Advantage",
+								"Mental",
+								"Talent"
+							],
+							"modifiers": [
+								{
+									"id": "1e22bd5e-f191-4cb7-8476-c60cbcf2cb44",
+									"type": "modifier",
+									"name": "Alternative Cost",
+									"cost": -3,
+									"affects": "levels_only",
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"levels": 1,
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Camouflage"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Fishing"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Mimicry"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Naturalist"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Navigation"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Survival"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Tracking"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "From explorers and nature lovers.",
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "conditional_modifier",
+									"situation": "Bonus to HT rolls to avoid harm from failure of covered skills",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"name": "Advantages",
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "743a8b86-4c15-42d2-8472-4c7646552f93",
+					"type": "trait_container",
+					"open": true,
+					"name": "Disadvantages",
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"name": "Daidoze",
+			"ancestry": "Human",
+			"container_type": "ancestry",
+			"calc": {
+				"points": 20
+			}
+		}
+	]
+}

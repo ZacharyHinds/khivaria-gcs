@@ -1,0 +1,547 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "40b3fec6-d3c1-4cf2-900e-6935282ea021",
+			"type": "trait",
+			"name": "Affliction (Medusa's Gaze)",
+			"reference": "B35,P39,PSI13",
+			"tags": [
+				"Advantage",
+				"Exotic",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "3878fd6b-f932-4f29-ba63-158eb01db5ae",
+					"type": "modifier_container",
+					"open": true,
+					"children": [
+						{
+							"id": "49956660-30ef-48b9-b1ce-e2abdaa101ae",
+							"type": "modifier",
+							"name": "DX Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to DX per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "de814092-1353-48e0-8849-405ad20219ce",
+							"type": "modifier",
+							"name": "HT Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to HT per level",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "03aeb89a-95d1-48c5-8020-586fe797fdc6",
+							"type": "modifier",
+							"name": "IQ Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to IQ per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "e4dea0ea-c86d-423b-8a0a-b3e1481171f3",
+							"type": "modifier",
+							"name": "ST Penalty",
+							"reference": "B36",
+							"notes": "Gives -1 to ST per level",
+							"cost": 5,
+							"levels": 1,
+							"disabled": true
+						}
+					],
+					"name": "Attribute Penalties"
+				},
+				{
+					"id": "660043b1-1b1e-4942-b23a-b8fa25b2d637",
+					"type": "modifier",
+					"name": "Cancellation",
+					"reference": "PSI13",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "2fb0867d-ce8b-4b93-80c0-93984958cedf",
+					"type": "modifier",
+					"name": "Cumulative",
+					"reference": "B36",
+					"cost": 400,
+					"disabled": true
+				},
+				{
+					"id": "a6a04352-5a45-4782-a33e-6427876eb9a0",
+					"type": "modifier_container",
+					"open": true,
+					"children": [
+						{
+							"id": "19b80ea4-3ac2-4824-bc8d-4171dc30ea48",
+							"type": "modifier",
+							"name": "Agony",
+							"reference": "B428",
+							"notes": "Lose 1 FP per minute",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "0c56500c-f51f-42d5-aef9-48c8159bd14a",
+							"type": "modifier",
+							"name": "Choking",
+							"reference": "B428",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "7be5192a-bb13-484d-a975-cc3a9a3c4583",
+							"type": "modifier",
+							"name": "Daze",
+							"reference": "B428",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "f44536cd-a8ac-4371-8838-2c8eaf4f1d19",
+							"type": "modifier",
+							"name": "Ecstasy",
+							"reference": "B428",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "1c4994ac-ad21-423d-9349-27345244508e",
+							"type": "modifier",
+							"name": "Hallucination",
+							"reference": "B429",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "76e23c90-0e9d-4875-804c-1020cf74cf2b",
+							"type": "modifier",
+							"name": "Paralysis, Variant",
+							"reference": "B429",
+							"notes": "To Stone",
+							"cost": 150
+						},
+						{
+							"id": "66de56e6-a515-4308-b619-ff9b3e715d9c",
+							"type": "modifier",
+							"name": "Retching",
+							"reference": "B429",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "3b310279-5f60-4839-af06-17d2c595f098",
+							"type": "modifier",
+							"name": "Seizure",
+							"reference": "B429",
+							"notes": "Lose 1d FP at the end of the seizure",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "400f0258-0e95-4bf4-9b95-68f0fc7bdfca",
+							"type": "modifier",
+							"name": "Sleep",
+							"cost": 150,
+							"disabled": true
+						},
+						{
+							"id": "46158c59-7a07-40b8-ae7f-81b3792689e2",
+							"type": "modifier",
+							"name": "Unconsciousness",
+							"reference": "B429",
+							"cost": 200,
+							"disabled": true
+						}
+					],
+					"name": "Incapacitation",
+					"reference": "B36"
+				},
+				{
+					"id": "45a2013a-b1be-4275-a1a3-f54b046f824d",
+					"type": "modifier_container",
+					"open": true,
+					"children": [
+						{
+							"id": "837ad5b8-520c-4af1-be78-860b7d1e0fbd",
+							"type": "modifier",
+							"name": "Coughing",
+							"reference": "B428",
+							"notes": "Gives -3 to DX and -1 to IQ and cannot use Stealth",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "3981b459-1f22-4195-a5c7-4691ded548ba",
+							"type": "modifier",
+							"name": "Drunk",
+							"reference": "B428",
+							"notes": "Gives -2 to DX and IQ; -4 to self-control rolls except those to resist Cowardice",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "e31fafa7-bfcf-4167-836b-421e0df3f905",
+							"type": "modifier",
+							"name": "Euphoria",
+							"reference": "B428",
+							"notes": "Gives -3 to all DX, IQ, skill and self-control rolls",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "f677e6ef-8a76-44ce-acf9-eb76d134d185",
+							"type": "modifier",
+							"name": "Moderate Pain",
+							"reference": "B428",
+							"notes": "-2 to all DX, IQ, skill and self-control rolls",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "2110fad4-3e27-4ef7-bfa0-a61c4da83827",
+							"type": "modifier",
+							"name": "Nauseated",
+							"reference": "B428",
+							"notes": "-2 to all attribute and skill rolls; -1 to active defenses",
+							"cost": 30,
+							"disabled": true
+						},
+						{
+							"id": "5cbc540d-faf3-46d3-9b6f-72da32ed69b7",
+							"type": "modifier",
+							"name": "Severe Pain",
+							"reference": "B428",
+							"notes": "-4 to all DX, IQ, skill and self-control rolls",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "92cb7753-a6d9-4ca6-a600-35c9714be11b",
+							"type": "modifier",
+							"name": "Terrible Pain",
+							"reference": "B428",
+							"notes": "-6 to all DX, IQ, skill and self-control rolls",
+							"cost": 60,
+							"disabled": true
+						},
+						{
+							"id": "a372b04a-e3aa-418b-a7a3-d49bf26403e6",
+							"type": "modifier",
+							"name": "Tipsy",
+							"reference": "B428",
+							"notes": "-1 to DX and IQ, -2 to self-control rolls except those to resist Cowardice",
+							"cost": 10,
+							"disabled": true
+						}
+					],
+					"name": "Irritations",
+					"reference": "B36"
+				},
+				{
+					"id": "28342b74-7327-4054-9ac7-bf14c93f3480",
+					"type": "modifier_container",
+					"open": true,
+					"children": [
+						{
+							"id": "e37fa2a4-d3d0-4085-88d9-14c4ac39b900",
+							"type": "modifier",
+							"name": "Coma",
+							"reference": "B429",
+							"cost": 250,
+							"disabled": true
+						},
+						{
+							"id": "1019fc06-aae9-440f-b9a6-4650d974c910",
+							"type": "modifier",
+							"name": "Heart Attack",
+							"reference": "B429",
+							"cost": 300,
+							"disabled": true
+						}
+					],
+					"name": "Mortal Conditions"
+				},
+				{
+					"id": "7c274539-82ce-4383-a5d0-e77489c389cc",
+					"type": "modifier",
+					"name": "Stunning",
+					"reference": "B36",
+					"cost": 10,
+					"disabled": true
+				},
+				{
+					"id": "902dff28-0702-4805-9f4f-0fc2a51a2a07",
+					"type": "modifier_container",
+					"open": true,
+					"children": [
+						{
+							"id": "fb2bbe63-7b0c-47e0-a533-52ebdb265640",
+							"type": "modifier",
+							"name": "Gives @Advantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "15c2556d-f943-4ec6-9968-d223f21ea263",
+							"type": "modifier",
+							"name": "Gives @Disadvantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "2a50ade7-439c-40a7-82c7-f602408d5647",
+							"type": "modifier",
+							"name": "Negates @Advantage@",
+							"reference": "B36",
+							"notes": "1 point per level",
+							"cost": 1,
+							"levels": 1,
+							"disabled": true
+						}
+					],
+					"name": "Traits"
+				},
+				{
+					"id": "1fbb10b8-ba5f-4dd2-8348-66919dfc7085",
+					"type": "modifier",
+					"name": "Malediction",
+					"reference": "B106,P103",
+					"notes": "Use SSRT range penalties",
+					"cost": 150
+				},
+				{
+					"id": "7f7200f1-c89f-430d-a4d3-cfc05174f820",
+					"type": "modifier",
+					"name": "Sense-Based (Vision)",
+					"reference": "B115",
+					"cost": -20
+				},
+				{
+					"id": "a4572f4d-063e-40e1-9564-9502de372426",
+					"type": "modifier",
+					"name": "Selective Area",
+					"reference": "B108,P105",
+					"cost": 20
+				},
+				{
+					"id": "988ddc93-b6b6-4245-a9b5-732be97ae80c",
+					"type": "modifier",
+					"name": "Cone",
+					"reference": "B103,P100",
+					"notes": "15-yard width",
+					"cost": 200
+				},
+				{
+					"id": "de668a6c-3a40-4370-834b-ee1c8109d808",
+					"type": "modifier",
+					"name": "No Signature",
+					"reference": "B106,P103",
+					"cost": 20
+				},
+				{
+					"id": "3d50dd5f-6779-48c8-ad0c-403f428c1215",
+					"type": "modifier",
+					"name": "Permanent Duration",
+					"reference": "B105",
+					"notes": "Dispelled by Remove Curse or Stone to Flesh",
+					"cost": 150
+				},
+				{
+					"id": "ec3eeb87-8f72-46b7-8893-6c573fbb1b6c",
+					"type": "modifier",
+					"name": "Magical",
+					"reference": "P27",
+					"notes": "Requires ambient Mana, and vulnerable to anti-powers.",
+					"cost": -10
+				},
+				{
+					"id": "90e2feb3-be21-4820-bdb8-b258df2e6c72",
+					"type": "modifier",
+					"name": "Cosmic",
+					"notes": "Immune to Dispel Magic",
+					"cost": 50
+				},
+				{
+					"id": "1d1eaca1-0430-4c51-9a00-6a992847a9c3",
+					"type": "modifier",
+					"name": "Selective Effect",
+					"reference": "PU4:16",
+					"cost": 20
+				},
+				{
+					"id": "20a876b3-abb1-4868-91ea-d65711473fb9",
+					"type": "modifier",
+					"name": "Costs Fatigue",
+					"reference": "B111,P101",
+					"cost": -10,
+					"levels": 2
+				}
+			],
+			"levels": 1,
+			"points_per_level": 10,
+			"can_level": true,
+			"calc": {
+				"points": 81
+			}
+		},
+		{
+			"id": "7e27882a-00ff-4c07-80e4-d7688fbcfc87",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "d80d85df-7db2-4814-82ac-ac74e4909fdd",
+					"type": "trait",
+					"name": "Obscure (Vision)",
+					"reference": "B72,P64,PSI16",
+					"reference_highlight": "Obscure",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "6bcd1d67-4bec-45c5-8e53-afcf2af34415",
+							"type": "modifier",
+							"name": "Defensive",
+							"reference": "B72",
+							"cost": 50
+						},
+						{
+							"id": "5635c608-a9a9-44f2-8493-cf9f645d29c4",
+							"type": "modifier",
+							"name": "Nuissance Effect",
+							"notes": "Covers the ground in glitter that remains afterwards for several weeks",
+							"cost": -5
+						},
+						{
+							"id": "c4c8b841-ae51-4547-9576-1c9bec4d0e16",
+							"type": "modifier",
+							"name": "Nuissance Effect",
+							"notes": "One-shot, doesn't follow caster"
+						},
+						{
+							"id": "2cc1e79d-54bb-4e39-9b05-a6ec10b60b94",
+							"type": "modifier",
+							"name": "Extended",
+							"reference": "B72",
+							"notes": "Infravision",
+							"cost": 20
+						},
+						{
+							"id": "d1ae6617-1d6b-47e6-a392-826bd1eeea0d",
+							"type": "modifier",
+							"name": "Ranged",
+							"reference": "B72",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "a7936ef4-b7e5-4d81-9efb-37d49050530c",
+							"type": "modifier",
+							"name": "Stealthy",
+							"reference": "B72",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "2fa9a36c-0cb6-4e3c-ba52-47f404f91cb1",
+							"type": "modifier",
+							"name": "Always On",
+							"reference": "B72",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "7779354f-7658-4c57-8861-eb03382a92f7",
+							"type": "modifier",
+							"name": "Limited",
+							"reference": "P65",
+							"notes": "@Source@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "e2eea33e-e7d3-46af-b926-5f6dd0e066f5",
+							"type": "modifier",
+							"name": "Limited",
+							"reference": "P65",
+							"notes": "@Power@",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "a367fc81-3857-46e0-ae56-eaf3d4769c97",
+							"type": "modifier",
+							"name": "Anti-Targeting",
+							"reference": "PSI16",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "a26dbd7b-e4f4-433e-8386-24a349e55f4b",
+							"type": "modifier",
+							"name": "Costs Fatigue",
+							"reference": "B111,P101",
+							"cost": -10,
+							"levels": 1
+						},
+						{
+							"id": "1118af8f-ae4e-4c16-a6a8-3be74aae1401",
+							"type": "modifier",
+							"name": "Area Effect",
+							"reference": "B102,P100",
+							"notes": "2^level radius",
+							"cost": 50,
+							"levels": 1
+						},
+						{
+							"id": "d9c1a7a6-d8b0-41a0-bd57-3f473d2cb36f",
+							"type": "modifier",
+							"name": "Magical",
+							"reference": "P27",
+							"notes": "Requires ambient Mana, and vulnerable to anti-powers.",
+							"cost": -10
+						},
+						{
+							"id": "b7c5dc39-4570-4e40-8b6f-6ee7cda32405",
+							"type": "modifier",
+							"name": "Maximum Duration",
+							"reference": "PU8:15",
+							"notes": "Less than 30 seconds",
+							"cost": -75
+						}
+					],
+					"levels": 8,
+					"points_per_level": 2,
+					"can_level": true,
+					"calc": {
+						"points": 20
+					}
+				}
+			],
+			"name": "Glitter Cloud",
+			"calc": {
+				"points": 20
+			}
+		}
+	]
+}

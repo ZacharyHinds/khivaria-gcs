@@ -1,0 +1,86 @@
+{
+    "type": "ancestry",
+    "version": 4,
+    "name": "Arakos",
+    "common_options": {
+        "height_formula": "floor(random_height($st) / 2) + 2",
+        "weight_formula": "floor(random_weight($st) / 2) + 17",
+        "age_formula": "roll(1d12+12)",
+        "hair_options": [
+            {
+                "weight": 1,
+                "value": "None"
+            }
+        ],
+        "eye_options": [
+            {
+                "weight": 1,
+                "value": "Black"
+            }
+        ],
+        "skin_options": [
+            {
+                "weight": 30,
+                "value": "Black"
+            },
+            {
+                "weight": 25,
+                "value": "Brown"
+            },
+            {
+                "weight": 20,
+                "value": "Blue"
+            },
+            {
+                "weight": 15,
+                "value": "Green"
+            },
+            {
+                "weight": 10,
+                "value": "Grey"
+            }
+        ],
+        "handedness_options": [
+            {
+                "weight": 40,
+                "value": "Left"
+            },
+            {
+                "weight": 60,
+                "value": "Right"
+            }
+        ],
+        "name_generators": [
+            "Arakos - Male"
+        ]
+    },
+    "gender_options": [
+        {
+            "weight": 35,
+            "value": {
+                "name": "Male",
+                "name_generators": [
+                    "Arakos - Male"
+                ]
+            }
+        },
+        {
+            "weight": 50,
+            "value": {
+                "name": "Female",
+                "name_generators": [
+                    "Arakos - Female"
+                ]
+            }
+        },
+        {
+            "weight": 15,
+            "value": {
+                "name": "Other",
+                "name_generators": [
+                    "Arakos - Other"
+                ]
+            }
+        }
+    ]
+}

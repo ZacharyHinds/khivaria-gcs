@@ -1,0 +1,1706 @@
+{
+	"type": "spell_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "c5610aed-216a-48a8-9ef6-63e9c82a4943",
+			"type": "spell",
+			"name": "Diver's Blessing",
+			"reference": "MTLOS6",
+			"reference_highlight": "Diver’s Blessing",
+			"tags": [
+				"Air",
+				"Body Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Air",
+				"Body Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Until breath-holding time expires",
+			"points": 1
+		},
+		{
+			"id": "384c4b45-d26c-41a3-b677-8d9fd963bea9",
+			"type": "spell",
+			"name": "Mighty Breath",
+			"reference": "MTLOS6",
+			"tags": [
+				"Air"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 sec",
+			"points": 1
+		},
+		{
+			"id": "6374ca5d-9dbb-4837-a4d0-5ff5ca51846c",
+			"type": "spell",
+			"name": "Stinkguard",
+			"reference": "MTLOS6",
+			"tags": [
+				"Air",
+				"Protection \u0026 Warning"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Air",
+				"Protection \u0026 Warning"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "9801cd1d-3309-4bcc-bd4b-f599b0d6877a",
+			"type": "spell",
+			"name": "Call",
+			"reference": "MTLOS6",
+			"tags": [
+				"Animal",
+				"Sound"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Animal",
+				"Sound"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "5cbe7b14-aff0-4fdb-9704-c712da3fcaa6",
+			"type": "spell",
+			"name": "Groom",
+			"reference": "MTLOS6",
+			"tags": [
+				"Animal"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Animal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "2 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "bdbac6ca-4868-43d7-903e-531f756bbb58",
+			"type": "spell",
+			"name": "Ache",
+			"reference": "MTLOS7",
+			"tags": [
+				"Body Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Body Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "2c9e80b4-f837-4513-9fdc-cbc4fe0c84bd",
+			"type": "spell",
+			"name": "Belch",
+			"reference": "MTLOS7",
+			"tags": [
+				"Body Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Body Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "4321c96a-9af5-4a6c-bb40-df8c0c56ee7d",
+			"type": "spell",
+			"name": "Blend In",
+			"reference": "MTLOS7",
+			"tags": [
+				"Body Control",
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Body Control",
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "2",
+			"maintenance_cost": "1",
+			"casting_time": "1 sec",
+			"duration": "1 hr",
+			"points": 1
+		},
+		{
+			"id": "ed58d143-3e60-4f6b-8001-3177c32e8261",
+			"type": "spell",
+			"name": "Flexibility",
+			"reference": "MTLOS7",
+			"tags": [
+				"Body Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Body Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "ac064467-2e58-4161-9557-53d4455c7464",
+			"type": "spell",
+			"name": "Stand Out",
+			"reference": "MTLOS7",
+			"tags": [
+				"Body Control",
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Body Control",
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "2",
+			"maintenance_cost": "1",
+			"casting_time": "1 sec",
+			"duration": "1 hr",
+			"points": 1
+		},
+		{
+			"id": "7675dc2a-9fbd-498b-b80f-06012bc65e9c",
+			"type": "spell",
+			"name": "Stifle",
+			"reference": "MTLOS7",
+			"tags": [
+				"Body Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Body Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Blocking",
+			"resist": "Subject spell",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "8c818620-a362-456b-af98-2b07b674f426",
+			"type": "spell",
+			"name": "Ack",
+			"reference": "MTLOS7",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Communication \u0026 Empathy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Blocking",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "34c280a0-fd99-4f1b-9503-aadddf8fe665",
+			"type": "spell",
+			"name": "Drama",
+			"reference": "MTLOS7",
+			"tags": [
+				"Communication \u0026 Empathy",
+				"Mind Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Communication \u0026 Empathy",
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 minute",
+			"points": 1
+		},
+		{
+			"id": "c33583fc-6d0e-4c10-9f8e-11595a40a7e5",
+			"type": "spell",
+			"name": "Sorcerous Signal",
+			"reference": "MTLOS8",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Communication \u0026 Empathy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Until subject makes Gesture roll",
+			"points": 1
+		},
+		{
+			"id": "4f55af7c-7f40-4791-a8f2-2e760ac43bbd",
+			"type": "spell",
+			"name": "Badger Paws",
+			"reference": "MTLOS8",
+			"tags": [
+				"Earth"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "Same",
+			"casting_time": "2 sec",
+			"duration": "1 hr",
+			"points": 1
+		},
+		{
+			"id": "e94516c8-9fab-4b37-8652-1aa55847c24f",
+			"type": "spell",
+			"name": "Gargoyle Skin",
+			"reference": "MTLOS8",
+			"tags": [
+				"Earth",
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Earth",
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "2",
+			"maintenance_cost": "1",
+			"casting_time": "2 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "afc51075-9122-439d-b2aa-1eef5bb0be2d",
+			"type": "spell",
+			"name": "Pebble",
+			"reference": "MTLOS8",
+			"tags": [
+				"Earth"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"weapons": [
+				{
+					"id": "552ab247-abeb-48f2-afbf-a9eca9846637",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": ""
+					},
+					"accuracy": "1",
+					"range": "40",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "55fdc38b-223c-46ac-ae78-e0fdbe4d521c",
+			"type": "spell",
+			"name": "Spotless Hands",
+			"reference": "MTLOS8",
+			"tags": [
+				"Earth"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "2 sec",
+			"duration": "1 minute",
+			"points": 1
+		},
+		{
+			"id": "947c486f-8e49-4266-b021-90fafd7abf38",
+			"type": "spell",
+			"name": "Emergency Staff",
+			"reference": "MTLOS8",
+			"tags": [
+				"Enchantment"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Enchantment"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Special",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 sec",
+			"points": 1
+		},
+		{
+			"id": "9241ca3e-404d-4de0-b332-72cfedbdf139",
+			"type": "spell",
+			"name": "Magician's Minion",
+			"reference": "MTLOS8",
+			"reference_highlight": "Magician’s Minion",
+			"tags": [
+				"Enchantment"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Enchantment"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "1",
+			"casting_time": "5 sec",
+			"duration": "1 hr",
+			"points": 1
+		},
+		{
+			"id": "9cd615ac-eafa-4d6c-8e72-c1ee746d3150",
+			"type": "spell",
+			"name": "Sorcerer's Stand-In",
+			"reference": "MTLOS9",
+			"reference_highlight": "Sorcerer’s Stand-in",
+			"tags": [
+				"Enchantment"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Enchantment"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "8",
+			"maintenance_cost": "-",
+			"casting_time": "1 min",
+			"duration": "1 day",
+			"points": 1
+		},
+		{
+			"id": "8b7f3858-57be-4388-b907-bee4c9a878b7",
+			"type": "spell",
+			"name": "Eat Crow",
+			"reference": "MTLOS9",
+			"tags": [
+				"Body Control",
+				"Food"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Body Control",
+				"Food"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "2f87325f-3378-4363-8710-f0fb565b24a9",
+			"type": "spell",
+			"name": "Ember",
+			"reference": "MTLOS9",
+			"tags": [
+				"Fire"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Fire"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"weapons": [
+				{
+					"id": "7e4e96f8-dd2d-4ad9-aec1-8705d87412b2",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": ""
+					},
+					"accuracy": "1",
+					"range": "10",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "6a5c03c4-9be7-42d8-bf4b-038a52978b66",
+			"type": "spell",
+			"name": "Oven Mitts",
+			"reference": "MTLOS9",
+			"tags": [
+				"Fire",
+				"Protection \u0026 Warning"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Fire",
+				"Protection \u0026 Warning"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 minute",
+			"points": 1
+		},
+		{
+			"id": "3e4d7f1a-12f3-40da-997b-1a4c23a44a0a",
+			"type": "spell",
+			"name": "Puff",
+			"reference": "MTLOS9",
+			"tags": [
+				"Fire"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Fire"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "10 sec",
+			"points": 1
+		},
+		{
+			"id": "8ca58cb1-1dba-4f15-aed4-b8abbcb36a94",
+			"type": "spell",
+			"name": "Find Ingredient",
+			"reference": "MTLOS9",
+			"tags": [
+				"Food"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Food"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Information",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "75cb64a6-0d86-49b0-929d-40f4f73ea527",
+			"type": "spell",
+			"name": "Glutton's Cheat",
+			"reference": "MTLOS9",
+			"reference_highlight": "Glutton’s Cheat",
+			"tags": [
+				"Food"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Food"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "2 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "d644bf5f-2270-4802-9322-53d07ed8e096",
+			"type": "spell",
+			"name": "Easy Rider",
+			"reference": "MTLOS10",
+			"tags": [
+				"Meta",
+				"Void"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Void",
+				"Meta"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "2429c6a0-bca3-44d5-b1d2-a85692722bef",
+			"type": "spell",
+			"name": "Reorient",
+			"reference": "MTLOS10",
+			"tags": [
+				"Gate",
+				"Movement"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Void",
+				"Movement"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Blocking",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "2feb3c91-2c18-4e17-acb9-41bed9cd9dcd",
+			"type": "spell",
+			"name": "Analgesic",
+			"reference": "MTLOS10",
+			"tags": [
+				"Body Control",
+				"Healing"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Body Control",
+				"Healing"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "6e30ed4c-c9ad-4cf1-be27-213d29e23425",
+			"type": "spell",
+			"name": "Aid",
+			"reference": "MTLOS10",
+			"tags": [
+				"Healing"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Healing"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "457dc97f-f5c7-446b-adb5-d51382c9c05a",
+			"type": "spell",
+			"name": "Aide",
+			"reference": "MTLOS10",
+			"notes": "At GM's option, may be available for other colleges.",
+			"tags": [
+				"Healing"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Healing"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "1",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "c8e0ba47-97c3-4f31-8ae6-9d222042f82d",
+			"type": "spell",
+			"name": "Test",
+			"reference": "MTLOS10",
+			"tags": [
+				"Healing",
+				"Knowledge"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Healing",
+				"Knowledge"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Information",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "30 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "1ad416a8-b6d8-472a-b353-c0e9f3fb467c",
+			"type": "spell",
+			"name": "Bender Defender",
+			"reference": "MTLOS10",
+			"tags": [
+				"Healing",
+				"Protection \u0026 Warning"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Healing",
+				"Protection \u0026 Warning"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "1",
+			"casting_time": "10 sec",
+			"duration": "1 hr",
+			"points": 1
+		},
+		{
+			"id": "3f59c0f9-26f9-49cb-992a-83b2d3a5e1bb",
+			"type": "spell",
+			"name": "Birth Control",
+			"reference": "MTLOS10",
+			"tags": [
+				"Body Control",
+				"Healing"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Body Control",
+				"Healing"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "1",
+			"casting_time": "7 sec",
+			"duration": "1 hr",
+			"points": 1
+		},
+		{
+			"id": "c3050e8d-ad64-42cb-8e7a-a47cad4bde69",
+			"type": "spell",
+			"name": "Image",
+			"reference": "MTLOS11",
+			"tags": [
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "3093fbcf-042e-40eb-9ea9-c0d8c470f1b0",
+			"type": "spell",
+			"name": "Shadowplay",
+			"reference": "MTLOS11",
+			"tags": [
+				"Illusion \u0026 Creation",
+				"Light \u0026 Darkness"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Illusion \u0026 Creation",
+				"Light \u0026 Darkness"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "3f5f6963-e385-4909-9580-a2b6014f7638",
+			"type": "spell",
+			"name": "Disbelieve",
+			"reference": "MTLOS11",
+			"tags": [
+				"Illusion \u0026 Creation",
+				"Mind Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Illusion \u0026 Creation",
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular/Blocking",
+			"casting_cost": "1-5",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "9ef71499-ae85-4aaf-b163-e1791aa65d0a",
+			"type": "spell",
+			"name": "Keyfinder",
+			"reference": "MTLOS11",
+			"tags": [
+				"Knowledge",
+				"Mind Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Knowledge",
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "00e7437b-c403-4454-8507-73252c16206f",
+			"type": "spell",
+			"name": "Know Thyself",
+			"reference": "MTLOS11",
+			"tags": [
+				"Knowledge",
+				"Mind Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Knowledge",
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "1",
+			"casting_time": "5 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "a455a7dd-a7c3-444e-ac27-c46c8b4f3d39",
+			"type": "spell",
+			"name": "Sweet Oblivion",
+			"reference": "MTLOS11",
+			"tags": [
+				"Knowledge",
+				"Mind Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Knowledge",
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "-",
+			"casting_time": "10 sec",
+			"duration": "Permanent",
+			"points": 1
+		},
+		{
+			"id": "0a2da9c1-f874-479a-bce7-88507175c7f0",
+			"type": "spell",
+			"name": "Thaumatomancy",
+			"reference": "MTLOS12",
+			"tags": [
+				"Knowledge",
+				"Meta"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Knowledge",
+				"Meta"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Information",
+			"casting_cost": "10",
+			"maintenance_cost": "-",
+			"casting_time": "1 hr",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "67b733fc-4d0f-43b3-96d1-f451678778ea",
+			"type": "spell",
+			"name": "Phosphorescence",
+			"reference": "MTLOS12",
+			"tags": [
+				"Light \u0026 Darkness"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Light \u0026 Darkness"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "70814824-13e1-4f4b-815e-800a25d6d68f",
+			"type": "spell",
+			"name": "Twinkle",
+			"reference": "MTLOS12",
+			"tags": [
+				"Light \u0026 Darkness"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Light \u0026 Darkness"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "d0f114d6-9c27-4055-8406-c3f385b63924",
+			"type": "spell",
+			"name": "Goggles",
+			"reference": "MTLOS12",
+			"tags": [
+				"Light \u0026 Darkness",
+				"Protection \u0026 Warning"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Light \u0026 Darkness",
+				"Protection \u0026 Warning"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "46912b82-fd5e-480f-be46-1de741732013",
+			"type": "spell",
+			"name": "Tack",
+			"reference": "MTLOS12",
+			"tags": [
+				"Making \u0026 Breaking"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Making \u0026 Breaking"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1 per oz of weight",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "425668d6-e4a1-4d56-a456-91eb88fa3277",
+			"type": "spell",
+			"name": "Wizardly Workshop",
+			"reference": "MTLOS12",
+			"tags": [
+				"Making \u0026 Breaking",
+				"Movement",
+				"Technological"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Making \u0026 Breaking",
+				"Movement",
+				"Technological"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2 per -1 eliminated",
+			"maintenance_cost": "Same",
+			"casting_time": "5 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "5258b8f8-c166-4458-9efd-2bfbf84d5e2c",
+			"type": "spell",
+			"name": "Use Item",
+			"reference": "MTLOS13",
+			"tags": [
+				"Meta"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Meta"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 sec",
+			"points": 1
+		},
+		{
+			"id": "22d3f6a0-79bc-47a4-9967-7a36b88f3605",
+			"type": "spell",
+			"name": "Adjuration",
+			"reference": "MTLOS13",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "4",
+			"maintenance_cost": "-",
+			"casting_time": "1 min",
+			"duration": "Permanent",
+			"points": 1
+		},
+		{
+			"id": "a694f171-3b0d-4bc1-a063-fe24af534be3",
+			"type": "spell",
+			"name": "Hypnotize",
+			"reference": "MTLOS13",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Special",
+			"casting_cost": "2",
+			"maintenance_cost": "Same",
+			"casting_time": "5 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "0885068c-8877-498b-9caf-e9816bf2813f",
+			"type": "spell",
+			"name": "Patience",
+			"reference": "MTLOS13",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "1",
+			"casting_time": "10 sec",
+			"duration": "1 hr",
+			"points": 1
+		},
+		{
+			"id": "ad62d5ca-9fb6-4a57-b95c-ee70703827fa",
+			"type": "spell",
+			"name": "Startle",
+			"reference": "MTLOS13",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "9f2a1651-f44b-4454-81b8-222f01d60e22",
+			"type": "spell",
+			"name": "Volatility",
+			"reference": "MTLOS14",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Special",
+			"casting_cost": "1-3",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min or self-control roll",
+			"points": 1
+		},
+		{
+			"id": "d1d28e80-1a9d-44e5-82f0-efb3c68be2de",
+			"type": "spell",
+			"name": "Cushion",
+			"reference": "MTLOS14",
+			"tags": [
+				"Movement"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Movement"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Blocking",
+			"casting_cost": "Equal to fall damage",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "831d2eaf-616c-4052-9afd-9da790085ecf",
+			"type": "spell",
+			"name": "Flee",
+			"reference": "MTLOS14",
+			"tags": [
+				"Movement"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Movement"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2 per +1 Move",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "a76c614e-c9d4-4de9-b5dd-60842972b994",
+			"type": "spell",
+			"name": "Open Door",
+			"reference": "MTLOS14",
+			"tags": [
+				"Movement"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Movement"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular/Blocking",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "8f26c005-9d50-46d8-8775-db2aa54981b0",
+			"type": "spell",
+			"name": "Sink",
+			"reference": "MTLOS14",
+			"tags": [
+				"Movement",
+				"Water"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Movement",
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "1",
+			"casting_time": "3 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "5ec70482-478c-4d2e-90d3-73361dc300ea",
+			"type": "spell",
+			"name": "Dramatic Departure",
+			"reference": "MTLOS14",
+			"tags": [
+				"Necromantic"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Necromantic"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Special",
+			"casting_cost": "0",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1
+		},
+		{
+			"id": "ce6a47c7-01dd-4c68-86a0-6f6da341a1d6",
+			"type": "spell",
+			"name": "Insect Repellant",
+			"reference": "MTLOS15",
+			"tags": [
+				"Animal",
+				"Protection \u0026 Warning"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Animal",
+				"Protection \u0026 Warning"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "10 sec",
+			"duration": "1 hr",
+			"points": 1
+		},
+		{
+			"id": "c87920cc-be90-4b93-858f-0ac604b7fac4",
+			"type": "spell",
+			"name": "Ritual of Reaping",
+			"reference": "MTLOS15",
+			"tags": [
+				"Food",
+				"Wood"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Food",
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "Same",
+			"casting_time": "10 sec",
+			"duration": "1 hr",
+			"points": 1
+		},
+		{
+			"id": "1d6891a0-9397-4e58-889c-683284ecf1f7",
+			"type": "spell",
+			"name": "Invoke",
+			"reference": "MTLOS14",
+			"tags": [
+				"Necromantic",
+				"Void"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Necromantic",
+				"Void"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Special",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "a387a768-68f4-49bd-8391-a16bcf512bb3",
+			"type": "spell",
+			"name": "Reverie of Ruin",
+			"reference": "MTLOS15",
+			"tags": [
+				"Necromantic"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Necromantic"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Information",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "(20-skill) sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "09d123d9-09fa-45c7-aa20-b9d92b26660b",
+			"type": "spell",
+			"name": "Spell of Sowing",
+			"reference": "MTLOS15",
+			"tags": [
+				"Wood"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Wood"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "Same",
+			"casting_time": "10 sec",
+			"duration": "1 hr",
+			"points": 1
+		},
+		{
+			"id": "5bca9b89-9751-445c-ac6f-b3f7faa5cafc",
+			"type": "spell",
+			"name": "Anticipate",
+			"reference": "MTLOS15",
+			"tags": [
+				"Protection \u0026 Warning"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Protection \u0026 Warning"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "f3b2e542-3514-4b52-953e-89fce80e36ef",
+			"type": "spell",
+			"name": "Selective Hearing",
+			"reference": "MTLOS15",
+			"tags": [
+				"Protection \u0026 Warning",
+				"Sound"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Protection \u0026 Warning",
+				"Sound"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "c5fa7709-2d1c-44c9-b3eb-97807c155c1f",
+			"type": "spell",
+			"name": "Squeak",
+			"reference": "MTLOS15",
+			"tags": [
+				"Sound"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Sound"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "1 sec",
+			"points": 1
+		},
+		{
+			"id": "213cae94-295b-4413-b97f-d4f41250ed86",
+			"type": "spell",
+			"name": "Throw Voice",
+			"reference": "MTLOS16",
+			"tags": [
+				"Body Control",
+				"Sound"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Body Control",
+				"Sound"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "1",
+			"casting_time": "2 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "55b16134-d239-44d6-9e8d-0150a911fb45",
+			"type": "spell",
+			"name": "Magnetic Finger",
+			"reference": "MTLOS16",
+			"tags": [
+				"Technological"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Technological"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "776c56b0-a0af-4ca2-9ddb-7763e6c0010f",
+			"type": "spell",
+			"name": "Remote Start",
+			"reference": "MTLOS16",
+			"tags": [
+				"Technological"
+			],
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"college": [
+				"Technological"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "fe321d55-2972-427d-9251-92cf1e105750",
+			"type": "spell",
+			"name": "Storm Shelter",
+			"reference": "MTLOS17",
+			"tags": [
+				"Air",
+				"Protection \u0026 Warning",
+				"Weather"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Air",
+				"Protection \u0026 Warning",
+				"Weather"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "2 sec",
+			"duration": "1 hr",
+			"points": 1
+		},
+		{
+			"id": "78e42d55-14ae-481f-b085-798ed2a36494",
+			"type": "spell",
+			"name": "Cloud",
+			"reference": "MTLOS17",
+			"tags": [
+				"Air",
+				"Water",
+				"Weather"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Air",
+				"Water",
+				"Weather"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "19187685-9475-4dab-ba00-37d34d605bf8",
+			"type": "spell",
+			"name": "Jolt",
+			"reference": "MTLOS17",
+			"tags": [
+				"Air",
+				"Weather"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Air",
+				"Weather"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"weapons": [
+				{
+					"id": "c4a2c711-bb6a-488e-8527-ac088192d80a",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "HT+1 aff"
+					},
+					"range": "5/10",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "HT+1 aff"
+					}
+				}
+			]
+		},
+		{
+			"id": "02946a13-2050-46b0-a371-f6056f0249be",
+			"type": "spell",
+			"name": "Mer-Speech",
+			"reference": "MTLOS17",
+			"tags": [
+				"Communication \u0026 Empathy",
+				"Sound",
+				"Water"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Communication \u0026 Empathy",
+				"Sound",
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "1",
+			"casting_time": "2 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "7d7b92c8-bd40-46ea-8f36-0319649226ff",
+			"type": "spell",
+			"name": "Sea Legs",
+			"reference": "MTLOS17",
+			"tags": [
+				"Healing",
+				"Water"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Healing",
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "2 sec",
+			"duration": "1 hr",
+			"points": 1
+		},
+		{
+			"id": "18828e35-870b-4a8f-9687-107a8ff11413",
+			"type": "spell",
+			"name": "Sponge",
+			"reference": "MTLOS17",
+			"tags": [
+				"Water"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "2 sec",
+			"duration": "1 min",
+			"points": 1
+		},
+		{
+			"id": "b21625d5-4048-4b5e-90d2-ad55d16cd9c6",
+			"type": "spell",
+			"name": "Squirt",
+			"reference": "MTLOS17",
+			"tags": [
+				"Water"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 sec",
+			"points": 1
+		},
+		{
+			"id": "5a530bf2-4fee-4aeb-b222-a8b9fb10dfe1",
+			"type": "spell",
+			"name": "Sweat",
+			"reference": "MTLOS17",
+			"tags": [
+				"Water"
+			],
+			"difficulty": "iq/a",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
+		}
+	]
+}

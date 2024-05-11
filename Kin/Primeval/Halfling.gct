@@ -1,0 +1,656 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "e775b8e9-8f09-49e5-af8e-7c477bfbd881",
+	"traits": [
+		{
+			"id": "a4f2ea07-59d0-4383-8713-b1c0060dbd1e",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "0250653c-e974-4f16-8c6a-cd5343a7d9df",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "7102e77c-1aba-48ee-b89c-818e84234949",
+							"type": "trait",
+							"name": "Decreased Strength",
+							"reference": "B14",
+							"tags": [
+								"Attribute",
+								"Disadvantage",
+								"Physical"
+							],
+							"levels": 3,
+							"points_per_level": -10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "st",
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": -30
+							}
+						},
+						{
+							"id": "c64e77db-aaa0-4ca1-85e7-b49c39f48275",
+							"type": "trait",
+							"name": "Increased Dexterity",
+							"reference": "B15",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "26b39aca-fc45-404a-9dbd-be0e55323b67",
+									"type": "modifier",
+									"name": "No Fine Manipulators",
+									"cost": -40,
+									"disabled": true
+								}
+							],
+							"levels": 1,
+							"points_per_level": 20,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "dx",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 20
+							}
+						},
+						{
+							"id": "3280c476-43b5-4fd4-b7cd-9c7734d0ffe0",
+							"type": "trait",
+							"name": "Increased Health",
+							"reference": "B14",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"levels": 2,
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "ht",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 20
+							}
+						}
+					],
+					"name": "Attributes",
+					"container_type": "attributes",
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "75ad98ef-6159-4f02-9057-a2b0dc7d7ff2",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "ab3ae5e3-ce79-4dd4-9c99-aaafc8b1eb41",
+							"type": "trait",
+							"name": "Extra Hit Points",
+							"reference": "B16",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "910bfd80-869d-46d8-aa30-5c7c5bae59a4",
+									"type": "modifier",
+									"name": "Size",
+									"cost": -10,
+									"levels": 1,
+									"disabled": true
+								}
+							],
+							"levels": 2,
+							"points_per_level": 2,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "hp",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 4
+							}
+						},
+						{
+							"id": "01b82b69-2723-499a-a099-82b4ba7e05ce",
+							"type": "trait",
+							"name": "Decreased SM",
+							"levels": 2,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "sm",
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "32b46e91-0ccc-43c8-be12-9737e2806d89",
+							"type": "trait",
+							"name": "Increased Will",
+							"reference": "B16",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Mental"
+							],
+							"levels": 2,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "will",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"name": "Secondary Characteristics",
+					"calc": {
+						"points": 14
+					}
+				},
+				{
+					"id": "874569da-cb24-4333-afb6-00d5dbc92f35",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "c5d77830-3c47-43ac-b1e5-60e564810471",
+							"type": "trait",
+							"name": "Fearlessness",
+							"reference": "B55,MA44",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"levels": 2,
+							"points_per_level": 2,
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": false,
+										"name": {
+											"compare": "is",
+											"qualifier": "Fearfulness"
+										}
+									}
+								]
+							},
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "fright_check",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 4
+							}
+						},
+						{
+							"id": "63d312ba-7802-485a-8474-caf2f52ab622",
+							"type": "trait",
+							"name": "Forgettable Face",
+							"reference": "PU2:4",
+							"tags": [
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": false,
+										"name": {
+											"compare": "is",
+											"qualifier": "Unnatural Features"
+										}
+									},
+									{
+										"type": "trait_prereq",
+										"has": false,
+										"name": {
+											"compare": "is",
+											"qualifier": "Distinctive Features"
+										}
+									}
+								]
+							},
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "68e7e17f-8fdf-4be7-ad81-4178976c0f94",
+							"type": "trait",
+							"name": "Halfling Marksmanship",
+							"reference": "DF3:14",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"levels": 2,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to reaction, Merchant, and Streetwise rolls when trying to buy or sell a ranged weapon",
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "bow"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "sling"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "thrown weapon"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "dart"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "contains",
+										"qualifier": "thrown weapon"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "knife"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "thrown weapon"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "stick"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "throwing"
+									},
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "a809b6a5-114a-4a6f-b78f-7fbd80eaa8a3",
+							"type": "trait",
+							"name": "Hard to Kill",
+							"reference": "B58",
+							"tags": [
+								"Physical"
+							],
+							"levels": 4,
+							"points_per_level": 2,
+							"can_level": true,
+							"calc": {
+								"points": 8
+							}
+						},
+						{
+							"id": "3f9e7fa5-b03b-4668-a26e-598b08d6465a",
+							"type": "trait",
+							"name": "Luck",
+							"reference": "B66,P59",
+							"notes": "Usable once per hour of play",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "b5f2c667-bec1-442e-9ef9-f051a6c31510",
+									"type": "modifier",
+									"name": "Active",
+									"reference": "B66",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "d9965ee9-527e-4933-95ef-ef8a02ed7683",
+									"type": "modifier",
+									"name": "Aspected",
+									"reference": "B66",
+									"notes": "@Aspect@",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "67318c7d-d090-4012-a955-0d1a36052c27",
+									"type": "modifier",
+									"name": "Defensive",
+									"reference": "B66",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "4f41a545-c80c-4754-bf3c-93b9662beef2",
+									"type": "modifier",
+									"name": "Wishing",
+									"reference": "P59",
+									"cost": 100,
+									"disabled": true
+								}
+							],
+							"base_points": 15,
+							"calc": {
+								"points": 15
+							}
+						},
+						{
+							"id": "04267aaf-bd53-4f47-b5ae-050207aec2dd",
+							"type": "trait",
+							"name": "Silence",
+							"reference": "B85,P76",
+							"notes": "Bonuses help only when hearing is the only sense that can be used to detect you.",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "11a92b4d-003f-4dd9-97e3-9af9e0f75206",
+									"type": "modifier",
+									"name": "Dynamic",
+									"reference": "P76",
+									"cost": 40,
+									"disabled": true
+								}
+							],
+							"levels": 4,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to Stealth when you are perfectly motionless",
+									"amount": 2,
+									"per_level": true
+								},
+								{
+									"type": "conditional_modifier",
+									"situation": "to Stealth if moving (even in armor, etc.)",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 20
+							}
+						},
+						{
+							"id": "0d9c439b-147d-468c-9111-e31dee5b9848",
+							"type": "trait",
+							"name": "Talent (Green Thumb)",
+							"reference": "B90",
+							"tags": [
+								"Mental"
+							],
+							"levels": 1,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "contains",
+										"qualifier": "biology"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "farming"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "gardening"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "herb lore"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "naturalist"
+									},
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "6d1b0782-7a01-42c4-8e98-1ca5bf1e5f91",
+							"type": "trait",
+							"name": "Honest Face",
+							"reference": "B101",
+							"tags": [
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to trained Acting skill for the sole purpose of \"acting innocent\"",
+									"amount": 1
+								}
+							],
+							"calc": {
+								"points": 1
+							}
+						}
+					],
+					"name": "Advantages",
+					"calc": {
+						"points": 64
+					}
+				},
+				{
+					"id": "a6de474a-efcd-45f9-84dc-7caf74519fcb",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "cf77a668-62c0-4b53-b077-52bc7ee674ec",
+							"type": "trait",
+							"name": "Fond of Food and drink",
+							"tags": [
+								"Mental"
+							],
+							"base_points": -1,
+							"calc": {
+								"points": -1
+							}
+						},
+						{
+							"id": "4d08e4e3-a797-473e-9dac-9e295fd81372",
+							"type": "trait",
+							"name": "Kleptomania",
+							"reference": "B141",
+							"notes": "Make a self-control roll whenever you are presented with a chance to steal, at up to -3 if the item is especially interesting to you (not necessarily valuable, unless you are poor or have Greed). If you fail, you must try to steal it. You may keep or sell stolen items, but you may not return or discard them.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -15,
+							"cr": 12,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "c5a6baa5-c965-4570-b3e2-9847a3ee9756",
+							"type": "trait",
+							"name": "Prefers to live underground",
+							"tags": [
+								"Mental"
+							],
+							"base_points": -1,
+							"calc": {
+								"points": -1
+							}
+						},
+						{
+							"id": "f4ed1680-4f17-4ec3-ab84-9996e5819ce3",
+							"type": "trait",
+							"name": "Timid",
+							"reference": "PU6:18",
+							"tags": [
+								"Mental",
+								"Quirk",
+								"Social"
+							],
+							"base_points": -1,
+							"calc": {
+								"points": -1
+							}
+						}
+					],
+					"name": "Disadvantages",
+					"calc": {
+						"points": -18
+					}
+				},
+				{
+					"id": "7d931036-44b6-4b6a-83ae-49da79a7ced0",
+					"type": "trait_container",
+					"open": true,
+					"name": "Features",
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"name": "Halfling",
+			"ancestry": "Human",
+			"container_type": "ancestry",
+			"calc": {
+				"points": 70
+			}
+		}
+	]
+}

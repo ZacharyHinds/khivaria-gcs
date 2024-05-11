@@ -1,0 +1,1851 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "13dd5446-6949-42ce-acca-ad8d65a71528",
+	"traits": [
+		{
+			"id": "f390fee4-41bc-4682-b00c-e661b9567457",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "e5c6ea0d-5c96-41c7-8924-f1e27eb08c92",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "7a698d89-8a9d-4d89-bdac-56e8bacb044d",
+							"type": "trait",
+							"name": "Decreased Strength",
+							"reference": "B14",
+							"tags": [
+								"Attribute",
+								"Disadvantage",
+								"Physical"
+							],
+							"levels": 3,
+							"points_per_level": -10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "st",
+									"amount": -1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": -30
+							}
+						}
+					],
+					"name": "Attributes",
+					"calc": {
+						"points": -30
+					}
+				},
+				{
+					"id": "39e850b2-8b37-46ad-a8b0-ac96f8f72391",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "66f7f76b-14ee-4fc1-9cd2-52a0dd44a254",
+							"type": "trait",
+							"name": "Increased Perception",
+							"reference": "B16",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Mental",
+								"Physical"
+							],
+							"levels": 1,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "per",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 5
+							}
+						}
+					],
+					"name": "Secondary Characteristics",
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "f630c76f-c60b-46d3-a83f-4dcbc201bfc5",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "87003555-7c9b-47fd-aec4-e26bf67668fd",
+							"type": "trait_container",
+							"open": true,
+							"children": [
+								{
+									"id": "00e1e48c-11e0-480a-a01d-b4287e85378f",
+									"type": "trait",
+									"name": "Psi Talent",
+									"reference": "DF3:41",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Power"
+									],
+									"levels": 2,
+									"points_per_level": 5,
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "trait_prereq",
+												"has": true,
+												"name": {
+													"compare": "is",
+													"qualifier": "Unusual Background (Psionic)"
+												}
+											}
+										]
+									},
+									"can_level": true,
+									"calc": {
+										"points": 10
+									}
+								},
+								{
+									"id": "4930cab7-4f81-4cb8-b62a-e9962ac37524",
+									"type": "trait",
+									"name": "Telereceive (Shallow)",
+									"reference": "PSI58",
+									"notes": "Communication ability. You can read another person's surface thoughts. ",
+									"tags": [
+										"Communication",
+										"Mental",
+										"Psionics",
+										"Telepathy"
+									],
+									"modifiers": [
+										{
+											"id": "5c10b8f6-68b6-446a-ac77-1306548f66de",
+											"type": "modifier",
+											"name": "Telereceive_1",
+											"notes": "Skin-to-skin contact",
+											"cost": 9,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "105ff84c-378d-4b3a-86d8-485d905cbfb3",
+											"type": "modifier",
+											"name": "Telereceive_2",
+											"notes": "Any touch will suffice",
+											"cost": 18,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "41c6716b-cda1-4647-abd2-0b61f00fcd7b",
+											"type": "modifier",
+											"name": "Telereceive_3",
+											"notes": "Telereceive at range; -1 penalty/yard distance",
+											"cost": 24,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "9f4dd54a-2100-4d61-919b-b0ff0cf0151c",
+											"type": "modifier",
+											"name": "Telereceive_4",
+											"reference": "BX550",
+											"notes": "Use range penalties p. B550",
+											"cost": 27,
+											"cost_type": "points"
+										},
+										{
+											"id": "9028bfd7-eabd-40a7-b6b2-23c7d40496c3",
+											"type": "modifier",
+											"name": "Telereceive_5",
+											"reference": "B241",
+											"notes": "Use long-distance modifiers p. B241",
+											"cost": 42,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "e798a578-f37b-4e24-ad68-e8cec3b10b48",
+											"type": "modifier",
+											"name": "Telereceive_6",
+											"notes": "No penalty for range",
+											"cost": 57,
+											"cost_type": "points",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 27
+									}
+								},
+								{
+									"id": "b71e5f61-180b-447b-b7c6-02b279965901",
+									"type": "trait",
+									"name": "Telesend",
+									"reference": "PSI60",
+									"notes": "Communication ability. You can read project your thoughts into another's mind. ",
+									"tags": [
+										"Communication",
+										"Mental",
+										"Psionics",
+										"Telepathy"
+									],
+									"modifiers": [
+										{
+											"id": "98c6e3c9-a5b7-4f96-b32e-472830ffb4bd",
+											"type": "modifier",
+											"name": "Telesend_1",
+											"notes": "Skin-to-skin contact",
+											"cost": 9,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "16065827-dd92-4576-a02a-e02c208c0029",
+											"type": "modifier",
+											"name": "Telesend_2",
+											"notes": "Any touch will suffice",
+											"cost": 18,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "09c42d1f-31d0-4324-b957-311116a18a98",
+											"type": "modifier",
+											"name": "Telesend_3",
+											"notes": "Telesend at range; -1 penalty/yard distance",
+											"cost": 21,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "3fa6d63c-526c-41d3-bbdd-6088a8ba8226",
+											"type": "modifier",
+											"name": "Telesend_4",
+											"reference": "BX550",
+											"notes": "Use range penalties p. B550",
+											"cost": 24,
+											"cost_type": "points"
+										},
+										{
+											"id": "991932ca-52fa-4f54-83b0-5d60ac578584",
+											"type": "modifier",
+											"name": "Telesend_5",
+											"reference": "B241",
+											"notes": "Use long-distance modifiers p. B241",
+											"cost": 27,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "42a3174b-5703-4218-956a-c61c01f394ee",
+											"type": "modifier",
+											"name": "Telesend_6",
+											"notes": "No penalty for range",
+											"cost": 42,
+											"cost_type": "points",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 24
+									}
+								}
+							],
+							"name": "Psionics",
+							"calc": {
+								"points": 61
+							}
+						},
+						{
+							"id": "1553092b-2a17-465a-a45d-ff51acfcec21",
+							"type": "trait",
+							"name": "Clinging",
+							"reference": "B43,P45",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "bf94f1cf-9acc-4913-a1bf-28553c516265",
+									"type": "modifier",
+									"name": "Specific",
+									"reference": "B43",
+									"notes": "@Common Material@",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "6884b8ed-5253-4957-a4f5-afe1af0d00e8",
+									"type": "modifier",
+									"name": "Specific",
+									"reference": "B43",
+									"notes": "@Uncommon Material@",
+									"cost": -60,
+									"disabled": true
+								},
+								{
+									"id": "663e38e8-106e-4f47-9a54-eda468283fdb",
+									"type": "modifier",
+									"name": "Specific",
+									"reference": "B43",
+									"notes": "@Absurd Material@",
+									"cost": -80,
+									"disabled": true
+								},
+								{
+									"id": "18d2579e-28a7-4b3c-bce6-ceb406a1474a",
+									"type": "modifier",
+									"name": "Attraction",
+									"reference": "P45",
+									"cost": 25,
+									"disabled": true
+								},
+								{
+									"id": "7727966d-c45e-4b70-af7b-81dd1892c5ea",
+									"type": "modifier",
+									"name": "Requires Low Gravity",
+									"reference": "P45",
+									"cost": -5,
+									"levels": 1,
+									"disabled": true
+								}
+							],
+							"base_points": 20,
+							"calc": {
+								"points": 20
+							}
+						},
+						{
+							"id": "b89c871e-7504-4432-87f1-30ae6eccd15c",
+							"type": "trait_container",
+							"open": true,
+							"children": [
+								{
+									"id": "16896504-47af-45c6-9656-0f1b5d8acbb7",
+									"type": "trait",
+									"name": "Damage Resistance",
+									"reference": "B47,P45,MA43,PSI14",
+									"tags": [
+										"Advantage",
+										"Exotic",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "71e0ea7a-bb0e-409d-b01d-aa247b4e66f6",
+											"type": "modifier",
+											"name": "Force Field",
+											"reference": "B47",
+											"cost": 20,
+											"disabled": true
+										},
+										{
+											"id": "a5e89aca-0b61-483e-8ae3-d6086856cf9a",
+											"type": "modifier",
+											"name": "Hardened",
+											"reference": "B47",
+											"cost": 20,
+											"levels": 1,
+											"disabled": true
+										},
+										{
+											"id": "0377b71f-5bfe-44a7-b1a0-db38c7952845",
+											"type": "modifier",
+											"name": "Absorption",
+											"reference": "B46",
+											"notes": "Enhances @Trait@",
+											"cost": 80,
+											"disabled": true
+										},
+										{
+											"id": "db27da09-5815-4776-9af9-6d9741d8e52a",
+											"type": "modifier",
+											"name": "Absorption",
+											"reference": "B46",
+											"notes": "Healing only",
+											"cost": 80,
+											"disabled": true
+										},
+										{
+											"id": "0e4c391b-1076-40f2-92b6-c5d3c60b78fd",
+											"type": "modifier",
+											"name": "Absorption",
+											"reference": "B46",
+											"notes": "Enhances any trait",
+											"cost": 100,
+											"disabled": true
+										},
+										{
+											"id": "8b422514-296a-4b7c-b350-6b7e7d2be0e9",
+											"type": "modifier",
+											"name": "Reflection",
+											"reference": "B47",
+											"cost": 100,
+											"disabled": true
+										},
+										{
+											"id": "419ab96d-ea87-4894-b6d8-a6ee32a5d416",
+											"type": "modifier",
+											"name": "Bane",
+											"reference": "H14",
+											"notes": "@Rare@",
+											"cost": -1,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "a8c6d43d-430e-4773-a64c-200f75009e65",
+											"type": "modifier",
+											"name": "Bane",
+											"reference": "H14",
+											"notes": "@Occasional@",
+											"cost": -5,
+											"disabled": true
+										},
+										{
+											"id": "e9503abd-7621-42c4-8ced-3981ec7c6d9a",
+											"type": "modifier",
+											"name": "Bane",
+											"reference": "H14",
+											"notes": "@Common@",
+											"cost": -10,
+											"disabled": true
+										},
+										{
+											"id": "1585a884-94e2-4152-b7b7-d3b6cc253c58",
+											"type": "modifier",
+											"name": "Bane",
+											"reference": "H14",
+											"notes": "@Very Common@",
+											"cost": -15,
+											"disabled": true
+										},
+										{
+											"id": "131c5627-2f5a-4f3f-8a52-08417003bc95",
+											"type": "modifier",
+											"name": "Directional",
+											"reference": "B47",
+											"notes": "Front",
+											"cost": -20,
+											"disabled": true
+										},
+										{
+											"id": "132e7d43-7920-45f5-bcde-036029aa49f2",
+											"type": "modifier",
+											"name": "Flexible",
+											"reference": "B47",
+											"cost": -20,
+											"disabled": true
+										},
+										{
+											"id": "d9e01c00-3ac2-4f4d-ae5f-45b34441df13",
+											"type": "modifier",
+											"name": "Limited",
+											"reference": "B46",
+											"notes": "@Very Common Attack Form@",
+											"cost": -20,
+											"disabled": true
+										},
+										{
+											"id": "72f08aac-bc4a-43fe-875b-8747b7397bec",
+											"type": "modifier",
+											"name": "Semi-Ablative",
+											"reference": "B47",
+											"cost": -20,
+											"disabled": true
+										},
+										{
+											"id": "13410164-cee1-4956-832c-47bcf41fdab8",
+											"type": "modifier",
+											"name": "Can't wear armor",
+											"reference": "B47",
+											"cost": -40,
+											"disabled": true
+										},
+										{
+											"id": "9ad2a005-947f-4ef9-ba99-ed88a4adaa49",
+											"type": "modifier",
+											"name": "Directional",
+											"reference": "B47",
+											"notes": "@Direction: Back, Right, Left, Top or Underside@",
+											"cost": -40,
+											"disabled": true
+										},
+										{
+											"id": "34ffce90-cba0-4d1a-a8ce-b3e6b12a51e3",
+											"type": "modifier",
+											"name": "Limited",
+											"reference": "B46",
+											"notes": "@Common Attack Form@",
+											"cost": -40,
+											"disabled": true
+										},
+										{
+											"id": "10940926-bf24-4984-a984-d974384f0874",
+											"type": "modifier",
+											"name": "Tough Skin",
+											"notes": "Effects that just require skin contact or a scratch ignore this DR",
+											"cost": -40
+										},
+										{
+											"id": "db046fce-bac2-4fae-98d4-ee66925c0e9e",
+											"type": "modifier",
+											"name": "Limited",
+											"reference": "B46",
+											"notes": "@Occasional Attack Form@",
+											"cost": -60,
+											"disabled": true
+										},
+										{
+											"id": "b112e7ab-adac-40ef-a544-598ae0f7436f",
+											"type": "modifier",
+											"name": "Ablative",
+											"reference": "B47",
+											"cost": -80,
+											"disabled": true
+										},
+										{
+											"id": "3b761122-5da1-46dd-992c-2f9df40890cb",
+											"type": "modifier",
+											"name": "Limited",
+											"reference": "B46",
+											"notes": "@Rare Attack Form@",
+											"cost": -80,
+											"disabled": true
+										},
+										{
+											"id": "0ed89045-94df-4ab0-ac26-53103a2ad43f",
+											"type": "modifier",
+											"name": "Laminate",
+											"reference": "RSWL18",
+											"cost": 10,
+											"disabled": true
+										},
+										{
+											"id": "a1baddab-14e3-402e-a209-1eee48ba98ec",
+											"type": "modifier",
+											"name": "Malediction-Proof",
+											"reference": "PSI14",
+											"cost": 50,
+											"disabled": true
+										},
+										{
+											"id": "b1b407f3-24ca-4beb-8f3a-d362891e5af9",
+											"type": "modifier",
+											"name": "Maledictions Only",
+											"reference": "PSI14",
+											"disabled": true
+										},
+										{
+											"id": "a48b115e-bf63-41f8-84cd-3b6d1e41653e",
+											"type": "modifier",
+											"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
+											"reference": "B47",
+											"cost": -10,
+											"disabled": true
+										}
+									],
+									"levels": 2,
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "dr_bonus",
+											"location": "all",
+											"amount": 1
+										}
+									],
+									"can_level": true,
+									"calc": {
+										"points": 6
+									}
+								},
+								{
+									"id": "d413e5a5-bfdd-4ecb-a0be-0bc660d7b71f",
+									"type": "trait",
+									"name": "Damage Resistance",
+									"reference": "B47,P45,MA43,PSI14",
+									"tags": [
+										"Advantage",
+										"Exotic",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "71e0ea7a-bb0e-409d-b01d-aa247b4e66f6",
+											"type": "modifier",
+											"name": "Force Field",
+											"reference": "B47",
+											"cost": 20,
+											"disabled": true
+										},
+										{
+											"id": "a5e89aca-0b61-483e-8ae3-d6086856cf9a",
+											"type": "modifier",
+											"name": "Hardened",
+											"reference": "B47",
+											"cost": 20,
+											"levels": 1,
+											"disabled": true
+										},
+										{
+											"id": "0377b71f-5bfe-44a7-b1a0-db38c7952845",
+											"type": "modifier",
+											"name": "Absorption",
+											"reference": "B46",
+											"notes": "Enhances @Trait@",
+											"cost": 80,
+											"disabled": true
+										},
+										{
+											"id": "db27da09-5815-4776-9af9-6d9741d8e52a",
+											"type": "modifier",
+											"name": "Absorption",
+											"reference": "B46",
+											"notes": "Healing only",
+											"cost": 80,
+											"disabled": true
+										},
+										{
+											"id": "0e4c391b-1076-40f2-92b6-c5d3c60b78fd",
+											"type": "modifier",
+											"name": "Absorption",
+											"reference": "B46",
+											"notes": "Enhances any trait",
+											"cost": 100,
+											"disabled": true
+										},
+										{
+											"id": "8b422514-296a-4b7c-b350-6b7e7d2be0e9",
+											"type": "modifier",
+											"name": "Reflection",
+											"reference": "B47",
+											"cost": 100,
+											"disabled": true
+										},
+										{
+											"id": "419ab96d-ea87-4894-b6d8-a6ee32a5d416",
+											"type": "modifier",
+											"name": "Bane",
+											"reference": "H14",
+											"notes": "@Rare@",
+											"cost": -1,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "a8c6d43d-430e-4773-a64c-200f75009e65",
+											"type": "modifier",
+											"name": "Bane",
+											"reference": "H14",
+											"notes": "@Occasional@",
+											"cost": -5,
+											"disabled": true
+										},
+										{
+											"id": "e9503abd-7621-42c4-8ced-3981ec7c6d9a",
+											"type": "modifier",
+											"name": "Bane",
+											"reference": "H14",
+											"notes": "Crushing",
+											"cost": -10
+										},
+										{
+											"id": "1585a884-94e2-4152-b7b7-d3b6cc253c58",
+											"type": "modifier",
+											"name": "Bane",
+											"reference": "H14",
+											"notes": "@Very Common@",
+											"cost": -15,
+											"disabled": true
+										},
+										{
+											"id": "131c5627-2f5a-4f3f-8a52-08417003bc95",
+											"type": "modifier",
+											"name": "Directional",
+											"reference": "B47",
+											"notes": "Front",
+											"cost": -20,
+											"disabled": true
+										},
+										{
+											"id": "132e7d43-7920-45f5-bcde-036029aa49f2",
+											"type": "modifier",
+											"name": "Flexible",
+											"reference": "B47",
+											"cost": -20,
+											"disabled": true
+										},
+										{
+											"id": "d9e01c00-3ac2-4f4d-ae5f-45b34441df13",
+											"type": "modifier",
+											"name": "Limited",
+											"reference": "B46",
+											"notes": "@Very Common Attack Form@",
+											"cost": -20,
+											"disabled": true
+										},
+										{
+											"id": "72f08aac-bc4a-43fe-875b-8747b7397bec",
+											"type": "modifier",
+											"name": "Semi-Ablative",
+											"reference": "B47",
+											"cost": -20,
+											"disabled": true
+										},
+										{
+											"id": "13410164-cee1-4956-832c-47bcf41fdab8",
+											"type": "modifier",
+											"name": "Can't wear armor",
+											"reference": "B47",
+											"cost": -40,
+											"disabled": true
+										},
+										{
+											"id": "9ad2a005-947f-4ef9-ba99-ed88a4adaa49",
+											"type": "modifier",
+											"name": "Directional",
+											"reference": "B47",
+											"notes": "@Direction: Back, Right, Left, Top or Underside@",
+											"cost": -40,
+											"disabled": true
+										},
+										{
+											"id": "34ffce90-cba0-4d1a-a8ce-b3e6b12a51e3",
+											"type": "modifier",
+											"name": "Limited",
+											"reference": "B46",
+											"notes": "@Common Attack Form@",
+											"cost": -40,
+											"disabled": true
+										},
+										{
+											"id": "10940926-bf24-4984-a984-d974384f0874",
+											"type": "modifier",
+											"name": "Tough Skin",
+											"notes": "Effects that just require skin contact or a scratch ignore this DR",
+											"cost": -40
+										},
+										{
+											"id": "db046fce-bac2-4fae-98d4-ee66925c0e9e",
+											"type": "modifier",
+											"name": "Limited",
+											"reference": "B46",
+											"notes": "@Occasional Attack Form@",
+											"cost": -60,
+											"disabled": true
+										},
+										{
+											"id": "b112e7ab-adac-40ef-a544-598ae0f7436f",
+											"type": "modifier",
+											"name": "Ablative",
+											"reference": "B47",
+											"cost": -80,
+											"disabled": true
+										},
+										{
+											"id": "3b761122-5da1-46dd-992c-2f9df40890cb",
+											"type": "modifier",
+											"name": "Limited",
+											"reference": "B46",
+											"notes": "@Rare Attack Form@",
+											"cost": -80,
+											"disabled": true
+										},
+										{
+											"id": "0ed89045-94df-4ab0-ac26-53103a2ad43f",
+											"type": "modifier",
+											"name": "Laminate",
+											"reference": "RSWL18",
+											"cost": 10,
+											"disabled": true
+										},
+										{
+											"id": "a1baddab-14e3-402e-a209-1eee48ba98ec",
+											"type": "modifier",
+											"name": "Malediction-Proof",
+											"reference": "PSI14",
+											"cost": 50,
+											"disabled": true
+										},
+										{
+											"id": "b1b407f3-24ca-4beb-8f3a-d362891e5af9",
+											"type": "modifier",
+											"name": "Maledictions Only",
+											"reference": "PSI14",
+											"disabled": true
+										},
+										{
+											"id": "a48b115e-bf63-41f8-84cd-3b6d1e41653e",
+											"type": "modifier",
+											"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
+											"reference": "B47",
+											"cost": -10,
+											"disabled": true
+										}
+									],
+									"levels": 1,
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "dr_bonus",
+											"location": "all",
+											"amount": 1
+										}
+									],
+									"can_level": true,
+									"calc": {
+										"points": 3
+									}
+								}
+							],
+							"name": "Exoskeleton",
+							"calc": {
+								"points": 9
+							}
+						},
+						{
+							"id": "8f430cfb-c81c-4a12-8092-c6e250e60746",
+							"type": "trait",
+							"name": "Extra Legs",
+							"reference": "B54",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "6639c262-12d3-486e-a428-747ddffe3a1b",
+									"type": "modifier",
+									"name": "Eight",
+									"reference": "B55",
+									"cost": 15,
+									"cost_type": "points"
+								},
+								{
+									"id": "456497b3-3df5-4c41-a02e-23c21ba5c780",
+									"type": "modifier",
+									"name": "Cannot Kick",
+									"reference": "B55",
+									"cost": -50
+								}
+							],
+							"calc": {
+								"points": 8
+							}
+						},
+						{
+							"id": "3660d3f9-1c90-40cd-ad50-ab87438ca674",
+							"type": "trait",
+							"name": "Fangs",
+							"reference": "B91",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 2,
+							"weapons": [
+								{
+									"id": "5b7be883-a73f-415d-ba4a-38ca4f67f125",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "imp",
+										"st": "thr",
+										"base": "-1"
+									},
+									"usage": "Bite",
+									"reach": "C",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Brawling"
+										},
+										{
+											"type": "dx"
+										}
+									],
+									"calc": {
+										"damage": "thr-1 imp"
+									}
+								}
+							],
+							"calc": {
+								"points": 2
+							}
+						},
+						{
+							"id": "73021aa1-49b5-44e6-9193-f8775203b466",
+							"type": "trait",
+							"name": "Innate Attack (Toxic)",
+							"reference": "B62",
+							"notes": "Spider Poison",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "390eeb5a-5925-4b9b-9066-fc25b92614ef",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 sec",
+									"cost": 100,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "7d2818dc-c018-41b2-b84f-c82ba1adec7e",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "10 sec",
+									"cost": 50,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "6f0f744a-55b8-41b1-851b-52616e7be5fe",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 min, 2 Cycles after first. Halted by medical care. Resistable",
+									"cost": 20,
+									"levels": 2
+								},
+								{
+									"id": "cf3e6518-e3f1-4364-879d-cb63f0d77f22",
+									"type": "modifier_container",
+									"open": true,
+									"children": [
+										{
+											"id": "7114fe43-4213-4440-8a94-e0de32db7571",
+											"type": "modifier",
+											"name": "Cyclic",
+											"reference": "B103",
+											"notes": "1 seconds, 5 Cycles after first. Halted by medical care. Resistable",
+											"cost": 50,
+											"levels": 5,
+											"disabled": true
+										},
+										{
+											"id": "d9ae21a5-50d8-45a5-b076-6657bf1a958e",
+											"type": "modifier",
+											"name": "Cyclic",
+											"reference": "B103",
+											"notes": "1 seconds, 10 Cycles after first. Halted by medical care. Resistable",
+											"cost": 50,
+											"levels": 10,
+											"disabled": true
+										}
+									],
+									"name": "Hyper Venom"
+								},
+								{
+									"id": "c23b60b5-37ac-41ac-9c90-71cde7b6d0c1",
+									"type": "modifier_container",
+									"open": true,
+									"children": [
+										{
+											"id": "919607f6-3bfc-4a3c-8f6d-19186e79256f",
+											"type": "modifier",
+											"name": "Cyclic",
+											"reference": "B103",
+											"notes": "10 seconds, 2 Cycles after first. Halted by medical care. Resistable",
+											"cost": 25,
+											"levels": 2,
+											"disabled": true
+										},
+										{
+											"id": "23f7efc0-4358-4c9c-999a-d373acfff9c8",
+											"type": "modifier",
+											"name": "Cyclic",
+											"reference": "B103",
+											"notes": "1 seconds, 2 Cycles after first. Halted by medical care. Resistable",
+											"cost": 50,
+											"levels": 2,
+											"disabled": true
+										}
+									],
+									"name": "Fast-Acting Venom"
+								},
+								{
+									"id": "81b19a3c-0ed5-42d8-b411-2f36af809f4c",
+									"type": "modifier_container",
+									"open": true,
+									"children": [
+										{
+											"id": "0c249e20-bde0-4881-ab29-9fe5cd226ad2",
+											"type": "modifier",
+											"name": "Cyclic",
+											"reference": "B103",
+											"notes": "1 min, 5 Cycles after first. Halted by medical care. Resistable",
+											"cost": 20,
+											"levels": 5,
+											"disabled": true
+										},
+										{
+											"id": "2834ecfb-50cb-4369-b79c-cecd53c78876",
+											"type": "modifier",
+											"name": "Cyclic",
+											"reference": "B103",
+											"notes": "1 min, 10 Cycles after first. Halted by medical care. Resistable",
+											"cost": 20,
+											"levels": 10,
+											"disabled": true
+										}
+									],
+									"name": "Long-Lasting Venom"
+								},
+								{
+									"id": "bdad384a-0829-4cae-ac10-ef0180db86e3",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 hr",
+									"cost": 20,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "84d9d80d-66d4-4060-bef1-e6559dada756",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 day",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "74c0e584-9db9-4d82-9656-c6ad283d0556",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 sec; Resistible",
+									"cost": 50,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "84fbb1f0-7280-4d09-a474-8d3a72739867",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "10 sec; Resistible",
+									"cost": 25,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "44448418-c286-4e41-9c79-aa3cabe954cc",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 min; Resistible",
+									"cost": 20,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "76ef6764-9a2c-45a2-9c74-31e71fdc4939",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 hr; Resistible",
+									"cost": 10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "33e106b1-8d9c-4104-87b2-07a9819da38e",
+									"type": "modifier",
+									"name": "Cyclic",
+									"reference": "B103",
+									"notes": "1 day; Resistible",
+									"cost": 5,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "aa921b5a-902d-4cdd-9157-4de8366768b4",
+									"type": "modifier",
+									"name": "Contagious",
+									"reference": "B103",
+									"notes": "Mildly",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "d3ac8d22-c1c2-431d-9c6e-09df88926331",
+									"type": "modifier",
+									"name": "Contagious",
+									"reference": "B103",
+									"notes": "Highly",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "6d9c9e03-b066-4679-b6b1-772f1a766b84",
+									"type": "modifier",
+									"name": "Double Blunt Trauma",
+									"reference": "B104",
+									"notes": "1HP per 10 dmg",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "4f1b6c5c-7234-437c-9267-c3f08dfe2989",
+									"type": "modifier",
+									"name": "Explosion",
+									"reference": "B104",
+									"cost": 50,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "fd91558a-a536-4639-a478-4df15073a83d",
+									"type": "modifier",
+									"name": "Fragmentation",
+									"reference": "B104",
+									"cost": 15,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "ee3d4b7d-f011-42e2-9445-404a7c293d35",
+									"type": "modifier",
+									"name": "Fragmentation",
+									"reference": "B104",
+									"notes": "Hot",
+									"cost": 15,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "d5447529-605a-44c0-a7f7-aadb492c697f",
+									"type": "modifier",
+									"name": "Radiation",
+									"reference": "B104",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "0f34af9c-d036-4f7c-a217-ad8e16f8cd99",
+									"type": "modifier",
+									"name": "Surge",
+									"reference": "B104",
+									"cost": 20,
+									"disabled": true
+								},
+								{
+									"id": "03826f42-f6fc-41b9-ae74-81c220d6ddfb",
+									"type": "modifier",
+									"name": "Armor Divisor",
+									"reference": "B102",
+									"notes": "2",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "46a6b6d6-c539-45d4-956e-e6efc99b5875",
+									"type": "modifier",
+									"name": "Armor Divisor",
+									"reference": "B102",
+									"notes": "3",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "9207c104-01ec-482f-b358-12a5053420fa",
+									"type": "modifier",
+									"name": "Armor Divisor",
+									"reference": "B102",
+									"notes": "5",
+									"cost": 150,
+									"disabled": true
+								},
+								{
+									"id": "0189bca4-99e9-4031-82f7-1b1cd0963d9a",
+									"type": "modifier",
+									"name": "Armor Divisor",
+									"reference": "B102",
+									"notes": "10",
+									"cost": 200,
+									"disabled": true
+								},
+								{
+									"id": "2154a4c7-ee53-413d-a2cb-96ee3e224a38",
+									"type": "modifier",
+									"name": "Side Effect",
+									"reference": "B109",
+									"notes": "@Effect@",
+									"disabled": true
+								},
+								{
+									"id": "4b9818e0-f485-482a-9b4b-13676eb696b9",
+									"type": "modifier",
+									"name": "Symptoms",
+									"reference": "B109",
+									"notes": "@Effect@",
+									"disabled": true
+								},
+								{
+									"id": "d8122342-3caa-46fd-9962-ce5e090c34a2",
+									"type": "modifier",
+									"name": "Armor Divisor",
+									"reference": "B110",
+									"notes": "0.5",
+									"cost": -30,
+									"disabled": true
+								},
+								{
+									"id": "cdb5d76b-1315-4661-a2b3-6b4fb551bb04",
+									"type": "modifier",
+									"name": "Armor Divisor",
+									"reference": "B110",
+									"notes": "0.2",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "556f3ce7-c057-46c5-812a-856206531f21",
+									"type": "modifier",
+									"name": "Armor Divisor",
+									"reference": "B110",
+									"notes": "0.1",
+									"cost": -70,
+									"disabled": true
+								},
+								{
+									"id": "14e9956a-e3f6-4f3a-bffc-1465b925ca54",
+									"type": "modifier",
+									"name": "No Wounding",
+									"reference": "B111",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "92324d04-d6ea-40b4-af4d-40cfa69ddbc7",
+									"type": "modifier",
+									"name": "Incendiary",
+									"reference": "B104",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "effd3129-b346-4b45-9b5a-c8005bbae9cf",
+									"type": "modifier",
+									"name": "Follow Up",
+									"notes": "Follow up to bite"
+								},
+								{
+									"id": "96f8b1cb-7bc9-4407-8ddc-491140538159",
+									"type": "modifier",
+									"name": "Limited Use",
+									"reference": "B112,P103",
+									"notes": "2 uses per day",
+									"cost": -30,
+									"disabled": true
+								},
+								{
+									"id": "fa32c849-802d-4195-a8d4-fb355a8c5ddd",
+									"type": "modifier",
+									"name": "Resistible",
+									"reference": "B115,P105",
+									"notes": "HT-2 to resist",
+									"cost": -5,
+									"levels": 4
+								},
+								{
+									"id": "7b6ec550-2196-4214-8bd3-d0e40eda194d",
+									"type": "modifier_container",
+									"open": true,
+									"children": [
+										{
+											"id": "b86e25fd-c2b7-4b79-82cf-dd1990276c3d",
+											"type": "modifier",
+											"name": "Resistible",
+											"reference": "B115,P105",
+											"notes": "HT-4 to resist",
+											"cost": -5,
+											"levels": 2,
+											"disabled": true
+										}
+									],
+									"name": "Potent Venom"
+								}
+							],
+							"levels": 1,
+							"points_per_level": 4,
+							"weapons": [
+								{
+									"id": "1a635da5-7d6a-472b-a2e9-4061c33ece9e",
+									"type": "ranged_weapon",
+									"damage": {
+										"type": "tox",
+										"base": "1d"
+									},
+									"accuracy": "3",
+									"range": "10",
+									"rate_of_fire": "1",
+									"recoil": "1",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Innate Attack"
+										},
+										{
+											"type": "skill",
+											"name": "Innate Attack",
+											"modifier": -2
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"level": 6,
+										"damage": "1d tox"
+									}
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "0ed630b3-9103-484b-9454-1647277e95d4",
+							"type": "trait",
+							"name": "Resistant",
+							"reference": "B81,P71,MA47",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "67a26bb4-d44b-4078-bdd1-3de5d4e7fe37",
+									"type": "modifier",
+									"name": "@Very Common: Metabolic Hazards, etc.@",
+									"reference": "B80",
+									"cost": 30,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "9d0a156e-6a47-450a-a695-59920f642b44",
+									"type": "modifier",
+									"name": "Poison",
+									"reference": "B81",
+									"cost": 15,
+									"cost_type": "points"
+								},
+								{
+									"id": "df4e4548-5978-43a5-ba38-1acbaead9779",
+									"type": "modifier",
+									"name": "@Occasional: Disease, Ingested Poison, etc.@",
+									"reference": "B81",
+									"cost": 10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "95a83382-1840-4824-b116-e378c6f814b8",
+									"type": "modifier",
+									"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+									"reference": "B81",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "568d217b-f340-4966-a69f-b4813e9cac82",
+									"type": "modifier",
+									"name": "Immunity",
+									"reference": "B81",
+									"cost": 1,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "0ce07da1-0712-4465-98c5-fb7e9975d462",
+									"type": "modifier",
+									"name": "+8 to all HT rolls to resist",
+									"reference": "B81",
+									"cost": 0.5,
+									"cost_type": "multiplier"
+								},
+								{
+									"id": "b7b5b83b-6225-4feb-83ee-52cb72533224",
+									"type": "modifier",
+									"name": "+3 to all HT rolls to resist",
+									"reference": "B81",
+									"cost": 0.33,
+									"cost_type": "multiplier",
+									"disabled": true
+								}
+							],
+							"round_down": true,
+							"calc": {
+								"points": 7
+							}
+						},
+						{
+							"id": "71c7d777-b623-4acf-8c32-3bf92f7de243",
+							"type": "trait_container",
+							"open": true,
+							"children": [
+								{
+									"id": "7b9efe6a-642e-45ed-bf1a-be84701fca9e",
+									"type": "trait",
+									"name": "Binding",
+									"reference": "B40,P42",
+									"tags": [
+										"Advantage",
+										"Exotic",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "013cd6ca-bf61-47f4-b896-7e797e7cf4e1",
+											"type": "modifier",
+											"name": "Engulfing",
+											"reference": "B40",
+											"cost": 60
+										},
+										{
+											"id": "245c6cd5-a6be-467b-9e18-fc196982f531",
+											"type": "modifier",
+											"name": "Only Damaged by @Burning/Corrosion/Cutting/Crushing@",
+											"reference": "B40",
+											"cost": 30,
+											"disabled": true
+										},
+										{
+											"id": "feff8222-53e6-431e-b946-0d13bdf135e4",
+											"type": "modifier",
+											"name": "Only Damaged by @1. Choose one from Burning/Corrosion/Cutting/Crushing@ or @2. Choose one from Burning/Corrosion/Cutting/Crushing@",
+											"reference": "B40",
+											"cost": 20,
+											"disabled": true
+										},
+										{
+											"id": "877b5159-04fd-4eb7-a0b3-6bd4e7f5dbfc",
+											"type": "modifier",
+											"name": "Only Damaged by @1. Choose one from Burning/Corrosion/Cutting/Crushing@, @2. Choose one from Burning/Corrosion/Cutting/Crushing@ or @3. Choose one from Burning/Corrosion/Cutting/Crushing@",
+											"reference": "B40",
+											"cost": 10,
+											"disabled": true
+										},
+										{
+											"id": "1a95d878-1843-491c-af6b-ac99226c01c2",
+											"type": "modifier",
+											"name": "Sticky",
+											"reference": "B40",
+											"cost": 20,
+											"disabled": true
+										},
+										{
+											"id": "5cd53657-d2b7-4d49-b5be-e9d5efeedc4a",
+											"type": "modifier",
+											"name": "Unbreakable",
+											"reference": "B40",
+											"cost": 40,
+											"disabled": true
+										},
+										{
+											"id": "301d843f-3824-4ae7-acbc-2a1ab8247a9a",
+											"type": "modifier",
+											"name": "One Shot",
+											"reference": "B40",
+											"cost": -10,
+											"disabled": true
+										},
+										{
+											"id": "aca140a4-3b30-4354-aacb-529aa91497ed",
+											"type": "modifier",
+											"name": "Super-Binding",
+											"reference": "SU25",
+											"cost": 400,
+											"disabled": true
+										},
+										{
+											"id": "b0c97d30-b04d-4063-8216-44e26cc3773a",
+											"type": "modifier",
+											"name": "Jet",
+											"reference": "B106,P103"
+										}
+									],
+									"levels": 5,
+									"points_per_level": 2,
+									"can_level": true,
+									"calc": {
+										"points": 16
+									}
+								}
+							],
+							"name": "Spider Web",
+							"calc": {
+								"points": 16
+							}
+						},
+						{
+							"id": "81ab5bd2-8865-4ffb-9a0a-156dd78ad2de",
+							"type": "trait",
+							"name": "Hyperspectral Vision",
+							"reference": "B60,P51",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "5fad754c-890d-45a8-a82e-cd514d8f51eb",
+									"type": "modifier",
+									"name": "Extended Low-Band",
+									"reference": "B60",
+									"cost": 30,
+									"disabled": true
+								},
+								{
+									"id": "aaf3f5a6-880b-4b10-9784-2ad92b93fdf4",
+									"type": "modifier",
+									"name": "Extended High-Band",
+									"reference": "B60",
+									"cost": 30,
+									"disabled": true
+								},
+								{
+									"id": "dd67917c-d2df-43bb-9f51-7fc564a47a03",
+									"type": "modifier",
+									"name": "Extended",
+									"reference": "P52",
+									"notes": "@Special@",
+									"cost": 30,
+									"disabled": true
+								}
+							],
+							"base_points": 25,
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": false,
+										"name": {
+											"compare": "is",
+											"qualifier": "infravision"
+										}
+									},
+									{
+										"type": "trait_prereq",
+										"has": false,
+										"name": {
+											"compare": "is",
+											"qualifier": "ultravision"
+										}
+									}
+								]
+							},
+							"calc": {
+								"points": 25
+							}
+						}
+					],
+					"name": "Advantages",
+					"calc": {
+						"points": 153
+					}
+				},
+				{
+					"id": "ee8d60d2-a75d-4468-bb54-ff51790e3355",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "c93bb511-29df-45ea-9ecb-f3854b42b2a6",
+							"type": "trait",
+							"name": "Cannot Speak (Mute)",
+							"reference": "B125",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"base_points": -25,
+							"calc": {
+								"points": -25
+							}
+						},
+						{
+							"id": "44124542-dae9-42a2-ac39-6bb033b69c5c",
+							"type": "trait",
+							"name": "Restricted Diet (Fresh Meat)",
+							"reference": "B151",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "0dae0fad-abcc-4e90-a149-326bea6573a8",
+									"type": "modifier",
+									"name": "Substitution",
+									"reference": "B151",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "1cc9a927-6c9b-402c-bd43-9fe3454103aa",
+									"type": "modifier",
+									"name": "Very Common",
+									"reference": "B151",
+									"cost": -10,
+									"cost_type": "points"
+								},
+								{
+									"id": "7ee9ad59-a4f4-4310-ad24-cbd4d90047c7",
+									"type": "modifier",
+									"name": "Common",
+									"reference": "B151",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "0d16b1d2-ff4b-40d7-a015-5b3a71fbbd1a",
+									"type": "modifier",
+									"name": "Occasional",
+									"reference": "B151",
+									"cost": -30,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "2b764a44-21bf-4285-83d6-a2443b93fe36",
+									"type": "modifier",
+									"name": "Rare",
+									"reference": "B151",
+									"cost": -40,
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "e8f3743a-3f18-4716-aa2d-cc6065cea3f3",
+							"type": "trait",
+							"name": "Semi-Upright",
+							"reference": "B153",
+							"notes": "Moving while upright reduces Move by 40%",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "0b2da36d-5579-49e5-bf5b-c712caaff1a0",
+							"type": "trait",
+							"name": "Social Stigma (Monster)",
+							"reference": "B155",
+							"tags": [
+								"Disadvantage",
+								"Social"
+							],
+							"base_points": -15,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "intimidation"
+									},
+									"amount": 1
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "from others",
+									"amount": -3
+								}
+							],
+							"calc": {
+								"points": -15
+							}
+						}
+					],
+					"name": "Disadvantages",
+					"calc": {
+						"points": -55
+					}
+				},
+				{
+					"id": "dcad0aa6-3402-4fca-9bd3-122820dc86ed",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "dab9c239-51b8-40e5-acaa-5990fd31fbb4",
+							"type": "trait",
+							"name": "SM -2",
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "sm",
+									"amount": -2
+								}
+							],
+							"calc": {
+								"points": 0
+							}
+						}
+					],
+					"name": "Features",
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"name": "Arakos",
+			"ancestry": "Human",
+			"container_type": "ancestry",
+			"calc": {
+				"points": 73
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "6546d73c-dc7a-4400-a8b5-9e6bdbca9fef",
+			"type": "skill",
+			"name": "Telereceive",
+			"reference": "PSI58",
+			"tags": [
+				"Communication",
+				"Psionics",
+				"Telepathy"
+			],
+			"difficulty": "iq/h",
+			"points": 2,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Telereceive (Shallow)"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "_"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Telereceive"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "_"
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ff2543e7-0923-4896-bdc4-edc36792855b",
+			"type": "skill",
+			"name": "Telesend",
+			"reference": "PSI60",
+			"tags": [
+				"Communication",
+				"Psionics",
+				"Telepathy"
+			],
+			"difficulty": "iq/h",
+			"points": 2,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Telespeak"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "_"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Telesend"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "_"
+						}
+					}
+				]
+			}
+		}
+	]
+}

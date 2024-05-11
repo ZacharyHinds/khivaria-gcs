@@ -1,0 +1,78 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "5cb059fa-db04-4b54-a1b8-301b260acd4a",
+			"type": "equipment",
+			"description": "Copper Piece",
+			"tech_level": "4",
+			"legality_class": "4",
+			"tags": [
+				"Currency"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.016 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.016 lb"
+			}
+		},
+		{
+			"id": "f03c14eb-1583-4bf4-a0c2-63d62a5d221b",
+			"type": "equipment",
+			"description": "Gold Piece",
+			"tech_level": "4",
+			"legality_class": "4",
+			"tags": [
+				"Currency"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "0.005 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0.005 lb"
+			}
+		},
+		{
+			"id": "0ef7fa6a-35dc-454a-9512-2da6af668f73",
+			"type": "equipment",
+			"description": "Platinum Piece",
+			"tech_level": "4",
+			"legality_class": "4",
+			"tags": [
+				"Currency"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "0.005 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "0.005 lb"
+			}
+		},
+		{
+			"id": "05334492-817f-4022-b340-a4478c56b851",
+			"type": "equipment",
+			"description": "Silver Piece",
+			"tech_level": "4",
+			"legality_class": "4",
+			"tags": [
+				"Currency"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.01 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.01 lb"
+			}
+		}
+	]
+}

@@ -1,0 +1,669 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "e775b8e9-8f09-49e5-af8e-7c477bfbd881",
+	"traits": [
+		{
+			"id": "a4f2ea07-59d0-4383-8713-b1c0060dbd1e",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "0250653c-e974-4f16-8c6a-cd5343a7d9df",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "bb82c225-20f9-43a1-886e-671f30ccef48",
+							"type": "trait",
+							"name": "Increased Strength",
+							"reference": "B14",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "fc2b398f-467b-4c36-857b-98087975f0c4",
+									"type": "modifier",
+									"name": "No Fine Manipulators",
+									"reference": "B15",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "89e24b12-233b-4ad9-a77a-934e7bc640f7",
+									"type": "modifier",
+									"name": "Size",
+									"reference": "B15",
+									"cost": -10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "4f3a7bdb-ed81-4735-87e8-d9eaeb4856c7",
+									"type": "modifier",
+									"name": "Super-Effort",
+									"reference": "SU24",
+									"cost": 300,
+									"disabled": true
+								}
+							],
+							"levels": 1,
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "st",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "e91d4458-8955-4878-b80f-73d66d811e0e",
+							"type": "trait",
+							"name": "Increased Health",
+							"reference": "B14",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"levels": 1,
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "ht",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"name": "Attributes",
+					"container_type": "attributes",
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "75ad98ef-6159-4f02-9057-a2b0dc7d7ff2",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "891f23b1-fe58-48ca-a13e-07b310b0aefe",
+							"type": "trait",
+							"name": "Extra Hit Points",
+							"reference": "B16",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "910bfd80-869d-46d8-aa30-5c7c5bae59a4",
+									"type": "modifier",
+									"name": "Size",
+									"cost": -10,
+									"levels": 1,
+									"disabled": true
+								}
+							],
+							"levels": 2,
+							"points_per_level": 2,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "hp",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 4
+							}
+						},
+						{
+							"id": "e3dec79a-a4a3-46a7-91e7-45ac9d7daa62",
+							"type": "trait",
+							"name": "Extra Fatigue Points",
+							"reference": "B16",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"levels": 2,
+							"points_per_level": 3,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "fp",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 6
+							}
+						},
+						{
+							"id": "b46b8101-48d4-4a96-a401-8db9e2bb9fed",
+							"type": "trait",
+							"name": "Increased Will",
+							"reference": "B16",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Mental"
+							],
+							"levels": 1,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "will",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 5
+							}
+						}
+					],
+					"name": "Secondary Characteristics",
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "874569da-cb24-4333-afb6-00d5dbc92f35",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "19270290-fcca-4e18-aa48-5ee4de3cb9af",
+							"type": "trait",
+							"name": "Alcohol Tolerance",
+							"reference": "B100",
+							"tags": [
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "d4faebdc-56c4-4e2e-b02a-560eb957cddb",
+							"type": "trait",
+							"name": "Talent (Dwarven Artificer)",
+							"tags": [
+								"Advantage",
+								"Mental",
+								"Talent"
+							],
+							"modifiers": [
+								{
+									"id": "1f12b154-8ad9-4ffb-849f-bb910f2cd5ad",
+									"type": "modifier",
+									"name": "Alternative Cost",
+									"cost": -1,
+									"affects": "levels_only",
+									"cost_type": "points",
+									"disabled": true
+								}
+							],
+							"levels": 1,
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "armoury"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "carpentry"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "architecture"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "metallurgy"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "engineer"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "machinist"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "masonry"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "mechanic"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "smith"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "From employers.",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "eb749cbb-307d-43e8-b12a-157384b8d8c9",
+							"type": "trait",
+							"name": "Detect",
+							"reference": "B48,P47,PSI14",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Mental",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "60b71753-e781-483e-aaed-306417206ccf",
+									"type": "modifier",
+									"name": "@Rare Substance/Condition@",
+									"reference": "B48",
+									"cost": 5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "4a9894b2-d3c8-4ae5-96a5-0d1f74051590",
+									"type": "modifier",
+									"name": "@Occasional Substance/Condition@",
+									"reference": "B48",
+									"cost": 10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "de19c244-f725-4491-a3ed-5b9b09d5d0f4",
+									"type": "modifier",
+									"name": "@Common Substance/Condition@",
+									"reference": "B48",
+									"cost": 20,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "fcd07e0a-c328-4c7c-8a6f-2ac1dd92f5de",
+									"type": "modifier",
+									"name": "Minerals",
+									"reference": "B48",
+									"cost": 30,
+									"cost_type": "points"
+								},
+								{
+									"id": "64352b79-d299-410e-b363-ff6658516cb5",
+									"type": "modifier",
+									"name": "Precise",
+									"reference": "B48",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "9467dba5-9922-4705-a594-270656ff40e6",
+									"type": "modifier",
+									"name": "Signal Detection",
+									"reference": "B48",
+									"disabled": true
+								},
+								{
+									"id": "0fbf0474-0c96-4b4f-ae40-6e1ca088d6c3",
+									"type": "modifier",
+									"name": "Vague",
+									"reference": "B48",
+									"cost": -50
+								},
+								{
+									"id": "42b1310a-0243-4d6f-b246-e6ce8a4f9907",
+									"type": "modifier",
+									"name": "Analyzing",
+									"reference": "P47",
+									"cost": 100,
+									"disabled": true
+								},
+								{
+									"id": "72e6a01c-845c-43c4-b44d-a5eab5e18433",
+									"type": "modifier",
+									"name": "Lock-On",
+									"reference": "PSI14",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "006e0217-13f4-4867-bd92-ea1345e75182",
+									"type": "modifier",
+									"name": "Precise, Nontargeting",
+									"reference": "PSI14",
+									"cost": 90,
+									"disabled": true
+								},
+								{
+									"id": "13075e67-2cd1-4157-96b4-1658e72ee85b",
+									"type": "modifier",
+									"name": "Analysis Only",
+									"reference": "PSI14",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "5f1633d1-7d44-4523-a3a0-9438af35e0ac",
+									"type": "modifier",
+									"name": "Cannot Analyze",
+									"reference": "PSI14",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "f051ed51-696e-4da2-9de4-db746a4ae215",
+									"type": "modifier",
+									"name": "Selective Effect",
+									"reference": "PU4:16",
+									"cost": 20
+								}
+							],
+							"calc": {
+								"points": 21
+							}
+						},
+						{
+							"id": "ad019518-919b-4422-8e67-c3d5b2687bb2",
+							"type": "trait",
+							"name": "Extended Lifespan",
+							"reference": "B53",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"levels": 2,
+							"points_per_level": 1,
+							"can_level": true,
+							"calc": {
+								"points": 2
+							}
+						},
+						{
+							"id": "a9bd3cbd-33e3-4f4c-85d8-48171085d3c2",
+							"type": "trait",
+							"name": "Lifting ST",
+							"reference": "B65",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "8912dbea-c285-4444-a00f-af3e8a120cc0",
+									"type": "modifier",
+									"name": "No Fine Manipulators",
+									"reference": "B15",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "d33bcf4f-1b7f-4c7d-a040-02bfdbdf9361",
+									"type": "modifier",
+									"name": "Size",
+									"reference": "B15",
+									"cost": -10,
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "e391240c-5dc6-448f-b8fc-8ac6abbc6414",
+									"type": "modifier",
+									"name": "Super-Effort",
+									"reference": "P58",
+									"cost": 400,
+									"disabled": true
+								}
+							],
+							"levels": 2,
+							"points_per_level": 3,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"limitation": "lifting_only",
+									"attribute": "st",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 6
+							}
+						},
+						{
+							"id": "20ea002a-8e06-4a31-a1aa-5985b47869e9",
+							"type": "trait",
+							"name": "Night Vision",
+							"reference": "B71",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"levels": 5,
+							"points_per_level": 1,
+							"can_level": true,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "d6f22147-9bb7-483b-94b1-d0022fc13cc1",
+							"type": "trait",
+							"name": "Temperature Tolerance",
+							"reference": "B93",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"levels": 2,
+							"points_per_level": 1,
+							"can_level": true,
+							"calc": {
+								"points": 2
+							}
+						}
+					],
+					"name": "Advantages",
+					"calc": {
+						"points": 47
+					}
+				},
+				{
+					"id": "a6de474a-efcd-45f9-84dc-7caf74519fcb",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "31096987-1f24-4136-bda2-474ed820b798",
+							"type": "trait",
+							"name": "Attentive",
+							"reference": "B163",
+							"tags": [
+								"Mental",
+								"Quirk"
+							],
+							"base_points": -1,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to skill rolls when working on lengthy tasks, but -3 to notice any important interruption",
+									"amount": 1
+								}
+							],
+							"calc": {
+								"points": -1
+							}
+						},
+						{
+							"id": "9935691c-a9c2-4c3c-b22b-94e321b7aed1",
+							"type": "trait",
+							"name": "Cannot Float",
+							"reference": "B165",
+							"tags": [
+								"Physical",
+								"Quirk"
+							],
+							"base_points": -1,
+							"calc": {
+								"points": -1
+							}
+						},
+						{
+							"id": "d47bab72-8fff-474e-86e6-284b3575e531",
+							"type": "trait",
+							"name": "Greed",
+							"reference": "B137",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -15,
+							"cr": 15,
+							"calc": {
+								"points": -7
+							}
+						},
+						{
+							"id": "30964379-aac4-48c6-a471-1a8745df75f3",
+							"type": "trait",
+							"name": "Stubbornness",
+							"reference": "B157",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -5,
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "from others",
+									"amount": -1
+								}
+							],
+							"calc": {
+								"points": -5
+							}
+						}
+					],
+					"name": "Disadvantages",
+					"calc": {
+						"points": -14
+					}
+				},
+				{
+					"id": "7d931036-44b6-4b6a-83ae-49da79a7ced0",
+					"type": "trait_container",
+					"open": true,
+					"name": "Features",
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"name": "Dwarf",
+			"ancestry": "Human",
+			"container_type": "ancestry",
+			"calc": {
+				"points": 68
+			}
+		}
+	]
+}

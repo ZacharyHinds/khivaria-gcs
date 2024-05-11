@@ -1,0 +1,2165 @@
+{
+	"type": "spell_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "809c0355-0156-4337-9423-8d3a6bd50ab4",
+			"type": "spell",
+			"name": "Phlogiston Discharge",
+			"reference": "M196",
+			"tags": [
+				"Air",
+				"Essential",
+				"Weather"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Air",
+				"Weather"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "3+1-Magery",
+			"maintenance_cost": "-",
+			"casting_time": "1-3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "lightning"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "2426dd41-1736-4e12-a464-d3521f21a5c3",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "phlogiston/point",
+						"base": "1d-1"
+					},
+					"accuracy": "3",
+					"range": "50/100",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Beam"
+						}
+					],
+					"calc": {
+						"damage": "1d-1 phlogiston/point"
+					}
+				}
+			]
+		},
+		{
+			"id": "cab4a26f-24bb-4d63-8fbd-2a59d7080b42",
+			"type": "spell",
+			"name": "Phlogiston Arc",
+			"reference": "PY25:15",
+			"tags": [
+				"Air",
+				"Essential"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3+1 per 2 yards",
+			"maintenance_cost": "Same",
+			"casting_time": "2 sec",
+			"duration": "10 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "lightning whip"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "b173b12e-3356-4974-916d-c980c9c98f08",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "phlogiston",
+						"base": "1d"
+					},
+					"reach": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Whip"
+						},
+						{
+							"type": "skill",
+							"name": "Kusari",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Monowire Whip",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "1d phlogiston"
+					}
+				}
+			]
+		},
+		{
+			"id": "d4302076-c2f6-4ba8-a9f9-222e1cc2e988",
+			"type": "spell",
+			"name": "Phlogiston Detonation",
+			"reference": "PY25:15",
+			"tags": [
+				"Air",
+				"Essential"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "3+2-2xMagery",
+			"maintenance_cost": "-",
+			"casting_time": "1-3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "explosive lightning"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "dc9f1fc4-c1df-4c8e-9d57-0641afa1f859",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "phlogiston ex/2 points",
+						"base": "1d-1"
+					},
+					"accuracy": "3",
+					"range": "50/100",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Beam"
+						}
+					],
+					"calc": {
+						"damage": "1d-1 phlogiston ex/2 points"
+					}
+				}
+			]
+		},
+		{
+			"id": "eb8846fc-38b8-4563-963e-728f8bc604ee",
+			"type": "spell",
+			"name": "Phlogiston Sphere",
+			"reference": "PY25:16",
+			"tags": [
+				"Air",
+				"Essential"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "3+2-6",
+			"maintenance_cost": "Half",
+			"casting_time": "1-3 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "ball of lightning"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "57103081-2414-41f2-b351-7b02108963b4",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "phlogiston ex/point",
+						"base": "1d-1"
+					},
+					"calc": {
+						"damage": "1d-1 phlogiston ex/point"
+					}
+				}
+			]
+		},
+		{
+			"id": "8863dc8f-9c41-4651-a795-05c1bcef395b",
+			"type": "spell",
+			"name": "Phlogiston Stare",
+			"reference": "PY25:16",
+			"tags": [
+				"Air",
+				"Essential"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3+1-4",
+			"maintenance_cost": "-",
+			"casting_time": "2 sec",
+			"duration": "1 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "lightning stare"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "f216a44a-b352-4a22-8fd2-7b6ec52f7ab9",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "phlogiston/point",
+						"base": "1d"
+					},
+					"usage": "Gaze",
+					"reach": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Gaze"
+						}
+					],
+					"calc": {
+						"damage": "1d phlogiston/point"
+					}
+				}
+			]
+		},
+		{
+			"id": "99b62af0-4ece-4323-9284-df03e9f005c5",
+			"type": "spell",
+			"name": "Phlogiston Touch",
+			"reference": "PY25:16",
+			"tags": [
+				"Air",
+				"Essential"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Melee",
+			"casting_cost": "3+1-3",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "shocking touch"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "66d666ab-2e28-4cec-a7f8-7d7f91d0f3fe",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr +1d+1 burn/point",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 cr +1d+1 burn/point"
+					}
+				}
+			]
+		},
+		{
+			"id": "60e2d20e-5757-4fce-b069-5b95efdd90f3",
+			"type": "spell",
+			"name": "Adamant Missile",
+			"reference": "PY25:16",
+			"tags": [
+				"Earth",
+				"Essential"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "5+1-Magery",
+			"maintenance_cost": "-",
+			"casting_time": "1-3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "stone missile"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "2705149d-6ab5-41c1-a44d-543e20e72013",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr/point",
+						"base": "1d+1"
+					},
+					"accuracy": "2",
+					"range": "40/80",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						}
+					],
+					"calc": {
+						"damage": "1d+1 cr/point"
+					}
+				}
+			]
+		},
+		{
+			"id": "da17787c-d4e5-498c-ba76-d42e6bf25ae7",
+			"type": "spell",
+			"name": "Adamant Hail",
+			"reference": "PY25:16",
+			"tags": [
+				"Earth",
+				"Essential"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "5+1#",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "rain of stones"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "0dab00cb-c167-4edc-a4a4-caeb45153fd4",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr/point",
+						"base": "1d-1"
+					},
+					"usage": "Area",
+					"calc": {
+						"damage": "1d-1 cr/point"
+					}
+				}
+			]
+		},
+		{
+			"id": "6321bd63-7ebe-4cc3-879d-190bc9c60ed8",
+			"type": "spell",
+			"name": "Flesh to Adamant",
+			"reference": "PY25:16",
+			"tags": [
+				"Earth",
+				"Essential"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "20",
+			"maintenance_cost": "-",
+			"casting_time": "2 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "earth to stone"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "4d3127c9-c6e6-4477-9f54-0f7e6e4a82da",
+			"type": "spell",
+			"name": "Flesh to Orichalcum",
+			"reference": "PY25:16",
+			"reference_highlight": "Flesh to Adamant",
+			"tags": [
+				"Earth",
+				"Essential",
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "20",
+			"maintenance_cost": "-",
+			"casting_time": "2 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "flesh to metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "c3e4e3e6-b8cb-4632-97e6-38c151bc140c",
+			"type": "spell",
+			"name": "Orichalcum Edge",
+			"reference": "PY25:17",
+			"tags": [
+				"Essential",
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5",
+			"maintenance_cost": "2",
+			"casting_time": "3 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Essential metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Stone to Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "5db4cb80-7864-40f5-b617-ea848b6407af",
+			"type": "spell",
+			"name": "Orichalcum Missiles",
+			"reference": "PY25:17",
+			"tags": [
+				"Essential",
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5",
+			"maintenance_cost": "2",
+			"casting_time": "3 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Orichalcum Edge"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "303426e1-47f1-473d-bb3d-656cc6932a85",
+			"type": "spell",
+			"name": "Void Bolt",
+			"reference": "PY25:20",
+			"tags": [
+				"Essential",
+				"Void"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Void"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "2+4 / 1d dmg",
+			"maintenance_cost": "-",
+			"casting_time": "1-3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"weapons": [
+				{
+					"id": "144511b2-8b20-406c-a3d1-2fe8e00df236",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cosmic cr",
+						"base": "1d"
+					},
+					"accuracy": "4",
+					"range": "50/100",
+					"rate_of_fire": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Beam"
+						}
+					],
+					"calc": {
+						"damage": "1d cosmic cr"
+					}
+				}
+			]
+		},
+		{
+			"id": "a8a3c8ef-7802-4074-9c2a-dfe863d11486",
+			"type": "spell",
+			"name": "Hellfire Orb",
+			"reference": "PY25:17",
+			"tags": [
+				"Essential",
+				"Fire"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Fire"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "12+1-Magery",
+			"maintenance_cost": "-",
+			"casting_time": "1-3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential flame"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "fireball"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "cd901394-840c-4b11-975d-486fc5dd48cd",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "hellfire/point",
+						"base": "1d"
+					},
+					"accuracy": "1",
+					"range": "25/50",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						}
+					],
+					"calc": {
+						"damage": "1d hellfire/point"
+					}
+				}
+			]
+		},
+		{
+			"id": "51215f73-829b-48e5-8a8a-231baf922c89",
+			"type": "spell",
+			"name": "Explosive Hellfire Orb",
+			"reference": "PY25:17",
+			"tags": [
+				"Essential",
+				"Fire"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Fire"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "12+2-2xMagery#",
+			"maintenance_cost": "-",
+			"casting_time": "1-3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential flame"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "explosive fireball"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "f176a317-74af-4f7d-8708-099eebc0e10b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "hellfire ex/2 points",
+						"base": "1d"
+					},
+					"accuracy": "1",
+					"range": "25/50",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						}
+					],
+					"calc": {
+						"damage": "1d hellfire ex/2 points"
+					}
+				}
+			]
+		},
+		{
+			"id": "1439d520-a62f-4e78-b899-29934c9529e6",
+			"type": "spell",
+			"name": "Hellfire Rain",
+			"reference": "PY24:18",
+			"tags": [
+				"Essential",
+				"Fire"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Fire"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "12+1#",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "esential fire"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "rain of fire"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "648181dc-7ab1-4f23-b849-4ee8a7b6f5d5",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "hellfire",
+						"base": "1d-1"
+					},
+					"usage": "Area",
+					"calc": {
+						"damage": "1d-1 hellfire"
+					}
+				}
+			]
+		},
+		{
+			"id": "c7424af7-6e43-425f-94b8-cdc3cae36969",
+			"type": "spell",
+			"name": "Hellfire Jet",
+			"reference": "PY25:18",
+			"tags": [
+				"Essential",
+				"Fire"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Fire"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "12+1-Magery",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential flame"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "flame jet"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "a5886509-c781-4a3d-8e16-0eb7bcbe1e0b",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "burn/point",
+						"base": "1d"
+					},
+					"usage": "Jet",
+					"reach": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Beam"
+						}
+					],
+					"calc": {
+						"damage": "1d burn/point"
+					}
+				}
+			]
+		},
+		{
+			"id": "6a8b98c6-e866-4344-a3cd-9c7a642f497d",
+			"type": "spell",
+			"name": "Hellfire Breath",
+			"reference": "PY25:18",
+			"tags": [
+				"Essential",
+				"Fire"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Fire"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "12+1-Magery",
+			"maintenance_cost": "-",
+			"casting_time": "2 sec",
+			"duration": "1 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential flame"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "breathe fire"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "82ba4cd0-e244-4ed1-9614-ff2de9fc905d",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "burn/point",
+						"base": "1d+1"
+					},
+					"usage": "Breath",
+					"reach": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Breath"
+						}
+					],
+					"calc": {
+						"damage": "1d+1 burn/point"
+					}
+				}
+			]
+		},
+		{
+			"id": "35c5b5f0-55bc-47d8-93ff-681787c68ac7",
+			"type": "spell",
+			"name": "Stygian Touch",
+			"reference": "PY25:18",
+			"tags": [
+				"Essential",
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Melee",
+			"casting_cost": "2+3#",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec#",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential water"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "icy touch"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "b8b68a41-61d8-467a-a5ee-15b495358f88",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "+paralysis",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx"
+						},
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 +paralysis"
+					}
+				}
+			]
+		},
+		{
+			"id": "7e69b87a-b248-41d4-baf9-07064eaedf0f",
+			"type": "spell",
+			"name": "Stygian Ice Sphere",
+			"reference": "PY25:18",
+			"tags": [
+				"Essential",
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "3+1-Magery",
+			"maintenance_cost": "-",
+			"casting_time": "1-3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential water"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "ice sphere"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "57ef1e77-a8a3-408a-87ea-07ae48a3bedb",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr/point",
+						"base": "1d"
+					},
+					"accuracy": "2",
+					"range": "40/80",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						}
+					],
+					"calc": {
+						"damage": "1d cr/point"
+					}
+				}
+			]
+		},
+		{
+			"id": "a7e00667-c22e-4341-84ae-814f158d8995",
+			"type": "spell",
+			"name": "Stygian Ice Dagger",
+			"reference": "PY25:19",
+			"tags": [
+				"Essential",
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "4+2 / 1d-1 dmg",
+			"maintenance_cost": "-",
+			"casting_time": "1-3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential water"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "ice dagger"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "c2a59dc1-9ec6-468f-a005-61ae82d00e0b",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp/2 points",
+						"base": "1d-1"
+					},
+					"accuracy": "3",
+					"range": "30/60",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						}
+					],
+					"calc": {
+						"damage": "1d-1 imp/2 points"
+					}
+				}
+			]
+		},
+		{
+			"id": "0aca0a09-3c1d-4682-954a-e18cfac6b84e",
+			"type": "spell",
+			"name": "Stygian Cold",
+			"reference": "PY25:19",
+			"tags": [
+				"Essential",
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "3+1-Magery",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential water"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "frostbite"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "9044eed6-30bc-4f3e-b5c6-4895a6e2ddc9",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "freezing/point",
+						"base": "1d"
+					},
+					"calc": {
+						"damage": "1d freezing/point"
+					}
+				}
+			]
+		},
+		{
+			"id": "c95cb6e5-0344-46d5-a5bc-5064885a2ed9",
+			"type": "spell",
+			"name": "Alkahest Sphere",
+			"reference": "PY25:19",
+			"tags": [
+				"Essential",
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "3+1-Magery#",
+			"maintenance_cost": "-",
+			"casting_time": "1-3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential acid"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "acid ball"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "7f65bd18-f4d5-42cc-a0c1-59cd5a4717c6",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cor/point",
+						"base": "1d"
+					},
+					"accuracy": "1",
+					"range": "20/40",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Projectile"
+						}
+					],
+					"calc": {
+						"damage": "1d cor/point"
+					}
+				}
+			]
+		},
+		{
+			"id": "ebdab25f-08b0-4a5c-b4a9-e79bf6d08c6e",
+			"type": "spell",
+			"name": "Alkahest Jet",
+			"reference": "PY25:19",
+			"tags": [
+				"Essential",
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3+1-Magery",
+			"maintenance_cost": "1-3",
+			"casting_time": "1 sec",
+			"duration": "1 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential acid"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "acid jet"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "b08ac9d2-dfa5-4556-8ef5-c6942d4f53e2",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cor/point",
+						"base": "1d-1"
+					},
+					"usage": "Jet",
+					"reach": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Beam"
+						}
+					],
+					"calc": {
+						"damage": "1d-1 cor/point"
+					}
+				}
+			]
+		},
+		{
+			"id": "c95de9f8-7ae6-453d-8f68-afaf93fce801",
+			"type": "spell",
+			"name": "Rain of Alkahest",
+			"reference": "PY25:20",
+			"tags": [
+				"Essential",
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "3+3 / 1d-1 dmg",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential acid"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "rain of acid"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "377cd709-3aaf-4a5a-8a86-733f408a1e5c",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cor",
+						"base": "1d-1"
+					},
+					"usage": "Area",
+					"calc": {
+						"damage": "1d-1 cor"
+					}
+				}
+			]
+		},
+		{
+			"id": "e5a3e5ca-92c1-4087-aed1-d758a0995487",
+			"type": "spell",
+			"name": "Spit Alkahest",
+			"reference": "PY25:20",
+			"tags": [
+				"Essential",
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3+1 / 1d dmg",
+			"maintenance_cost": "-",
+			"casting_time": "2 sec",
+			"duration": "1 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "essential acid"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "spit acid"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "1d05b1f4-1e31-4326-8422-e6ff073e6b73",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cor/point",
+						"base": "1d"
+					},
+					"usage": "Breath",
+					"reach": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Innate Attack",
+							"specialization": "Breath"
+						}
+					],
+					"calc": {
+						"damage": "1d cor/point"
+					}
+				}
+			]
+		}
+	]
+}

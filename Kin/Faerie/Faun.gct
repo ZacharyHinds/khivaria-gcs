@@ -1,0 +1,823 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "63a46368-5311-4e01-82b4-227158e05de4",
+	"traits": [
+		{
+			"id": "c1827654-0fa8-414f-88f4-b25c0a9e4d31",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "fd0489b2-304d-485f-805a-4ac2ad2c1dc7",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "fbdfd248-cf4e-4e25-add1-34beca34a111",
+							"type": "trait",
+							"name": "Increased Dexterity",
+							"reference": "B15",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "68c4ad61-4e3b-4871-b18f-23efa8e6fbb2",
+									"type": "modifier",
+									"name": "No Fine Manipulators",
+									"cost": -40,
+									"disabled": true
+								}
+							],
+							"levels": 2,
+							"points_per_level": 20,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "dx",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 40
+							}
+						},
+						{
+							"id": "c6b25227-11fd-4f97-a415-481875fb82f6",
+							"type": "trait",
+							"name": "Increased Health",
+							"reference": "B14",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"levels": 2,
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "ht",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 20
+							}
+						}
+					],
+					"name": "Attributes",
+					"container_type": "attributes",
+					"calc": {
+						"points": 60
+					}
+				},
+				{
+					"id": "63b2b5af-0384-4da1-98fa-414261f6c1d8",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "d9b0546c-39cd-4266-9e64-8d7b31c090a4",
+							"type": "trait",
+							"name": "Increased Basic Move",
+							"reference": "B17",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Physical"
+							],
+							"levels": 2,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "basic_move",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "021d66ff-fb1a-4f38-9606-d25e053919ee",
+							"type": "trait",
+							"name": "Increased Perception",
+							"reference": "B16",
+							"tags": [
+								"Advantage",
+								"Attribute",
+								"Mental",
+								"Physical"
+							],
+							"levels": 2,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "per",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"name": "Secondary Characteristics",
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"id": "730ef1ca-aa75-4c75-89ab-a9c42e563dcd",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "62e3ea7a-bf85-4443-9c8b-827aedabdb27",
+							"type": "trait",
+							"name": "Acute Hearing",
+							"reference": "B35",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"levels": 2,
+							"points_per_level": 2,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "hearing",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 4
+							}
+						},
+						{
+							"id": "9f182681-5604-4e9a-83e7-e6ec2de4c241",
+							"type": "trait",
+							"name": "Animal Empathy",
+							"reference": "B40",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "b6f3365c-6265-4632-b669-5dddb450519f",
+									"type": "modifier",
+									"name": "Remote",
+									"reference": "P48",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "2a18da6f-ed4f-4df6-a437-a8a2786c8a3b",
+									"type": "modifier",
+									"name": "Specialized",
+									"reference": "B87",
+									"notes": "All aquatic animals",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "d60cd8e8-9f9a-4b4e-9faa-05fee7c398d8",
+									"type": "modifier",
+									"name": "Specialized",
+									"reference": "B87",
+									"notes": "All land animals",
+									"cost": -40,
+									"disabled": true
+								},
+								{
+									"id": "6b125614-8099-4425-b990-787fece76ac5",
+									"type": "modifier",
+									"name": "Specialized",
+									"reference": "B87",
+									"notes": "@One class: Mammals, Birds, etc.@",
+									"cost": -50,
+									"disabled": true
+								},
+								{
+									"id": "23955ef8-b419-4067-83db-caf56c93b6b9",
+									"type": "modifier",
+									"name": "Specialized",
+									"reference": "B87",
+									"notes": "@One family: Felines, Parrots, etc.@",
+									"cost": -60,
+									"disabled": true
+								},
+								{
+									"id": "c4548cc3-64ec-4db4-b767-c37386e53968",
+									"type": "modifier",
+									"name": "Specialized",
+									"reference": "B87",
+									"notes": "@One species: House Cats, Macaws, etc.@",
+									"cost": -80,
+									"disabled": true
+								}
+							],
+							"base_points": 5,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "9c42a71b-7de1-4735-a686-c5e19af408a2",
+							"type": "trait",
+							"name": "Claws, Hooves",
+							"reference": "B42",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"base_points": 3,
+							"weapons": [
+								{
+									"id": "f3da8dc0-234b-489b-9f07-b175c2eed965",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"modifier_per_die": 1
+									},
+									"usage": "Trample",
+									"reach": "C,1",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Brawling",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Karate",
+											"modifier": -2
+										}
+									],
+									"calc": {
+										"damage": "thr (+1 per die) cr"
+									}
+								}
+							],
+							"features": [
+								{
+									"type": "dr_bonus",
+									"location": "foot",
+									"amount": 1
+								}
+							],
+							"calc": {
+								"points": 3
+							}
+						},
+						{
+							"id": "95bf7c37-7ade-486a-af24-63fbbbcdc3ce",
+							"type": "trait",
+							"name": "Striker, Crushing (Horns)",
+							"reference": "B88",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"base_points": 5,
+							"weapons": [
+								{
+									"id": "9e7347a7-904c-4e6f-8368-c36c4c867530",
+									"type": "melee_weapon",
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"modifier_per_die": 1
+									},
+									"usage": "Headbutt",
+									"reach": "C",
+									"parry": "0",
+									"defaults": [
+										{
+											"type": "dx"
+										},
+										{
+											"type": "skill",
+											"name": "Brawling",
+											"modifier": -1
+										},
+										{
+											"type": "skill",
+											"name": "Head Butt"
+										},
+										{
+											"type": "skill",
+											"name": "Karate",
+											"modifier": -1
+										}
+									],
+									"calc": {
+										"damage": "thr (+1 per die) cr"
+									}
+								}
+							],
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "779ca10a-d7a3-4605-ba4c-76bfd99fea7c",
+							"type": "trait",
+							"name": "Super Jump",
+							"reference": "B89,P79",
+							"notes": "@New Move and Jump Stats@",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "ead7e9ec-99a6-4bcb-b7c6-504d401821a6",
+									"type": "modifier",
+									"name": "Bouncing",
+									"reference": "P80",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "97e171bf-2a5e-4c48-9cbf-7a1edd8b124a",
+									"type": "modifier",
+									"name": "Maneuverable",
+									"reference": "P80",
+									"cost": 50,
+									"disabled": true
+								},
+								{
+									"id": "726f1e2d-e9b4-42a8-b605-5acf7fd6da67",
+									"type": "modifier",
+									"name": "Full Power Only",
+									"reference": "P80",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "7b091e20-99db-4bdf-93bc-4c14408ce5fe",
+									"type": "modifier",
+									"name": "Horizontal Only",
+									"reference": "P80",
+									"cost": -25,
+									"disabled": true
+								},
+								{
+									"id": "43e11c5f-c581-4792-be2b-704d38fe1d55",
+									"type": "modifier",
+									"name": "Lighter Than Air",
+									"reference": "P80",
+									"cost": -10,
+									"disabled": true
+								},
+								{
+									"id": "893c6a82-132d-42cf-8de6-f6c0f2a54857",
+									"type": "modifier",
+									"name": "Planetary",
+									"reference": "P80",
+									"cost": -5,
+									"disabled": true
+								},
+								{
+									"id": "0d253161-4efe-45f0-8a97-2e6c49a5be70",
+									"type": "modifier",
+									"name": "Projectile",
+									"reference": "P80",
+									"cost": -20,
+									"disabled": true
+								},
+								{
+									"id": "bdc30b4f-cace-4319-952a-797ca970cf1e",
+									"type": "modifier",
+									"name": "Vertical Only",
+									"reference": "P80",
+									"cost": -25,
+									"disabled": true
+								},
+								{
+									"id": "b83d1b61-aebf-4572-a945-1a7a37b33b35",
+									"type": "modifier",
+									"name": "Bouncing Only",
+									"reference": "SU28",
+									"cost": -50,
+									"disabled": true
+								}
+							],
+							"levels": 1,
+							"points_per_level": 10,
+							"can_level": true,
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "da2839d7-a123-45ba-9b08-a0e8805052dc",
+							"type": "trait",
+							"name": "Talent (Musical Ability)",
+							"reference": "B91",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"levels": 2,
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "group performance"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "conducting"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "musical composition"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "musical influence"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "contains",
+										"qualifier": "musical instrument"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "singing"
+									},
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"calc": {
+								"points": 10
+							}
+						}
+					],
+					"name": "Advantages",
+					"calc": {
+						"points": 37
+					}
+				},
+				{
+					"id": "eda3fbde-365b-434f-87b4-3182c6109c1d",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "b1382fe9-f22c-48e6-b03d-fa46df1cb779",
+							"type": "trait",
+							"name": "Lecherousness",
+							"reference": "B142",
+							"notes": "Make a self-control roll whenever you have more than the briefest contact with an appealing member of the sex you find attractive, at -5 if this person is Handsome/Beautiful, or at -10 if Very Handsome/Very Beautiful. If you fail, you must make a “pass” using whatever wiles and skills you can bring to bear.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -15,
+							"cr": 15,
+							"calc": {
+								"points": -7
+							}
+						},
+						{
+							"id": "37d14ab8-b4dd-4c7d-95e1-7c722856376c",
+							"type": "trait",
+							"name": "Dependency (Mana)",
+							"reference": "B130",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "e2009d18-45c2-45fe-b866-31c4ec29f3e4",
+									"type": "modifier",
+									"name": "Rarity: Rare",
+									"reference": "B130",
+									"cost": -30,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "ff3a0b93-7198-441a-a857-95f2b169d22d",
+									"type": "modifier",
+									"name": "Rarity: Occasional",
+									"reference": "B130",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "60b8ba92-206f-4009-bd60-422cf0e2ded4",
+									"type": "modifier",
+									"name": "Rarity: Common",
+									"reference": "B130",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "b7124b3b-03dd-492a-bcaa-7f69efba86ef",
+									"type": "modifier",
+									"name": "Rarity: Very Common",
+									"reference": "B130",
+									"cost": -5,
+									"cost_type": "points"
+								},
+								{
+									"id": "4c2440c0-cc6f-45f2-9d29-86f7b6a726d5",
+									"type": "modifier",
+									"name": "Illegal",
+									"reference": "B130",
+									"cost": -5,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "c3eb1ff5-7ec2-474b-a0aa-3085eff2cbba",
+									"type": "modifier",
+									"name": "Frequency: Constantly",
+									"reference": "B130",
+									"notes": "Lose 1 HP per minute without it",
+									"cost": 5,
+									"cost_type": "multiplier"
+								},
+								{
+									"id": "369ed12a-5f0f-42ae-808c-dca820403cc4",
+									"type": "modifier",
+									"name": "Frequency: Hourly",
+									"reference": "B130",
+									"notes": "Lose 1 HP per 10 minutes after missing a hourly dose",
+									"cost": 4,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "f8ad6f60-b86d-4d62-9a26-4fcba94b27f0",
+									"type": "modifier",
+									"name": "Frequency: Daily",
+									"reference": "B130",
+									"notes": "Lose 1 HP per hour after missing a daily dose",
+									"cost": 3,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "1f0f9ef1-3687-48f6-99bc-f6ae074b4093",
+									"type": "modifier",
+									"name": "Frequency: Weekly",
+									"reference": "B130",
+									"notes": "Lose 1 HP per six hours after missing a weekly dose",
+									"cost": 2,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "469edb91-704b-44b6-b761-9a7950ad0eb2",
+									"type": "modifier",
+									"name": "Frequency: Monthly",
+									"reference": "B130",
+									"notes": "Lose 1 HP per day after missing a monthly dose",
+									"cost": 1,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "106ef009-08c1-4309-88f2-5d719bb05a14",
+									"type": "modifier",
+									"name": "Frequency: Seasonally",
+									"reference": "B130",
+									"notes": "Lose 1 HP per 3 days after missing a seasonal dose",
+									"cost": 0.3333,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "be3cc359-ef0b-4bbb-bde8-2414f8e453bd",
+									"type": "modifier",
+									"name": "Frequency: Yearly",
+									"reference": "B130",
+									"notes": "Lose 1 HP per 2 weeks after missing a yearly dose",
+									"cost": 0.1,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "f2ae5f93-5b6d-4c96-88ca-3a9ae952f5a1",
+									"type": "modifier",
+									"name": "Aging",
+									"reference": "B130",
+									"notes": "Age 2 years for each HP lost due to this dependency",
+									"cost": 30,
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": -25
+							}
+						},
+						{
+							"id": "b65b75a4-dfae-49bf-a2db-cadc4cdca827",
+							"type": "trait",
+							"name": "Sense of Duty",
+							"reference": "DF3:6",
+							"notes": "Nature",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "169991c2-b5d0-4f65-a194-5c369657acf7",
+							"type": "trait",
+							"name": "Vulnerability",
+							"reference": "B161",
+							"tags": [
+								"Disadvantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "3f353e94-730b-43fd-880e-592d4c1622ef",
+									"type": "modifier",
+									"name": "Cold Iron",
+									"reference": "B161",
+									"cost": -5,
+									"cost_type": "points"
+								},
+								{
+									"id": "6baa28ab-5718-4055-abcc-490f7e6b4d77",
+									"type": "modifier",
+									"name": "Iron",
+									"reference": "B161",
+									"cost": -10,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "31534585-89f0-4196-996a-9b3d2767af32",
+									"type": "modifier",
+									"name": "@Common attack@",
+									"reference": "B161",
+									"cost": -15,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "3a37f631-2d77-46ad-8b12-e8bcd6628467",
+									"type": "modifier",
+									"name": "@Very common attack@",
+									"reference": "B161",
+									"cost": -20,
+									"cost_type": "points",
+									"disabled": true
+								},
+								{
+									"id": "913271d0-8abd-45eb-9872-0d4e84724c71",
+									"type": "modifier",
+									"name": "Wounding x2",
+									"reference": "B161",
+									"cost": 2,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "7335051d-5f75-4433-99dd-5063d7843152",
+									"type": "modifier",
+									"name": "Wounding x3",
+									"reference": "B161",
+									"cost": 3,
+									"cost_type": "multiplier",
+									"disabled": true
+								},
+								{
+									"id": "1cc122c8-4c6d-4879-bfb6-a53d68f21383",
+									"type": "modifier",
+									"name": "Wounding x4",
+									"reference": "B161",
+									"cost": 4,
+									"cost_type": "multiplier"
+								},
+								{
+									"id": "1b297ab4-276e-459f-becd-45b3157757e8",
+									"type": "modifier",
+									"name": "Fatigue Only",
+									"reference": "B161",
+									"cost": -50,
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": -20
+							}
+						}
+					],
+					"name": "Disadvantages",
+					"calc": {
+						"points": -67
+					}
+				},
+				{
+					"id": "12c25eea-3a54-4466-9550-4511f90a022e",
+					"type": "trait_container",
+					"open": true,
+					"children": [
+						{
+							"id": "0711b350-3f8c-4026-9b3c-c0025d71c3ec",
+							"type": "trait",
+							"name": "Feature: Leg and foot armor not interchangeable with that of humans",
+							"tags": [
+								"Physical"
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "e956847c-a419-4604-8825-408847c90294",
+							"type": "trait",
+							"name": "Feature: Tail",
+							"tags": [
+								"Physical"
+							],
+							"calc": {
+								"points": 0
+							}
+						}
+					],
+					"name": "Features",
+					"calc": {
+						"points": 0
+					}
+				}
+			],
+			"name": "Faun",
+			"ancestry": "Elf",
+			"container_type": "ancestry",
+			"calc": {
+				"points": 50
+			}
+		}
+	]
+}

@@ -1,0 +1,1474 @@
+{
+	"type": "spell_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "d49fa43b-9ad8-4a31-a40c-317c4628e821",
+			"type": "spell",
+			"name": "Alloy Metal",
+			"reference": "PY91:22",
+			"tags": [
+				"Making and Breaking",
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Making \u0026 Breaking",
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5/pound (min 3)",
+			"maintenance_cost": "-",
+			"casting_time": "10 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (making \u0026 breaking)"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (metal)"
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "84ecfc68-0513-48b0-b64c-95df6a5096a7",
+			"type": "spell",
+			"name": "Anvil Strike",
+			"reference": "PY91:23",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "varies",
+			"casting_time": "varies",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (metal)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Teleport"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Rain of Shards"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "80d91f8c-80d4-42f0-9a7f-c1a987d5d3a6",
+			"type": "spell",
+			"name": "Arrow",
+			"reference": "PY91:23",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "Any",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Create Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ccb1a157-39bc-4ef3-943b-866d93ab1981",
+			"type": "spell",
+			"name": "Bloody Iron",
+			"reference": "PY91:23",
+			"tags": [
+				"Metal",
+				"Necromancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal",
+				"Necromancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular/R-HT",
+			"casting_cost": "2",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Move Metalo"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "bde0c84a-11d4-4105-bcb5-fd88f023329e",
+			"type": "spell",
+			"name": "Blunderbuss",
+			"reference": "PY91:23",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Missile",
+			"casting_cost": "Any",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Arrow"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "b499f0a7-7e06-4957-a2c8-0810bd198073",
+			"type": "spell",
+			"name": "Celestial Shotgun",
+			"reference": "PY91:24",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2 (min 4)",
+			"maintenance_cost": "same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (metal)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Blunderbuss"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "767d2c6c-367b-4db7-8005-419e3bda6756",
+			"type": "spell",
+			"name": "Conjure Shield",
+			"reference": "PY91:24",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "varies",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Create Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "3587c46a-e197-4fba-b74a-2eb800889611",
+			"type": "spell",
+			"name": "Control Metal Elemental",
+			"reference": "PY91:27",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular/R-ST or Will",
+			"casting_cost": "Special",
+			"maintenance_cost": "Special",
+			"casting_time": "2 sec",
+			"duration": "1 min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Summon Metal Elemental"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "d542de3a-866a-4b9c-8d0a-dddc3dcebc7b",
+			"type": "spell",
+			"name": "Create Metal",
+			"reference": "PY91:24",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "varies",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Stone to Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "fde69ca6-e6d0-4787-93e3-f46ec4df9cc0",
+			"type": "spell",
+			"name": "Create Metal Elemental",
+			"reference": "PY91:27",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Special",
+			"casting_cost": "Special",
+			"maintenance_cost": "-",
+			"casting_time": "Special",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (metal)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Control Metal Elemental"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "3f525459-de1e-4d81-bd2b-056c635eb15b",
+			"type": "spell",
+			"name": "Essential Metal",
+			"reference": "PY91:24",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "12/cubic yard",
+			"casting_time": "30 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 6
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "633f1d1f-878a-4ded-a82a-beb2d82026aa",
+			"type": "spell",
+			"name": "Flesh to Metal",
+			"reference": "PY91:25",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular/R-HT",
+			"casting_cost": "varies",
+			"casting_time": "5 sec",
+			"duration": "Permanent",
+			"points": 1
+		},
+		{
+			"id": "b6e90b7f-9562-4c45-86ee-b797d0a045b7",
+			"type": "spell",
+			"name": "Identify Metal",
+			"reference": "PY91:25",
+			"tags": [
+				"Knowledge",
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Knowledge",
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info",
+			"casting_cost": "1",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Seek Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "88d4511b-dbe9-4787-8cc6-57e844fc78c7",
+			"type": "spell",
+			"name": "Metal to Flesh",
+			"reference": "PY91:25",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "10",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Flesh to Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "5c00c3aa-fa1a-421a-9ee4-1ec0e53797b6",
+			"type": "spell",
+			"name": "Metal to Stone",
+			"reference": "PY91:25",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Earth",
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "6/cubic yard",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Stone Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "d3498adb-7129-4fae-a64c-1e8dc0c2a084",
+			"type": "spell",
+			"name": "Move Metal",
+			"reference": "PY91:25",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "varies",
+			"maintenance_cost": "half",
+			"casting_time": "1 sec",
+			"duration": "10 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "c446d677-4f8e-43f9-be76-21d54c408a7d",
+			"type": "spell",
+			"name": "Purify Metal",
+			"reference": "PY91:26",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2",
+			"casting_time": "39 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Restore Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "e83be4e0-8f70-4184-8670-72f4100561a9",
+			"type": "spell",
+			"name": "Rain of Shards",
+			"reference": "PY91:26",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2 (min 4)",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Celestial Shotgun"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "b11bcbc3-aa45-4dc9-bd18-bbf4099c2fd4",
+			"type": "spell",
+			"name": "Restore Metal",
+			"reference": "PY91:26",
+			"tags": [
+				"Making \u0026 Breaking",
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Making \u0026 Breaking",
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5/pound",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Rust"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "14b437c7-6631-4678-9858-e134a489ab4c",
+			"type": "spell",
+			"name": "Rust",
+			"reference": "PY91:27",
+			"tags": [
+				"Making and Breaking",
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Making \u0026 Breaking",
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular/R-HT-4",
+			"casting_cost": "varies",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (making \u0026 breaking)"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (metal)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Create Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "d514381f-1642-489c-a650-a683ee447e5e",
+			"type": "spell",
+			"name": "Seek Metal",
+			"reference": "PY91:27",
+			"tags": [
+				"Knowledge",
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Knowledge",
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info",
+			"casting_cost": "3",
+			"maintenance_cost": "-",
+			"casting_time": "10 sec",
+			"duration": "Instant",
+			"points": 1
+		},
+		{
+			"id": "fe07e958-f925-4593-9888-ddceced869b3",
+			"type": "spell",
+			"name": "Sharpen Blade",
+			"reference": "PY91:27",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "a623793b-099d-4716-954e-b811ff363c7d",
+			"type": "spell",
+			"name": "Smelt Ore",
+			"reference": "PY91:27",
+			"tags": [
+				"Making \u0026 Breaking",
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Making \u0026 Breaking",
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3/pound (min 3)",
+			"casting_time": "10 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "cce07a57-fef1-4798-9c67-73db8f9b7a70",
+			"type": "spell",
+			"name": "Stone to Metal",
+			"reference": "PY91:27",
+			"tags": [
+				"Earth",
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Earth",
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3/cubic yard (min 3)",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (earth)"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (metal)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "df6b38ab-fab9-40f9-8199-327354d0b733",
+			"type": "spell",
+			"name": "Summon Metal Elemental",
+			"reference": "PY91:27",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Special",
+			"casting_cost": "Special",
+			"maintenance_cost": "-",
+			"casting_time": "30 sec",
+			"duration": "1 hour",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (metal)"
+								}
+							}
+						]
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "spell_prereq",
+								"sub_type": "college",
+								"has": true,
+								"qualifier": {
+									"compare": "contains",
+									"qualifier": "Metal"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 8
+								}
+							},
+							{
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "spell_prereq",
+										"sub_type": "college",
+										"has": true,
+										"qualifier": {
+											"compare": "contains",
+											"qualifier": "Metal"
+										},
+										"quantity": {
+											"compare": "at_least",
+											"qualifier": 4
+										}
+									},
+									{
+										"type": "prereq_list",
+										"all": false,
+										"prereqs": [
+											{
+												"type": "spell_prereq",
+												"sub_type": "name",
+												"has": true,
+												"qualifier": {
+													"compare": "is",
+													"qualifier": "Summon Earth Elemental"
+												},
+												"quantity": {
+													"compare": "at_least",
+													"qualifier": 1
+												}
+											},
+											{
+												"type": "spell_prereq",
+												"sub_type": "name",
+												"has": true,
+												"qualifier": {
+													"compare": "is",
+													"qualifier": "Summon Water Elemental"
+												},
+												"quantity": {
+													"compare": "at_least",
+													"qualifier": 1
+												}
+											},
+											{
+												"type": "spell_prereq",
+												"sub_type": "name",
+												"has": true,
+												"qualifier": {
+													"compare": "is",
+													"qualifier": "Summon Air Elemental"
+												},
+												"quantity": {
+													"compare": "at_least",
+													"qualifier": 1
+												}
+											},
+											{
+												"type": "spell_prereq",
+												"sub_type": "name",
+												"has": true,
+												"qualifier": {
+													"compare": "is",
+													"qualifier": "Summon Fire Elemental"
+												},
+												"quantity": {
+													"compare": "at_least",
+													"qualifier": 1
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "72492fda-5c12-49d6-8cb1-ebd26b262001",
+			"type": "spell",
+			"name": "Transmute Metal",
+			"reference": "PY91:28",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "6/cubic foot",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Alloy Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Create Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "bb5dcdff-0e8b-4039-95d3-c491d4169c1d",
+			"type": "spell",
+			"name": "Walk Through Metal",
+			"reference": "PY91:28",
+			"tags": [
+				"Metal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Metal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "6",
+			"maintenance_cost": "6",
+			"casting_time": "1 sec",
+			"duration": "10 second",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Metal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		}
+	]
+}
