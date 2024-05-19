@@ -1,0 +1,2857 @@
+{
+	"type": "spell_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "e4f194d5-d7fa-42e3-b857-e3578554ea44",
+			"type": "spell_container",
+			"children": [
+				{
+					"id": "deb404d2-517f-46fd-91e6-136e4694771b",
+					"type": "spell",
+					"name": "Bravery",
+					"reference": "M134",
+					"tags": [
+						"Mind Control"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Area",
+					"casting_cost": "2",
+					"maintenance_cost": "-",
+					"casting_time": "1 sec",
+					"duration": "1 hr",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "63747439-bca9-418d-9a6e-5546f1441856",
+					"type": "spell",
+					"name": "Astral Vision",
+					"reference": "M105",
+					"tags": [
+						"Knowledge",
+						"Necromancy"
+					],
+					"difficulty": "iq/vh",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "4",
+					"maintenance_cost": "2",
+					"casting_time": "1 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "86c7126f-0396-488d-82e8-405459418115",
+					"type": "spell",
+					"name": "Awaken",
+					"reference": "M90",
+					"tags": [
+						"Healing"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Area",
+					"casting_cost": "1",
+					"maintenance_cost": "-",
+					"casting_time": "1 sec",
+					"duration": "Permanent",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "91779e39-8230-4b17-8ca7-2e43eaf99fb2",
+					"type": "spell",
+					"name": "Fear",
+					"reference": "M134",
+					"tags": [
+						"Mind Control"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Area",
+					"resist": "Will",
+					"casting_cost": "1",
+					"maintenance_cost": "-",
+					"casting_time": "1 sec",
+					"duration": "10 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "273f6e7b-8cee-4887-ad87-6a7abd6fd6ff",
+					"type": "spell",
+					"name": "Final Rest",
+					"reference": "M89",
+					"tags": [
+						"Healing",
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "20",
+					"maintenance_cost": "-",
+					"casting_time": "10 min",
+					"duration": "Permanent",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "f0d0632a-43fd-4b7e-8b54-baf12325c215",
+					"type": "spell",
+					"name": "Know True Shape",
+					"reference": "M106",
+					"tags": [
+						"Knowledge"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Info",
+					"casting_cost": "2",
+					"maintenance_cost": "-",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "3dafa48c-cc82-4807-ae2a-0d2024822ebc",
+					"type": "spell",
+					"name": "Might",
+					"reference": "M37",
+					"tags": [
+						"Body Control"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "2/+ST",
+					"maintenance_cost": "Same",
+					"casting_time": "1 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "f3765cab-2f4f-480a-9521-c653172937bf",
+					"type": "spell",
+					"name": "Recover Energy",
+					"reference": "M89",
+					"tags": [
+						"Healing"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Special",
+					"casting_cost": "0",
+					"maintenance_cost": "0",
+					"casting_time": "1 sec",
+					"duration": "Special",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "cb191167-547f-4e02-bd72-2da7efaefa8e",
+					"type": "spell",
+					"name": "Sense Foes",
+					"reference": "M44",
+					"tags": [
+						"Communication \u0026 Empathy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Information/Area",
+					"casting_cost": "1/area, min 2",
+					"maintenance_cost": "-",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "36741e6d-93c9-489a-91d3-f90c2ffbc645",
+					"type": "spell",
+					"name": "Sense Spirit",
+					"reference": "M149",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Info/Area",
+					"casting_cost": "1/2 (min 1)",
+					"maintenance_cost": "-",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "b750cc81-8a77-4f07-b131-d84efb7b8956",
+					"type": "spell",
+					"name": "Shield",
+					"reference": "M167",
+					"tags": [
+						"Protection \u0026 Warning"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "2 per DB",
+					"maintenance_cost": "Half",
+					"casting_time": "1 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "74e71760-1858-4578-a5f7-6a8251a20de3",
+					"type": "spell",
+					"name": "Vigor",
+					"reference": "M37",
+					"tags": [
+						"Body Control"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "2/+HT",
+					"maintenance_cost": "Same",
+					"casting_time": "1 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					}
+				}
+			],
+			"open": true,
+			"name": "Power Investiture (Shamanic) 1"
+		},
+		{
+			"id": "cf53d0e9-a594-4381-809e-71a164572f10",
+			"type": "spell_container",
+			"children": [
+				{
+					"id": "221b428e-dbb4-4951-94ce-b9eb45345a65",
+					"type": "spell",
+					"name": "Affect Spirits",
+					"reference": "M151",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "4",
+					"maintenance_cost": "2",
+					"casting_time": "2 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "aaed1e7b-d334-4748-832e-59e47a1fa6db",
+					"type": "spell",
+					"name": "Armor",
+					"reference": "M167",
+					"tags": [
+						"Protection \u0026 Warning"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "2 per DR",
+					"maintenance_cost": "Half",
+					"casting_time": "1 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "c909bc53-2bae-4e96-925c-65328c3af4ef",
+					"type": "spell",
+					"name": "Berserker",
+					"reference": "M134",
+					"tags": [
+						"Mind Control"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"resist": "Will",
+					"casting_cost": "3",
+					"maintenance_cost": "2",
+					"casting_time": "4 sec",
+					"duration": "10 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "215d1ad7-a953-455e-a1c6-2d32a0898fd4",
+					"type": "spell",
+					"name": "Command Spirit (@spirit@)",
+					"reference": "M153",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"resist": "Spirit's Will",
+					"casting_cost": "1 per 10 CP",
+					"maintenance_cost": "Half",
+					"casting_time": "2 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "cf755198-060b-48be-93b1-58e3aa9e676b",
+					"type": "spell",
+					"name": "Grace",
+					"reference": "M37",
+					"tags": [
+						"Body Control"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "4/+DX",
+					"maintenance_cost": "Same",
+					"casting_time": "1 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "dda8a701-81dc-47b1-b476-2f3c7fab815a",
+					"type": "spell",
+					"name": "Magic Resistance",
+					"reference": "M123",
+					"tags": [
+						"Meta"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"resist": "Will+Magery",
+					"casting_cost": "1-5",
+					"maintenance_cost": "Same",
+					"casting_time": "3 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "773a2175-3be0-4713-b27d-5e54e46cb1cd",
+					"type": "spell",
+					"name": "Materialize",
+					"reference": "M150",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Special",
+					"resist": "ST or IQ",
+					"casting_cost": "5",
+					"maintenance_cost": "5",
+					"casting_time": "1 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "62e74ec8-5335-4502-aa34-600da7dcce60",
+					"type": "spell",
+					"name": "Resist Pain",
+					"reference": "M38",
+					"tags": [
+						"Body Control"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "4",
+					"maintenance_cost": "2",
+					"casting_time": "1 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "219c3a5b-39e1-4fb5-8226-25c2030b2061",
+					"type": "spell",
+					"name": "Sense Life",
+					"reference": "M45",
+					"tags": [
+						"Communication \u0026 Empathy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Info/Area",
+					"casting_cost": "1/2",
+					"maintenance_cost": "-",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "ae44442c-4fb4-45b6-b95b-caed92c57099",
+					"type": "spell",
+					"name": "Strengthen Will",
+					"reference": "M136",
+					"tags": [
+						"Mind Control"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "1/pt of Will increase",
+					"maintenance_cost": "Half",
+					"casting_time": "1 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "c9c813fc-08a2-4478-ac24-00fc34127a80",
+					"type": "spell",
+					"name": "Summon Spirit",
+					"reference": "M150",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Info",
+					"resist": "Spirit's Will",
+					"casting_cost": "20",
+					"maintenance_cost": "10",
+					"casting_time": "5 min",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "c413c7ec-e7e6-4ee2-8574-7366283e73fb",
+					"type": "spell",
+					"name": "Turn Spirit",
+					"reference": "M151",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"resist": "Will",
+					"casting_cost": "4",
+					"maintenance_cost": "2",
+					"casting_time": "1 sec",
+					"duration": "10 sec",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								}
+							}
+						]
+					}
+				}
+			],
+			"open": true,
+			"name": "Power Investiture (Shamanic) 2"
+		},
+		{
+			"id": "000310bc-4eef-47f5-8426-9c5a35aa5bd9",
+			"type": "spell_container",
+			"children": [
+				{
+					"id": "1cedab85-d24d-4d83-b155-c8ee472b6171",
+					"type": "spell",
+					"name": "Banish",
+					"reference": "M156",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Special",
+					"resist": "Will",
+					"casting_cost": "1 per 10 CP",
+					"maintenance_cost": "-",
+					"casting_time": "5 sec",
+					"duration": "Permanent",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "a6850b9b-27b6-4bde-bcc3-355243a9be01",
+					"type": "spell",
+					"name": "Detect Magic",
+					"reference": "M101",
+					"tags": [
+						"Knowledge"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "2",
+					"maintenance_cost": "-",
+					"casting_time": "5 sec",
+					"duration": "Instant",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								},
+								"notes": {
+									"compare": "does_not_contain"
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "b05aa91f-8b44-40c7-ad76-88b3c3b932a2",
+					"type": "spell",
+					"name": "Dispel Possession",
+					"reference": "M49",
+					"tags": [
+						"Communication \u0026 Empathy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"resist": "Spell on subject",
+					"casting_cost": "10",
+					"maintenance_cost": "-",
+					"casting_time": "10 sec",
+					"duration": "Instant",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "c5c51ccb-8292-4f51-b04c-31d1602b79e4",
+					"type": "spell",
+					"name": "Dream Sending",
+					"reference": "M45",
+					"tags": [
+						"Communication \u0026 Empathy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"resist": "Will",
+					"casting_cost": "3",
+					"maintenance_cost": "-",
+					"casting_time": "1 min",
+					"duration": "1 hr",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "62e6eccd-fafc-4815-810f-57976515c2c9",
+					"type": "spell",
+					"name": "Entrap Spirit",
+					"reference": "M157",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Special",
+					"casting_cost": "Varies",
+					"maintenance_cost": "Varies",
+					"casting_time": "1 sec",
+					"duration": "5 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "f9dbb7b1-1869-46a5-8b2c-2d924081821b",
+					"type": "spell",
+					"name": "Flaming Weapon",
+					"reference": "M75",
+					"notes": "+2 points burn damage from attacks with melee weapon",
+					"tags": [
+						"Fire"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "4",
+					"maintenance_cost": "1",
+					"casting_time": "2 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "8325413e-8f20-4ba3-8d50-7ea35f36e5ee",
+					"type": "spell",
+					"name": "Haste",
+					"reference": "M142",
+					"tags": [
+						"Movement"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "2/pt",
+					"maintenance_cost": "Half",
+					"casting_time": "2 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "9ae2b42d-508d-4ca8-aec2-fc2416a17779",
+					"type": "spell",
+					"name": "Pentagram",
+					"reference": "M124",
+					"tags": [
+						"Meta"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Special",
+					"resist": "Attempts to cross it",
+					"casting_cost": "1/sq foot",
+					"maintenance_cost": "-",
+					"casting_time": "1 sec/sq foot",
+					"duration": "Permanent",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "9f8e6272-7a72-41ae-a2f3-873e637f12ed",
+					"type": "spell",
+					"name": "Planar Visit (Astral Plane)",
+					"reference": "M82",
+					"tags": [
+						"Gate"
+					],
+					"difficulty": "iq/vh",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Special",
+					"casting_cost": "4",
+					"maintenance_cost": "2",
+					"casting_time": "30 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "bbbb1203-a5f9-42a4-b994-ac8cba27ecd4",
+					"type": "spell",
+					"name": "Predict Weather",
+					"reference": "M193",
+					"tags": [
+						"Air",
+						"Weather"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Info",
+					"casting_cost": "Varies",
+					"maintenance_cost": "-",
+					"casting_time": "5 sec",
+					"duration": "Instant",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "82b63d9f-831f-4349-919a-d240a268aad5",
+					"type": "spell",
+					"name": "Projection",
+					"reference": "M105",
+					"tags": [
+						"Knowledge"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "4",
+					"maintenance_cost": "2",
+					"casting_time": "3 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "5939f9c3-2128-4822-9f7f-cf84a8c925c3",
+					"type": "spell",
+					"name": "Repel Spirits",
+					"reference": "M158",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Area",
+					"casting_cost": "4",
+					"maintenance_cost": "Half",
+					"casting_time": "10 sec",
+					"duration": "1 hr",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 3
+								}
+							}
+						]
+					}
+				}
+			],
+			"open": true,
+			"name": "Power Investiture (Shamanic) 3"
+		},
+		{
+			"id": "e9ee683d-184c-4d03-83e4-1bd01b5834c0",
+			"type": "spell_container",
+			"children": [
+				{
+					"id": "06fb0a86-bdc6-4009-a84d-bb5493b6cfa0",
+					"type": "spell",
+					"name": "Bind Spirit (@Spirit@)",
+					"reference": "M158",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/vh",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"resist": "Spirit's IQ",
+					"casting_cost": "Varies",
+					"maintenance_cost": "-",
+					"casting_time": "5 min",
+					"duration": "Permanent",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "8d020df8-74b6-4062-b5c6-f29fc8c43645",
+					"type": "spell",
+					"name": "Bless",
+					"reference": "M129",
+					"tags": [
+						"Meta"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "10/50/500",
+					"maintenance_cost": "-",
+					"casting_time": "min=cost",
+					"duration": "Varies",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "2f4bafe1-a7a3-4dac-aa09-9dc9b0be3e88",
+					"type": "spell",
+					"name": "Control (@Type@) Elemental",
+					"reference": "M28",
+					"tags": [
+						"Air"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"resist": "Higher of ST or Will",
+					"casting_cost": "Special",
+					"maintenance_cost": "Special",
+					"casting_time": "2 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "6737bc03-6924-4a9c-ad68-646046aa7d21",
+					"type": "spell",
+					"name": "Cure Disease",
+					"reference": "M91",
+					"tags": [
+						"Healing"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "4",
+					"maintenance_cost": "-",
+					"casting_time": "10 min",
+					"duration": "Permanent",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "4bc72992-ba71-42c9-af90-0a77d94d49cd",
+					"type": "spell",
+					"name": "Curse",
+					"reference": "M129",
+					"tags": [
+						"Meta"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "3/10/20",
+					"maintenance_cost": "-",
+					"casting_time": "2/4/6 sec",
+					"duration": "Varies",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "f06317c2-b3bc-4582-989d-9c65bc58b982",
+					"type": "spell",
+					"name": "Divination: Augury",
+					"reference": "M108",
+					"tags": [
+						"Knowledge"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Info",
+					"casting_cost": "10",
+					"maintenance_cost": "-",
+					"casting_time": "1 hr",
+					"duration": "Instant",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "1b73e396-0bbc-441f-b05c-2d8ebef70633",
+					"type": "spell",
+					"name": "Divination: Oneiromancy",
+					"reference": "M109",
+					"tags": [
+						"Knowledge"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Info",
+					"casting_cost": "10",
+					"maintenance_cost": "-",
+					"casting_time": "1 hr",
+					"duration": "Instant",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "3aff8185-9e6f-428b-8031-cfaa5fd8c7fe",
+					"type": "spell",
+					"name": "Dream Projection",
+					"reference": "M46",
+					"tags": [
+						"Communication \u0026 Empathy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "3",
+					"maintenance_cost": "3",
+					"casting_time": "1 min",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "2b4a4a9b-dd8b-4752-bfd0-f3d4b15ae0ad",
+					"type": "spell",
+					"name": "Planar Visit (Realm of the Dead)",
+					"reference": "M82",
+					"tags": [
+						"Gate"
+					],
+					"difficulty": "iq/vh",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "4",
+					"maintenance_cost": "2",
+					"casting_time": "30 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "3113d0cb-ed2f-4ae6-8974-a6ab609363a8",
+					"type": "spell",
+					"name": "Remove Curse",
+					"reference": "M126",
+					"tags": [
+						"Meta"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"resist": "Subject spell",
+					"casting_cost": "20",
+					"maintenance_cost": "-",
+					"casting_time": "1 hr",
+					"duration": "Permanent",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "c73869e5-7710-496d-8c8b-188c6421f426",
+					"type": "spell",
+					"name": "Rider Within",
+					"reference": "M31",
+					"notes": "No prerequisites for Shaman",
+					"tags": [
+						"Animal"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "4",
+					"maintenance_cost": "1",
+					"casting_time": "3 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "44a3ca6f-ec15-4389-97f8-613b966d701f",
+					"type": "spell",
+					"name": "Soul Rider",
+					"reference": "M49",
+					"tags": [
+						"Communication \u0026 Empathy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"resist": "Will",
+					"casting_cost": "5",
+					"maintenance_cost": "2",
+					"casting_time": "3 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "257bae06-984b-4597-981c-dcbe65cd669b",
+					"type": "spell",
+					"name": "Summon (@Type@) Elemental",
+					"reference": "M27",
+					"tags": [
+						"Air"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "Special",
+					"maintenance_cost": "-",
+					"casting_time": "30 sec",
+					"duration": "1 hr",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 4
+								}
+							}
+						]
+					}
+				}
+			],
+			"open": true,
+			"name": "Power Investiture (Shamanic) 4"
+		},
+		{
+			"id": "f56bee3a-cfd9-4f64-b772-e6acdc22b1c8",
+			"type": "spell_container",
+			"children": [
+				{
+					"id": "73db5a48-c9bd-4fe4-850c-a1e3e5f85921",
+					"type": "spell",
+					"name": "Astral Block",
+					"reference": "M159",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Area",
+					"casting_cost": "Varies",
+					"maintenance_cost": "Half",
+					"casting_time": "2 sec",
+					"duration": "10 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "6a74b85f-e632-457b-bcde-2686e861442e",
+					"type": "spell",
+					"name": "Dispel Magic",
+					"reference": "M126",
+					"tags": [
+						"Meta"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Area",
+					"resist": "Subject spells",
+					"casting_cost": "3",
+					"maintenance_cost": "-",
+					"casting_time": "sec=cost",
+					"duration": "Permanent",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "4d743fe3-3d6c-4143-8843-7dbdd7c017cb",
+					"type": "spell",
+					"name": "Great Haste",
+					"reference": "M146",
+					"tags": [
+						"Movement"
+					],
+					"difficulty": "iq/vh",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "5",
+					"maintenance_cost": "-",
+					"casting_time": "3 sec",
+					"duration": "10 sec",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "3842fbfe-8143-4eab-90e4-91658aa6c7b3",
+					"type": "spell",
+					"name": "Icy Weapon",
+					"reference": "M185",
+					"notes": "+2 freezing damage to melee weapons",
+					"tags": [
+						"Water"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "3",
+					"maintenance_cost": "1",
+					"casting_time": "3 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "999ce735-f23a-4cd3-a37d-3daeec60a3f6",
+					"type": "spell",
+					"name": "Magic Resistance",
+					"reference": "M123",
+					"tags": [
+						"Meta"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"resist": "Will+Magery",
+					"casting_cost": "1-5",
+					"maintenance_cost": "Same",
+					"casting_time": "3 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "e29bab38-94ad-4ef4-b0cb-1f99d297824b",
+					"type": "spell",
+					"name": "Planar Summons (@Plane@)",
+					"reference": "M82",
+					"tags": [
+						"Gate"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Special",
+					"casting_cost": "20#",
+					"maintenance_cost": "-",
+					"casting_time": "5 min",
+					"duration": "1 hr",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "14bb2e14-a41b-49d1-ba98-52310f5e9545",
+					"type": "spell",
+					"name": "Remove Contagion",
+					"reference": "M90",
+					"tags": [
+						"Healing"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Area",
+					"casting_cost": "3",
+					"maintenance_cost": "-",
+					"casting_time": "2 sec",
+					"duration": "Permanent",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "f8ecf38c-427f-4704-a621-074048076663",
+					"type": "spell",
+					"name": "Sense Observation",
+					"reference": "M167",
+					"tags": [
+						"Protection \u0026 Warning"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Area",
+					"casting_cost": "1 or 3",
+					"maintenance_cost": "Half",
+					"casting_time": "5 sec",
+					"duration": "1 hr",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "ef5b4322-2fc0-42d4-92e3-eba099a52544",
+					"type": "spell",
+					"name": "Solidify",
+					"reference": "M151",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Special",
+					"resist": "ST or IQ",
+					"casting_cost": "50",
+					"maintenance_cost": "10",
+					"casting_time": "1 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "86110c29-31bc-4f2b-a062-53b1786a4378",
+					"type": "spell",
+					"name": "Terror",
+					"reference": "M134",
+					"tags": [
+						"Mind Control"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Area",
+					"resist": "Will",
+					"casting_cost": "4",
+					"maintenance_cost": "-",
+					"casting_time": "1 sec",
+					"duration": "1 sec",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "667c1369-d954-4b2c-8abb-955b09e96049",
+					"type": "spell",
+					"name": "Trace Teleport",
+					"reference": "M84",
+					"tags": [
+						"Gate",
+						"Movement"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Info",
+					"resist": "Subject spell",
+					"casting_cost": "3",
+					"maintenance_cost": "-",
+					"casting_time": "1 sec",
+					"duration": "Instant",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "fcf442c2-51c7-46b0-b2a6-92eb0cd95f4f",
+					"type": "spell",
+					"name": "Turn Zombie",
+					"reference": "M152",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Area",
+					"casting_cost": "2",
+					"maintenance_cost": "-",
+					"casting_time": "4 sec",
+					"duration": "Turned undead will avoid caster for 1 day",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 5
+								}
+							}
+						]
+					}
+				}
+			],
+			"open": true,
+			"name": "Power Investiture (Shamanic) 5"
+		},
+		{
+			"id": "5d34ab43-4aeb-46ee-808d-ce41f17771eb",
+			"type": "spell_container",
+			"children": [
+				{
+					"id": "83bd4d88-72fa-4207-a3dc-8836042b7fca",
+					"type": "spell",
+					"name": "Animate Shadow",
+					"reference": "M154",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"resist": "HT",
+					"casting_cost": "4",
+					"maintenance_cost": "4",
+					"casting_time": "2 sec",
+					"duration": "5 sec",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 6
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "984acad2-48d2-4deb-be77-0d01a0be5f67",
+					"type": "spell",
+					"name": "Beacon",
+					"reference": "M83",
+					"tags": [
+						"Gate",
+						"Movement"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Area",
+					"casting_cost": "10",
+					"maintenance_cost": "Half",
+					"casting_time": "30 sec",
+					"duration": "24 hrs",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 6
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "c5c81304-63cc-40d9-9c5f-14f62b1532d7",
+					"type": "spell",
+					"name": "Beast Summoning",
+					"reference": "M30",
+					"tags": [
+						"Animal"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "3",
+					"maintenance_cost": "2",
+					"casting_time": "1 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 6
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "b5774215-4c08-4d0a-a710-7024f4a3cb0a",
+					"type": "spell",
+					"name": "Create (@Type@) Elemental",
+					"reference": "M28",
+					"tags": [
+						"Air"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "Special",
+					"maintenance_cost": "-",
+					"casting_time": "Special",
+					"duration": "Permanent",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 6
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "d942c363-5d27-411b-8a28-9e40d328e968",
+					"type": "spell",
+					"name": "Hide Object",
+					"reference": "M86",
+					"tags": [
+						"Gate"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Regular",
+					"casting_cost": "1/lb",
+					"maintenance_cost": "Same",
+					"casting_time": "10 sec",
+					"duration": "1 hr",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 6
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "8c8537f2-7f79-4492-9cd1-66e9a98e03ac",
+					"type": "spell",
+					"name": "Madness",
+					"reference": "M136",
+					"tags": [
+						"Mind Control"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"resist": "Will-2",
+					"casting_cost": "2/3/4/6",
+					"maintenance_cost": "Half",
+					"casting_time": "2 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 6
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "a29f0968-f5b0-433a-8346-6eaf1032fac5",
+					"type": "spell",
+					"name": "Planar Visit (@any plane@)",
+					"reference": "M82",
+					"tags": [
+						"Gate"
+					],
+					"difficulty": "iq/vh",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "4",
+					"maintenance_cost": "2",
+					"casting_time": "30 sec",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 6
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "79505e9f-9a48-47b2-b48d-0cf0182e983e",
+					"type": "spell",
+					"name": "Plane Shift (@plane@)",
+					"reference": "M83",
+					"tags": [
+						"Gate"
+					],
+					"difficulty": "iq/vh",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "20",
+					"maintenance_cost": "-",
+					"casting_time": "5 sec",
+					"duration": "Instant",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 6
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "8d4552c5-805d-48f2-83ac-25cead9e2d14",
+					"type": "spell",
+					"name": "Ruin",
+					"reference": "M118",
+					"tags": [
+						"Making \u0026 Breaking"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "2/lb",
+					"maintenance_cost": "Same",
+					"casting_time": "5 sec/lb",
+					"duration": "1 min",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 6
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "cd96105e-d3be-4fcb-8fc5-47af43692ea3",
+					"type": "spell",
+					"name": "Steal Vitality",
+					"reference": "M150",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "0",
+					"maintenance_cost": "-",
+					"casting_time": "1 min per 3 HP drained",
+					"duration": "Permanent",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 6
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "8b4c477b-5280-4429-a158-bb35aa846afb",
+					"type": "spell",
+					"name": "Summon Demon",
+					"reference": "M155",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Arcane",
+					"spell_class": "Special",
+					"casting_cost": "1 per 10 CP",
+					"maintenance_cost": "-",
+					"casting_time": "5 min",
+					"duration": "1 hr",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 6
+								}
+							}
+						]
+					}
+				},
+				{
+					"id": "15cecc98-ea80-4d5f-924c-1cf3ef5cd8f2",
+					"type": "spell",
+					"name": "Zombie",
+					"reference": "M151",
+					"tags": [
+						"Necromancy"
+					],
+					"difficulty": "iq/h",
+					"college": [
+						"Shamanic"
+					],
+					"power_source": "Divine",
+					"spell_class": "Regular",
+					"casting_cost": "8",
+					"maintenance_cost": "-",
+					"casting_time": "1 min",
+					"duration": "until destroyed",
+					"points": 1,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Power Investiture (Shamanic)"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 6
+								}
+							}
+						]
+					}
+				}
+			],
+			"open": true,
+			"name": "Power Investiture (Shamanic) 6"
+		}
+	]
+}
